@@ -1,0 +1,6 @@
+Luvisol 46.0
+Feozem 39.3
+Litosol 7.4
+Regosol 6.6
+Vertisol 0.6
+Otros 0.2

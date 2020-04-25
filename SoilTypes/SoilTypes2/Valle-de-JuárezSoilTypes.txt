@@ -1,0 +1,4 @@
+Luvisol 67.2
+Vertisol 29.2
+Gleysol 2.8
+Andosol 0.8

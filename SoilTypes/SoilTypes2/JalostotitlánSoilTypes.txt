@@ -1,0 +1,6 @@
+Planosol 40.5
+Feozem 25.4
+Fluvisol 9.4
+Litosol 8.6
+Rendzina 6.1
+Otros 10.0

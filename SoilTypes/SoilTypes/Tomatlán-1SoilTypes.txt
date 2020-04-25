@@ -1,0 +1,6 @@
+Regosol 81.6
+Feozem 7.3
+Cambisol 7.3
+Fluvisol 1.9
+Solonchak 1.1
+Otros 0.7

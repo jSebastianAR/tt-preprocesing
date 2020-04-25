@@ -1,0 +1,5 @@
+Xerosol 41.7
+Litosol 39.0
+Feozem 12.0
+Fluvisol 3.8
+Planosol 3.4

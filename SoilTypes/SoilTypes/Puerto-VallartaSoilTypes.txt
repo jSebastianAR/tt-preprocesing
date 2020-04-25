@@ -1,0 +1,6 @@
+Regosol 49.4
+Feozem 21.6
+Litosol 16.2
+Cambisol 9.2
+Fluvisol 3.2
+Otros 0.3

@@ -1,0 +1,6 @@
+Feozem 57.0
+Andosol 11.3
+Vertisol 10.4
+Luvisol 5.8
+Solonchak 5.5
+Otros 10.0

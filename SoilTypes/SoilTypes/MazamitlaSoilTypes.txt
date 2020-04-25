@@ -1,0 +1,5 @@
+Andosol 55.2
+Luvisol 38.0
+Cambisol 4.3
+Vertisol 2.5
+Fluvisol 0.0

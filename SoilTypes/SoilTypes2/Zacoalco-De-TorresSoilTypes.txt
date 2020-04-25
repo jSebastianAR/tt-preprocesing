@@ -1,0 +1,6 @@
+Feozem 44.1
+Vertisol 33.7
+Solonchak 20.9
+Fluvisol 0.3
+Luvisol 0.3
+Otros 0.7

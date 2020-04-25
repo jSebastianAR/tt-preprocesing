@@ -1,0 +1,5 @@
+Feozem 51.3
+Cambisol 21.0
+Regosol 14.7
+Vertisol 10.0
+Litosol 3.0

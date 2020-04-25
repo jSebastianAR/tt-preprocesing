@@ -1,0 +1,6 @@
+Feozem 32.2
+Planosol 29.2
+Vertisol 25.9
+Castañozem 5.9
+Litosol 4.9
+Otros 1.9

@@ -1,0 +1,6 @@
+Luvisol 35.8
+Litosol 29.2
+Cambisol 19.1
+Feozem 8.2
+Castañozem 4.4
+Otros 3.3

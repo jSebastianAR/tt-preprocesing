@@ -1,0 +1,6 @@
+Planosol 35.5
+Xerosol 30.2
+Fluvisol 13.4
+Feozem 8.5
+Litosol 5.8
+Otros 6.6

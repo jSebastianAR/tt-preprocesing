@@ -1,0 +1,6 @@
+Feozem 44.2
+Planosol 25.4
+Regosol 12.8
+Cambisol 9.6
+Luvisol 3.8
+Otros 4.2

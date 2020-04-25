@@ -1,0 +1,6 @@
+Regosol 77.2
+Litosol 8.7
+Cambisol 8.4
+Acrisol 1.6
+Luvisol 1.6
+Otros 2.6

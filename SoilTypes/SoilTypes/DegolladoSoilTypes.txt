@@ -1,0 +1,6 @@
+Vertisol 53.6
+Feozem 24.3
+Litosol 9.8
+Cambisol 6.1
+Luvisol 5.8
+Fluvisol 0.4

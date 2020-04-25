@@ -1,0 +1,6 @@
+Regosol 36.2
+Andosol 21.9
+Cambisol 18.3
+Luvisol 7.9
+Feozem 6.7
+Otros 8.9

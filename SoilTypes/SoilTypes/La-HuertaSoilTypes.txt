@@ -1,0 +1,6 @@
+Regosol 71.8
+Cambisol 13.4
+Feozem 8.9
+Fluvisol 2.0
+Rendzina 1.5
+Otros 2.5

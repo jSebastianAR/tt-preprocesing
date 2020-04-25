@@ -1,0 +1,8 @@
+Andosol 13.5
+Cambisol 9.9
+Chernozem 2.9
+Leptosol 27.5
+Luvisol 7.4
+Phaeozem 10.2
+Regosol 28.5
+Otros 0.1

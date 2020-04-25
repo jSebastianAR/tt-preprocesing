@@ -1,0 +1,6 @@
+Litosol 19.9
+Rendzina 19.4
+Cambisol 14.8
+Luvisol 13.1
+Feozem 11.0
+Otros 21.8

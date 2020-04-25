@@ -1,0 +1,6 @@
+Luvisol 67.5
+Vertisol 15.5
+Andosol 5.2
+Feozem 4.8
+Acrisol 3.8
+Otros 3.2
