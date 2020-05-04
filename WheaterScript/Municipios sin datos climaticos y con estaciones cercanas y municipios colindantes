@@ -1,4 +1,5 @@
 Estaciones cercanas a Municipios sin datos climáticos
+
 ============================================================================
 ACATIC
 
@@ -712,39 +713,267 @@ SANTA MARIA DE LOS ANGELES
 
 	14331-COLOTLAN.txt #Ya valio
 ============================================================================
-- TECALITLAN
-	- 14118
-- TENAMAXTLAN
-	- 14143
-- TONAYA
-	- 14155 #La más "cercana"
-- VALLE DE GUADALUPE
-	- #Las más "cercanas"
-	- 14165
-	- 14080
-- SAN GABRIEL
-	- #Las más "cercanas"
-	- 14052
-	- 14155
-- VILLA CORONA
-	- 14113
-	- 14002
-- VILLA HIDALGO
-	- 14101
-	- 14006
-	- 14122
-- CAÑADAS DE OBREGON
-	- #Sí se encuentra
-- ZAPOTILTIC
+TECALITLAN
+
+
+	#######################
+	MUNICIPIOS COLINDANTES
+	#######################
+
+	14118-TUXPAN.txt
+	2018
+
+	ZAPOTILTIC #Sin datos
+
+	14034-TAMAZULA DE GORDIANO.txt
+	2018
+
+	14141-TAMAZULA DE GORDIANO.txt
+	2018
+
+	14348-JILOTLAN DE LOS DOLORES.txt
+	2010
+	2011
+	2012
+
+	14112-PIHUAMO.txt #ciclo 2008-2019
+
+	14336-PIHUAMO.txt
+	2010
+============================================================================
+TENAMAXTLAN
+
+	#######################
+	MUNICIPIOS COLINDANTES
+	#######################
+
+	ATENGO #Sin datos
+
+	14139-UNION DE TULA.txt #Ya valio
+
+	14197-UNION DE TULA.txt
+	2010
+	2014
+
+	14395-UNION DE TULA.txt #Ya valio
+
+	14143-TECOLOTLAN.txt
+	2018
+
+	14078-JUCHITLAN.txt
+	2018
+
+	AYUTLA #Sin datos
+============================================================================
+TONAYA
+
+	#######################
+	MUNICIPIOS COLINDANTES
+	#######################
+
+	CHIQUILISTLAN #Sin datos
+
+	14155-TUXCACUESCO.txt
+	2018
+
+	14350-TUXCACUESCO.txt
+	2010
+
+	14052-TAPALPA.txt
+	2018
+
+	14142-TAPALPA.txt
+	2018
+
+	SAN GABRIEL #Sin datos
+
+	14343-EJUTLA.txt #Ciclo 2008-2018
+
+	EL LIMON #Sin datos
+============================================================================
+VALLE DE GUADALUPE
+
+	#######################
+	MUNICIPIOS COLINDANTES
+	#######################
+
+	14165-CAÑADAS DE OBREGON.txt #Ciclo 2008-2018
+
+	14266-JALOSTOTITLAN.txt #Ciclo 2008-2018
+
+	14087-TEPATITLAN DE MORELOS.txt
+	2018
+
+	SAN MIGUEL EL ALTO #Sin datos
+
+	14266-JALOSTOTITLAN.txt #Ciclo 2008-2018
+
+	14080-YAHUALICA DE GONZALEZ GALLO.txt
+	2016
+	2017
+	2018
+
+	14167-YAHUALICA DE GONZALEZ GALLO.txt #Ciclo 2008-2019
+
+	14337-YAHUALICA DE GONZALEZ GALLO.txt
+	2010
+============================================================================
+SAN GABRIEL
+
+	#######################
+	MUNICIPIOS COLINDANTES
+	#######################
+
+	14052-TAPALPA.txt
+	2018
+
+	14142-TAPALPA.txt
+	2018
+
+	14368-SAYULA.txt
+	2010
+
+	14311-TOLIMAN.txt #Ciclo 2008-2018
+
+	ZAPOTITLAN DE VADILLO #Sin datos
+
+	14030-ZAPOTLAN EL GRANDE.txt #Ya valio
+
+	GOMEZ FARIAS #Sin datos
+
+	TONAYA #Sin datos
+
+	14155-TUXCACUESCO.txt
+	2018
+
+	14350-TUXCACUESCO.txt
+	2010
+============================================================================
+VILLA CORONA
+
+	#######################
+	MUNICIPIOS COLINDANTES
+	#######################
+
+	14351-TALA.txt
+	2010
+
+	14056-SAN MARTIN HIDALGO.txt
+	2018
+
+	ATEMAJAC DE BRIZUELA #Sin datos
+
+	14168-ZACOALCO DE TORRES.txt #Ciclo 2008-2018
+
+	14002-ACATLAN DE JUAREZ.txt
+	2018
+
+	14113-ACATLAN DE JUAREZ.txt
+	2018
+
+	COCULA #Sin datos
+============================================================================
+VILLA HIDALGO
+
+	#######################
+	MUNICIPIOS COLINDANTES
+	#######################
+
+	14006-TEOCALTICHE.txt
+	2018
+
+	14025-TEOCALTICHE.txt #Ya valio
+
+	14101-TEOCALTICHE.txt
+	2018
+
+	14122-TEOCALTICHE.txt
+	2011
+	2018
+============================================================================
+ZAPOTILTIC
 	- #Rodean en triángulo
 	- 14118
 	- 14030
 	- 14141
-- ZAPOTITLAN DE VADILLO
-	- 14311
-- ZAPOTLAN DEL REY
-	- 14379 No tiene el año 2010
-	- 14047
-- SAN IGNACIO CERRO GORDO
-	- 14060 Solo tiene hasta 2015
-	- 14017
+
+	#######################
+	MUNICIPIOS COLINDANTES
+	#######################
+
+	14030-ZAPOTLAN EL GRANDE.txt #Ya valio
+
+	14034-TAMAZULA DE GORDIANO.txt
+	2018
+
+	14141-TAMAZULA DE GORDIANO.txt
+	2018
+
+	14118-TUXPAN.txt
+	2018
+
+	TECALITLAN #Sin datos
+============================================================================
+ZAPOTITLAN DE VADILLO
+
+	#######################
+	MUNICIPIOS COLINDANTES
+	#######################
+
+	SAN GABRIEL #Sin datos
+
+	14311-TOLIMAN.txt #Ciclo 2008-2018
+
+	14129-TONILA.txt
+	2018
+
+	14030-ZAPOTLAN EL GRANDE.txt #Ya valio
+============================================================================
+ZAPOTLAN DEL REY
+
+	#######################
+	MUNICIPIOS COLINDANTES
+	#######################
+
+	14104-ZAPOTLANEJO.txt #Ya valio
+
+	14388-ZAPOTLANEJO.txt #Ya valio
+
+	14397-ZAPOTLANEJO.txt
+	2010
+
+	14090-TOTOTLAN.txt
+	2018
+
+	14199-PONCITLAN.txt #Ya valio
+
+	14379-PONCITLAN.txt
+	2010
+
+	14047-OCOTLAN.txt
+	2018
+
+	JUANACATLAN #Sin datos
+============================================================================
+SAN IGNACIO CERRO GORDO
+
+	#######################
+	MUNICIPIOS COLINDANTES
+	#######################
+
+	SAN MIGUEL EL ALTO #Sin datos
+
+	14017-ATOTONILCO EL ALTO.txt
+	2018
+
+	14060-ARANDAS.txt
+	2016
+	2017
+	2018
+
+	14369-ARANDAS.txt
+	2010
+
+	14087-TEPATITLAN DE MORELOS.txt
+	2018
+============================================================================
