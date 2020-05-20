@@ -19,6 +19,7 @@ def read_files():
 		MISSING_YEARS_TOWN = fill_list()
 		stop = False #Boolean used to stop recolect the data from the file
 		aproved=False #Boolean used to know if recolect the data from the file was restarted
+		nulls = []
 		with open(txt,'r',encoding = "ISO-8859-1") as file:
 			
 			for line in file:
@@ -55,7 +56,7 @@ def read_files():
 		print(f"=====================================================\n")
 		write_log("=====================================================")
 	
-	write_missing_years(DICT_MISSING_YEARS_TOWN)
+	#write_missing_years(DICT_MISSING_YEARS_TOWN)
 
 def get_name_txt(txt):
 	name = txt.split('.txt.txt')[0].split('/')[1]
@@ -89,6 +90,7 @@ def write_missing_years(l):
 def write_log(line):
 	with open('log.txt','a+') as file:
 		file.write(line+'\n')	
+
 result = read_files()
 
 print(result)
