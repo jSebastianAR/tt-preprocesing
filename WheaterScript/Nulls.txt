@@ -11,34 +11,34 @@ Tmax 0
 Tmin 1
 
 Nulos en CleanedData/14009-AMECA.txt
-Precipitacion 0
-Evaporacion 0
-Tmax 0
+Precipitacion 1
+Evaporacion 2
+Tmax 2
 Tmin 0
 
 Nulos en CleanedData/14011-LA HUERTA.txt
-Precipitacion 1
-Evaporacion 1585
+Precipitacion 2
+Evaporacion 1586
 Tmax 0
 Tmin 0
 
 Nulos en CleanedData/14016-IXTLAHUACAN DE LOS MEMBRILLOS.txt
-Precipitacion 0
-Evaporacion 0
-Tmax 0
-Tmin 0
+Precipitacion 6
+Evaporacion 12
+Tmax 11
+Tmin 5
 
 Nulos en CleanedData/14017-ATOTONILCO EL ALTO.txt
-Precipitacion 1
-Evaporacion 28
-Tmax 3
-Tmin 0
+Precipitacion 13
+Evaporacion 45
+Tmax 20
+Tmin 16
 
 Nulos en CleanedData/14018-ATOYAC.txt
 Precipitacion 1
-Evaporacion 4
-Tmax 0
-Tmin 0
+Evaporacion 7
+Tmax 2
+Tmin 2
 
 Nulos en CleanedData/14023-BOLAÑOS.txt
 Precipitacion 1
@@ -48,15 +48,15 @@ Tmin 0
 
 Nulos en CleanedData/14024-TOMATLAN.txt
 Precipitacion 0
-Evaporacion 15
-Tmax 0
-Tmin 0
+Evaporacion 17
+Tmax 1
+Tmin 1
 
 Nulos en CleanedData/14025-TEOCALTICHE.txt
-Precipitacion 0
-Evaporacion 723
+Precipitacion 62
+Evaporacion 785
 Tmax 21
-Tmin 0
+Tmin 1
 
 Nulos en CleanedData/14026-COLOTLAN.txt
 Precipitacion 1
@@ -65,46 +65,46 @@ Tmax 0
 Tmin 0
 
 Nulos en CleanedData/14028-CIHUATLAN.txt
-Precipitacion 0
-Evaporacion 7
-Tmax 0
-Tmin 0
+Precipitacion 9
+Evaporacion 37
+Tmax 22
+Tmin 23
 
 Nulos en CleanedData/14029-CONCEPCION DE BUENOS AIRES.txt
 Precipitacion 0
-Evaporacion 1032
-Tmax 0
+Evaporacion 1033
+Tmax 1
 Tmin 0
 
 Nulos en CleanedData/14030-ZAPOTLAN EL GRANDE.txt
 Precipitacion 30
-Evaporacion 16
-Tmax 0
-Tmin 1
+Evaporacion 40
+Tmax 21
+Tmin 25
 
 Nulos en CleanedData/14032-COLOTLAN.txt
-Precipitacion 31
-Evaporacion 27
-Tmax 2
+Precipitacion 32
+Evaporacion 28
+Tmax 3
 Tmin 3
 
 Nulos en CleanedData/14033-LAGOS DE MORENO.txt
 Precipitacion 0
-Evaporacion 129
+Evaporacion 130
 Tmax 0
-Tmin 0
+Tmin 1
 
 Nulos en CleanedData/14034-TAMAZULA DE GORDIANO.txt
 Precipitacion 0
 Evaporacion 2
-Tmax 0
-Tmin 1
+Tmax 28
+Tmin 29
 
 Nulos en CleanedData/14035-MASCOTA.txt
-Precipitacion 0
-Evaporacion 3
-Tmax 0
-Tmin 0
+Precipitacion 10
+Evaporacion 20
+Tmax 8
+Tmin 7
 
 Nulos en CleanedData/14036-CUAUTITLAN DE GARCIA BARRAGAN.txt
 Precipitacion 0
@@ -139,8 +139,8 @@ Tmin 0
 Nulos en CleanedData/14044-TALPA DE ALLENDE.txt
 Precipitacion 0
 Evaporacion 2209
-Tmax 0
-Tmin 0
+Tmax 1
+Tmin 1
 
 Nulos en CleanedData/14046-AUTLAN DE NAVARRO.txt
 Precipitacion 0
@@ -155,10 +155,10 @@ Tmax 0
 Tmin 0
 
 Nulos en CleanedData/14048-CIHUATLAN.txt
-Precipitacion 0
-Evaporacion 1
-Tmax 3
-Tmin 1
+Precipitacion 7
+Evaporacion 18
+Tmax 129
+Tmin 125
 
 Nulos en CleanedData/14052-TAPALPA.txt
 Precipitacion 0
@@ -173,10 +173,10 @@ Tmax 0
 Tmin 1
 
 Nulos en CleanedData/14054-LAGOS DE MORENO.txt
-Precipitacion 0
-Evaporacion 3277
-Tmax 0
-Tmin 0
+Precipitacion 1
+Evaporacion 3280
+Tmax 3
+Tmin 2
 
 Nulos en CleanedData/14056-SAN MARTIN HIDALGO.txt
 Precipitacion 0
@@ -191,22 +191,22 @@ Tmax 0
 Tmin 0
 
 Nulos en CleanedData/14060-ARANDAS.txt
-Precipitacion 0
-Evaporacion 312
-Tmax 2
-Tmin 0
+Precipitacion 4
+Evaporacion 377
+Tmax 472
+Tmin 467
 
 Nulos en CleanedData/14063-ETZATLAN.txt
-Precipitacion 0
-Evaporacion 744
+Precipitacion 1
+Evaporacion 748
 Tmax 0
-Tmin 31
+Tmin 34
 
 Nulos en CleanedData/14065-GUADALAJARA.txt
-Precipitacion 148
-Evaporacion 17
-Tmax 2
-Tmin 23
+Precipitacion 152
+Evaporacion 72
+Tmax 53
+Tmin 61
 
 Nulos en CleanedData/14066-GUADALAJARA.txt
 Precipitacion 0
@@ -215,16 +215,16 @@ Tmax 0
 Tmin 1
 
 Nulos en CleanedData/14067-TOMATLAN.txt
-Precipitacion 0
-Evaporacion 24
-Tmax 0
-Tmin 5
+Precipitacion 13
+Evaporacion 40
+Tmax 16
+Tmin 14
 
 Nulos en CleanedData/14068-HOSTOTIPAQUILLO.txt
 Precipitacion 2
-Evaporacion 30
-Tmax 1
-Tmin 1
+Evaporacion 32
+Tmax 2
+Tmin 2
 
 Nulos en CleanedData/14069-HUEJUCAR.txt
 Precipitacion 1
@@ -233,16 +233,16 @@ Tmax 0
 Tmin 1
 
 Nulos en CleanedData/14070-DEGOLLADO.txt
-Precipitacion 0
-Evaporacion 0
-Tmax 0
-Tmin 0
+Precipitacion 2
+Evaporacion 3
+Tmax 2
+Tmin 2
 
 Nulos en CleanedData/14071-HUEJUQUILLA EL ALTO.txt
-Precipitacion 0
-Evaporacion 1403
+Precipitacion 61
+Evaporacion 1464
 Tmax 0
-Tmin 1
+Tmin 2
 
 Nulos en CleanedData/14072-IXTLAHUACAN DE LOS MEMBRILLOS.txt
 Precipitacion 0
@@ -251,16 +251,16 @@ Tmax 0
 Tmin 0
 
 Nulos en CleanedData/14075-JAMAY.txt
-Precipitacion 2
-Evaporacion 0
-Tmax 0
-Tmin 1
+Precipitacion 3
+Evaporacion 3
+Tmax 1
+Tmin 3
 
 Nulos en CleanedData/14076-JESUS MARIA.txt
-Precipitacion 0
-Evaporacion 28
-Tmax 0
-Tmin 0
+Precipitacion 4
+Evaporacion 36
+Tmax 4
+Tmin 4
 
 Nulos en CleanedData/14078-JUCHITLAN.txt
 Precipitacion 1
@@ -269,28 +269,28 @@ Tmax 1
 Tmin 0
 
 Nulos en CleanedData/14080-YAHUALICA DE GONZALEZ GALLO.txt
-Precipitacion 0
-Evaporacion 1
-Tmax 2
-Tmin 1
+Precipitacion 4
+Evaporacion 5
+Tmax 4
+Tmin 5
 
 Nulos en CleanedData/14081-PUERTO VALLARTA.txt
-Precipitacion 0
-Evaporacion 0
-Tmax 0
-Tmin 0
+Precipitacion 3
+Evaporacion 16
+Tmax 15
+Tmin 15
 
 Nulos en CleanedData/14083-LAGOS DE MORENO.txt
-Precipitacion 0
-Evaporacion 2
-Tmax 1
-Tmin 2
+Precipitacion 1
+Evaporacion 24
+Tmax 23
+Tmin 23
 
 Nulos en CleanedData/14084-LAGOS DE MORENO.txt
-Precipitacion 0
-Evaporacion 218
-Tmax 0
-Tmin 0
+Precipitacion 6
+Evaporacion 224
+Tmax 4
+Tmin 6
 
 Nulos en CleanedData/14085-LA HUERTA.txt
 Precipitacion 0
@@ -311,10 +311,10 @@ Tmax 0
 Tmin 0
 
 Nulos en CleanedData/14089-TEUCHITLAN.txt
-Precipitacion 0
-Evaporacion 65
-Tmax 0
-Tmin 1
+Precipitacion 4
+Evaporacion 72
+Tmax 4
+Tmin 4
 
 Nulos en CleanedData/14090-TOTOTLAN.txt
 Precipitacion 0
@@ -336,27 +336,27 @@ Tmin 0
 
 Nulos en CleanedData/14099-MAZAMITLA.txt
 Precipitacion 0
-Evaporacion 2
-Tmax 0
-Tmin 0
+Evaporacion 2024
+Tmax 2023
+Tmin 2024
 
 Nulos en CleanedData/14100-MEXTICACAN.txt
-Precipitacion 0
-Evaporacion 0
-Tmax 0
-Tmin 0
+Precipitacion 31
+Evaporacion 3468
+Tmax 3468
+Tmin 3437
 
 Nulos en CleanedData/14101-TEOCALTICHE.txt
-Precipitacion 0
-Evaporacion 1000
+Precipitacion 1
+Evaporacion 1001
 Tmax 3
 Tmin 0
 
 Nulos en CleanedData/14104-ZAPOTLANEJO.txt
-Precipitacion 0
-Evaporacion 1055
-Tmax 5
-Tmin 6
+Precipitacion 10
+Evaporacion 1287
+Tmax 229
+Tmin 230
 
 Nulos en CleanedData/14112-PIHUAMO.txt
 Precipitacion 0
@@ -367,8 +367,8 @@ Tmin 0
 Nulos en CleanedData/14113-ACATLAN DE JUAREZ.txt
 Precipitacion 0
 Evaporacion 0
-Tmax 2
-Tmin 0
+Tmax 945
+Tmin 943
 
 Nulos en CleanedData/14114-LAGOS DE MORENO.txt
 Precipitacion 0
@@ -378,15 +378,15 @@ Tmin 0
 
 Nulos en CleanedData/14117-VILLA PURIFICACION.txt
 Precipitacion 0
-Evaporacion 2906
-Tmax 0
-Tmin 0
+Evaporacion 2910
+Tmax 2
+Tmin 3
 
 Nulos en CleanedData/14118-TUXPAN.txt
-Precipitacion 0
-Evaporacion 3495
-Tmax 0
-Tmin 0
+Precipitacion 1
+Evaporacion 3497
+Tmax 1
+Tmin 2
 
 Nulos en CleanedData/14119-QUITUPAN.txt
 Precipitacion 0
@@ -401,10 +401,10 @@ Tmax 0
 Tmin 0
 
 Nulos en CleanedData/14123-SAN DIEGO DE ALEJANDRIA.txt
-Precipitacion 0
-Evaporacion 912
-Tmax 1
-Tmin 0
+Precipitacion 2
+Evaporacion 918
+Tmax 4
+Tmin 4
 
 Nulos en CleanedData/14125-MIXTLAN.txt
 Precipitacion 0
@@ -414,9 +414,9 @@ Tmin 0
 
 Nulos en CleanedData/14129-TONILA.txt
 Precipitacion 0
-Evaporacion 971
-Tmax 0
-Tmin 0
+Evaporacion 2980
+Tmax 2009
+Tmin 2009
 
 Nulos en CleanedData/14132-SAN PEDRO TLAQUEPAQUE.txt
 Precipitacion 0
@@ -425,16 +425,16 @@ Tmax 0
 Tmin 0
 
 Nulos en CleanedData/14136-AMATITAN.txt
-Precipitacion 1
-Evaporacion 3
-Tmax 0
-Tmin 2
+Precipitacion 14
+Evaporacion 114
+Tmax 109
+Tmin 111
 
 Nulos en CleanedData/14139-UNION DE TULA.txt
 Precipitacion 0
-Evaporacion 253
-Tmax 1
-Tmin 2
+Evaporacion 254
+Tmax 52
+Tmin 53
 
 Nulos en CleanedData/14140-TALPA DE ALLENDE.txt
 Precipitacion 1
@@ -480,9 +480,9 @@ Tmin 0
 
 Nulos en CleanedData/14155-TUXCACUESCO.txt
 Precipitacion 0
-Evaporacion 2764
-Tmax 0
-Tmin 0
+Evaporacion 3561
+Tmax 796
+Tmin 797
 
 Nulos en CleanedData/14156-TUXCUECA.txt
 Precipitacion 0
@@ -499,20 +499,20 @@ Tmin 0
 Nulos en CleanedData/14160-VALLE DE JUAREZ.txt
 Precipitacion 0
 Evaporacion 4
-Tmax 1
-Tmin 1
+Tmax 11
+Tmin 11
 
 Nulos en CleanedData/14164-VILLA GUERRERO.txt
-Precipitacion 1
-Evaporacion 148
-Tmax 0
-Tmin 0
+Precipitacion 5
+Evaporacion 176
+Tmax 27
+Tmin 27
 
 Nulos en CleanedData/14165-CAÑADAS DE OBREGON.txt
 Precipitacion 1
-Evaporacion 91
-Tmax 0
-Tmin 0
+Evaporacion 133
+Tmax 362
+Tmin 362
 
 Nulos en CleanedData/14167-YAHUALICA DE GONZALEZ GALLO.txt
 Precipitacion 0
@@ -521,22 +521,22 @@ Tmax 0
 Tmin 0
 
 Nulos en CleanedData/14168-ZACOALCO DE TORRES.txt
-Precipitacion 30
-Evaporacion 3348
-Tmax 0
-Tmin 0
+Precipitacion 136
+Evaporacion 3463
+Tmax 7
+Tmin 5
 
 Nulos en CleanedData/14169-ZAPOPAN.txt
-Precipitacion 0
-Evaporacion 3929
-Tmax 0
+Precipitacion 2
+Evaporacion 3934
+Tmax 5
 Tmin 0
 
 Nulos en CleanedData/14179-OJUELOS DE JALISCO.txt
-Precipitacion 0
-Evaporacion 55
-Tmax 1
-Tmin 1
+Precipitacion 1
+Evaporacion 58
+Tmax 3
+Tmin 3
 
 Nulos en CleanedData/14180-QUITUPAN.txt
 Precipitacion 0
@@ -551,10 +551,10 @@ Tmax 0
 Tmin 1
 
 Nulos en CleanedData/14189-TIZAPAN EL ALTO.txt
-Precipitacion 0
-Evaporacion 464
-Tmax 1
-Tmin 0
+Precipitacion 2
+Evaporacion 467
+Tmax 3
+Tmin 2
 
 Nulos en CleanedData/14191-VALLE DE JUAREZ.txt
 Precipitacion 0
@@ -563,40 +563,40 @@ Tmax 0
 Tmin 0
 
 Nulos en CleanedData/14195-SAN JUANITO DE ESCOBEDO.txt
-Precipitacion 0
-Evaporacion 239
-Tmax 0
-Tmin 0
+Precipitacion 101
+Evaporacion 340
+Tmax 62
+Tmin 62
 
 Nulos en CleanedData/14197-UNION DE TULA.txt
-Precipitacion 1
-Evaporacion 6
-Tmax 28
-Tmin 35
+Precipitacion 6
+Evaporacion 15
+Tmax 56
+Tmin 56
 
 Nulos en CleanedData/14198-CUAUTITLAN DE GARCIA BARRAGAN.txt
 Precipitacion 2
-Evaporacion 27
-Tmax 0
-Tmin 1
+Evaporacion 30
+Tmax 1
+Tmin 3
 
 Nulos en CleanedData/14199-PONCITLAN.txt
 Precipitacion 0
-Evaporacion 2
-Tmax 0
-Tmin 0
+Evaporacion 14
+Tmax 11
+Tmin 12
 
 Nulos en CleanedData/14200-SAN PEDRO TLAQUEPAQUE.txt
-Precipitacion 0
-Evaporacion 4
-Tmax 2
-Tmin 1
+Precipitacion 8
+Evaporacion 16
+Tmax 11
+Tmin 10
 
 Nulos en CleanedData/14266-JALOSTOTITLAN.txt
-Precipitacion 0
-Evaporacion 0
-Tmax 1
-Tmin 0
+Precipitacion 1
+Evaporacion 16
+Tmax 25
+Tmin 23
 
 Nulos en CleanedData/14269-AHUALULCO DE MERCADO.txt
 Precipitacion 0
@@ -605,10 +605,10 @@ Tmax 0
 Tmin 0
 
 Nulos en CleanedData/14294-TLAJOMULCO DE ZUÑIGA.txt
-Precipitacion 0
-Evaporacion 299
-Tmax 1
-Tmin 0
+Precipitacion 25
+Evaporacion 502
+Tmax 175
+Tmin 180
 
 Nulos en CleanedData/14297-GUACHINANGO.txt
 Precipitacion 0
@@ -623,16 +623,16 @@ Tmax 0
 Tmin 1
 
 Nulos en CleanedData/14311-TOLIMAN.txt
-Precipitacion 0
-Evaporacion 2
+Precipitacion 1
+Evaporacion 3
 Tmax 0
-Tmin 1
+Tmin 2
 
 Nulos en CleanedData/14317-MIXTLAN.txt
-Precipitacion 21
-Evaporacion 721
-Tmax 0
-Tmin 0
+Precipitacion 34
+Evaporacion 736
+Tmax 2
+Tmin 2
 
 Nulos en CleanedData/14320-LAGOS DE MORENO.txt
 Precipitacion 1
@@ -642,21 +642,21 @@ Tmin 0
 
 Nulos en CleanedData/14323-TECHALUTA DE MONTENEGRO.txt
 Precipitacion 0
-Evaporacion 3
+Evaporacion 4
 Tmax 0
-Tmin 0
+Tmin 1
 
 Nulos en CleanedData/14324-TOTATICHE.txt
-Precipitacion 0
-Evaporacion 349
-Tmax 1
-Tmin 1
+Precipitacion 2
+Evaporacion 354
+Tmax 3
+Tmin 4
 
 Nulos en CleanedData/14326-MEZQUITIC.txt
-Precipitacion 0
-Evaporacion 375
-Tmax 1
-Tmin 1
+Precipitacion 1
+Evaporacion 407
+Tmax 120
+Tmin 120
 
 Nulos en CleanedData/14329-GUADALAJARA.txt
 Precipitacion 0
@@ -665,10 +665,10 @@ Tmax 0
 Tmin 0
 
 Nulos en CleanedData/14331-COLOTLAN.txt
-Precipitacion 1
-Evaporacion 664
-Tmax 0
-Tmin 0
+Precipitacion 3
+Evaporacion 666
+Tmax 2
+Tmin 1
 
 Nulos en CleanedData/14336-PIHUAMO.txt
 Precipitacion 1
@@ -702,9 +702,9 @@ Tmin 0
 
 Nulos en CleanedData/14348-JILOTLAN DE LOS DOLORES.txt
 Precipitacion 0
-Evaporacion 21
-Tmax 0
-Tmin 0
+Evaporacion 1163
+Tmax 1338
+Tmin 1338
 
 Nulos en CleanedData/14349-ATENGUILLO.txt
 Precipitacion 0
@@ -731,21 +731,21 @@ Tmax 0
 Tmin 0
 
 Nulos en CleanedData/14367-UNION DE SAN ANTONIO.txt
-Precipitacion 0
-Evaporacion 86
-Tmax 0
-Tmin 0
+Precipitacion 1
+Evaporacion 89
+Tmax 2
+Tmin 1
 
 Nulos en CleanedData/14368-SAYULA.txt
-Precipitacion 1
-Evaporacion 53
-Tmax 0
-Tmin 0
+Precipitacion 3
+Evaporacion 57
+Tmax 1
+Tmin 1
 
 Nulos en CleanedData/14369-ARANDAS.txt
-Precipitacion 0
-Evaporacion 10
-Tmax 0
+Precipitacion 1
+Evaporacion 11
+Tmax 1
 Tmin 1
 
 Nulos en CleanedData/14379-PONCITLAN.txt
@@ -755,10 +755,10 @@ Tmax 0
 Tmin 0
 
 Nulos en CleanedData/14386-TONALA.txt
-Precipitacion 9
-Evaporacion 74
-Tmax 27
-Tmin 0
+Precipitacion 18
+Evaporacion 104
+Tmax 43
+Tmin 13
 
 Nulos en CleanedData/14388-ZAPOTLANEJO.txt
 Precipitacion 0
@@ -767,10 +767,10 @@ Tmax 0
 Tmin 0
 
 Nulos en CleanedData/14390-AUTLAN DE NAVARRO.txt
-Precipitacion 1
-Evaporacion 119
-Tmax 2
-Tmin 2
+Precipitacion 13
+Evaporacion 152
+Tmax 22
+Tmin 25
 
 Nulos en CleanedData/14391-TIZAPAN EL ALTO.txt
 Precipitacion 1
@@ -779,10 +779,10 @@ Tmax 0
 Tmin 0
 
 Nulos en CleanedData/14392-LAGOS DE MORENO.txt
-Precipitacion 0
-Evaporacion 0
-Tmax 1
-Tmin 5
+Precipitacion 3
+Evaporacion 8
+Tmax 7
+Tmin 7
 
 Nulos en CleanedData/14395-UNION DE TULA.txt
 Precipitacion 0
