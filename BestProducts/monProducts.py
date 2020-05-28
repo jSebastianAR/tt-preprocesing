@@ -2,6 +2,23 @@ import pandas as pd
 import numpy as np
 from operator import itemgetter
 
+def get_all_products(TOP_LIST):
+
+	list_products = []
+
+	#Para todos los top de cada año
+	for year_list in TOP_LIST: 
+
+		#Para cada producto de cada top
+		for key in year_list:
+			if not(key == 'year'):
+				#Si no se tiene el producto en el diccionario
+				if not (key in list_products):
+					list_products.append(key)
+
+
+	print(f"products size: {len(list_products)}")
+	return list_products
 
 def saveArray(np_array,year):
 	np.savetxt(str(year)+'_top_list.csv',np_array,delimiter = ',',fmt='%s')
@@ -29,57 +46,45 @@ def getTop(year,data,index):
 	data_top = giveValues(data_year,year)
 	return data_top
 
-def getProm(data,TOP_LIST):
+def getProm(all_products,TOP_LIST):
 	
 	diccionary_prom = {}
-	for key in data:
-		number_of_years = 0
-		if not key=='year':
+	for key in all_products:
 
-			for top_list in TOP_LIST:
-				if top_list.get(key):
-					number_of_years += 1
-					if diccionary_prom.get(key):
-						diccionary_prom[key] = diccionary_prom[key] + top_list[key]
-					else:
-						diccionary_prom[key] = top_list[key]
+		#number_of_years = 0
+
+		for top_list in TOP_LIST:
+
+			if top_list.get(key):
+
+				#number_of_years += 1
+				if diccionary_prom.get(key):
+
+					diccionary_prom[key] = diccionary_prom[key] + top_list[key]
+
 				else:
-					"""
-					number_of_years += 1
-					if diccionary_prom.get(key):
-						diccionary_prom[key] = diccionary_prom[key] + 20
-					else:
-						diccionary_prom[key] = top_list[key]
-					"""	
-					print('Llave %s no encontrada en año %s'%(key,top_list['year']))
+
+					diccionary_prom[key] = top_list[key]
+			else:
+				print('Llave %s no encontrada en año %s'%(key,top_list['year']))
+				
 					
-						
-			diccionary_prom[key] = float(diccionary_prom[key]/number_of_years)
+		#diccionary_prom[key] = float(diccionary_prom[key]/number_of_years)
 				
 	return diccionary_prom		
 
 def extract_data_money():
 
 	doc = pd.read_excel('Productos Agrícolas.xlsx') #reading the data
-	products = doc.head(10).values
-	
-	
-	
-
-	return products
-
-def extract_data():
-	doc = pd.read_excel('Productos Agrícolas.xlsx') #reading the data
-	#products = pd.DataFrame(doc,columns = ['2008','2009','2010','2011','2012','2013','2014','2015','2016','2017','2018'])
 	products = doc.head(100).values
-	#products = products[::,::2] #get only the product's name
-	#print(products)	
+	
+	
+	
 
 	return products
-
 
 def get_all_Top_lists():
-	products = extract_data()
+	products = extract_data_money()
 	TOP_LIST = []
 
 	#Get all the top list between 2008-2018
@@ -92,19 +97,21 @@ def get_all_Top_lists():
 		print(element)
 		print()
 
+	all_products = get_all_products(TOP_LIST)	
 	#Gets the average position for each product
-	#result = getProm(TOP_LIST[0],TOP_LIST)
-	#return result
+	result = getProm(all_products,TOP_LIST)
+	return result
 
 
 def sort_elements(result):
 	sortedResult = {}	
-	print(result)
+	
 	#sortedResult = sorted(result.items(),key=itemgetter(1))
 	#Sort the dictionary for value of position
-	for key in sorted(result,key=result.get):
+	for key in sorted(result,key=result.get, reverse=True):
 		sortedResult[key] = result[key]
 
+	print(sortedResult)	
 	return sortedResult
 
 def save_top_list(sortedResult):
@@ -116,11 +123,13 @@ def save_top_list(sortedResult):
 
 	print(table[:21,:])
 
-	#saveArray(table,'2008-2018')
+	#saveArray(table,'2008-2018-new')
 	#print(sortedResult)
 	#print(sortedResult.keys())
 
 
 
 #extract_data_money()
-get_all_Top_lists()
+result = get_all_Top_lists()
+sortedResult = sort_elements(result)
+save_top_list(sortedResult)

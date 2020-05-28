@@ -66,7 +66,7 @@ def extract_data_money():
 def extract_data():
 	doc = pd.read_excel('Productos Agrícolas.xlsx') #reading the data
 	#products = pd.DataFrame(doc,columns = ['2008','2009','2010','2011','2012','2013','2014','2015','2016','2017','2018'])
-	products = doc.head(100).values
+	products = doc.head(20).values
 	products = products[::,::2] #get only the product's name
 	#print(products)	
 
@@ -114,7 +114,7 @@ def save_top_list(sortedResult):
 	#print(sortedResult.keys())
 
 
-#TOP_LIST = get_all_Top_lists()
-#sortedResult = sort_elements(TOP_LIST)
-#save_top_list(sortedResult)
-extract_data_money()
+TOP_LIST = get_all_Top_lists()
+sortedResult = sort_elements(TOP_LIST)
+save_top_list(sortedResult)
+#extract_data_money()
