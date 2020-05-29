@@ -35,7 +35,7 @@ def getTop(year,data,index):
 	#index = year - 2008
 	data_product = data[:,index-1]
 	data_cash	 = data[:,index]
-	print(f"product: {data_product} \n\n\n cash: {data_cash} \n")
+	#print(f"product: {data_product} \n\n\n cash: {data_cash} \n")
 	data_year = []
 	data_year.append(data_product)
 	data_year.append(data_cash)
@@ -69,7 +69,7 @@ def getProm(all_products,TOP_LIST):
 				print('Llave %s no encontrada en año %s'%(key,top_list['year']))
 				
 					
-		#diccionary_prom[key] = float(diccionary_prom[key]/number_of_years)
+		diccionary_prom[key] = round(diccionary_prom[key], 2) #Redondea a dos decimales
 				
 	return diccionary_prom		
 
@@ -94,8 +94,7 @@ def get_all_Top_lists():
 		index += 2
 
 	for element in TOP_LIST:
-		print(element)
-		print()
+		print(f"{element} \n")
 
 	all_products = get_all_products(TOP_LIST)	
 	#Gets the average position for each product
@@ -116,14 +115,14 @@ def sort_elements(result):
 
 def save_top_list(sortedResult):
 	#Creates an array to save the result
-	table = np.array(['Producto','Puntaje'])
+	table = np.array(['Producto','Produccion($)'])
 	for key in sortedResult:
 		new_row = np.array([key,sortedResult[key]])
 		table = np.vstack([table,new_row])
 
-	print(table[:21,:])
+	print(f"Top 20: \n\n{table[:21,:]}")
 
-	#saveArray(table,'2008-2018-new')
+	saveArray(table[:21,:],'New-2008-2018')
 	#print(sortedResult)
 	#print(sortedResult.keys())
 
