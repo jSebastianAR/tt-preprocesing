@@ -122,14 +122,14 @@ def customize_graphic(graphic,invert):
 	
 	return graphic
 
-def create_data_4plot():
+def create_data_4plot(num_years):
 	years_list = [2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018]
 	products_list_info = get_all_Top_lists()
 
 	fig_pos = plt.figure()
 	fig_sum = plt.figure()
 	
-	graphic_pos = create_graphic(fig_pos,'Tabla de posicion de productos','Año','Posicion')
+	graphic_pos = create_graphic(fig_pos,'Tabla de posición de productos','Año','Posición')
 	graphic_sum = create_graphic(fig_sum,'Tabla de dinero generado por producto','Año','Dinero generado')
 	
 	index = 0
@@ -138,12 +138,12 @@ def create_data_4plot():
 		list_data_pos,list_data_sum = turn_list_product(product,years_list) #Turns the dicts data in list of data
 		
 		#Plot the list of data
-		graphic_pos.plot(years_list[len(years_list)-5:len(years_list)],\
-			list_data_pos[len(list_data_pos)-5:len(list_data_pos)],\
+		graphic_pos.plot(years_list[len(years_list)-num_years:len(years_list)],\
+			list_data_pos[len(list_data_pos)-num_years:len(list_data_pos)],\
 			label=product.name_product,color=get_color(index),marker=get_mark(num_product),markersize=8)
 		
-		graphic_sum.plot(years_list[len(years_list)-5:len(years_list)],\
-			list_data_sum[len(list_data_sum)-5:len(list_data_sum)],\
+		graphic_sum.plot(years_list[len(years_list)-num_years:len(years_list)],\
+			list_data_sum[len(list_data_sum)-num_years:len(list_data_sum)],\
 			label=product.name_product,color=get_color(index),marker=get_mark(num_product),markersize=8)
 		index += 1
 		num_product += 1
@@ -153,4 +153,4 @@ def create_data_4plot():
 	
 	plt.show()
 
-create_data_4plot()
+create_data_4plot(8)
