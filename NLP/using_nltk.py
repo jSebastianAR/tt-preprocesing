@@ -1,12 +1,39 @@
+"""
+Librerías a instalar
+
+pip install nltk
+pip install inflect
+pip install googletrans
+
+Descargar el tagger para español de la universidad de Standford desde:
+https://nlp.stanford.edu/software/tagger.shtml#Download
+"""
+
 #NLTK
 import nltk
 from nltk.tag import StanfordPOSTagger
+"""
+	Primero se debe descargar el tokenizer punkt y averaged_perceptron_tagger
+
+	1-Se descomentan y ejecuta el script o desde la consola de python pueden ejecutarse(dentro del viertual env deseado)
+	
+	2-Solo se deben ejecutar una vez, después de ello se pueden volver a comentar
+"""
 #nltk.download('punkt')
 #nltk.download('averaged_perceptron_tagger')
 
 #TAGGER IN SPANISH FOR NLTK
-tagger="/home/jsebastian-ar/Descargas/stanford-tagger-4.0.0/models/spanish-ud.tagger"
-jar="/home/jsebastian-ar/Descargas/stanford-tagger-4.0.0/stanford-postagger-4.0.0.jar"
+"""
+	Una vez desgargado el tagger de Standfor se descomprime y se busca el .tagger en español y el .jar
+
+	El .jar se encuentra ubicado normalmente en la carpeta base del archivo descargado
+	El .tagger se encuentra dentro de la carpeta models y debe tener un nombre tipo "spanish.tagger"
+	
+	*Se tienen que cambiar al directorio donde está almacenado el archivo .tagger y .jar si se usa el script en otro equipo*
+"""
+
+tagger="spanish-ud.tagger" 
+jar="stanford-postagger-4.0.0.jar"
 
 #Inflect for plural or singular words
 import inflect
@@ -75,11 +102,8 @@ def translate_word(word,flag):
 	
 	return translator.translate(word,src=fuente,dest=destino).text
 
-
-#sentence = "busca quiero necesitar la buscar de vinos"
-#sentence = "busca los mejores vinos"
+sentence = "busca los mejores vinos"
 #sentence = "hamburguesa"
-#sentence = "quiero unos sopes"
 
 print(f"Frase obtenida: {sentence}")
 result = get_noun(sentence)
