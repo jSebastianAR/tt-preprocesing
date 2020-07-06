@@ -2,8 +2,8 @@
 Librerías a instalar
 
 pip install nltk
-pip install inflect
-pip install googletrans
+pip install inflector
+
 
 Descargar el tagger para español de la universidad de Standford desde:
 https://nlp.stanford.edu/software/tagger.shtml#Download
@@ -35,11 +35,8 @@ from nltk.tag import StanfordPOSTagger
 tagger="spanish-ud.tagger" 
 jar="stanford-postagger-4.0.0.jar"
 
-#Inflect for plural or singular words
-import inflect
-
-#Google translate
-from googletrans import Translator
+#Inflector for plural or singular words
+import inflector
 
 def get_noun(text):
 
@@ -51,6 +48,7 @@ def get_noun(text):
 
 	spanish_postagger = StanfordPOSTagger(tagger,jar)
 	pos_tagged = spanish_postagger.tag(tokenized_text)
+	nouns_list = []
 
 	print(f"Lista: {pos_tagged} len: {len(pos_tagged)}")
 
@@ -61,9 +59,11 @@ def get_noun(text):
 				flag = True #activa la bandera
 
 			if flag == True and tag_tuple[1] == 'NOUN': #busca un sustantivo después de un verbo
+				nouns_list.append(tag_tuple)
+				
 
-				finded_word = tag_tuple[0]
-				break
+		finded_word = nouns_list[len(nouns_list)-1][0]	#Obtiene el último noun
+
 	else:
 		finded_word = pos_tagged[0][0]
 		#print(f"word:{tag_tuple[0]} type:{tag_tuple[1]}")
@@ -73,37 +73,25 @@ def get_noun(text):
 	return result
 
 def isplural(word):
-	ift = inflect.engine()
+	ift = inflector.Spanish() #Instancia la clase que pluraliza y singulariza
 
 	list_patterns = []
 	list_patterns.append(word.lower())
 	
-	flag = ift.singular_noun(translate_word(word,True)) #Traduce de español a ingles para saber si es singular o plural
+	singular_word = ift.singularize(word) #Convierte a singular la palabra recibida
 	
-	if flag is False: #Si flag es falso, es singular
-		plural_word 	= ift.plural(translate_word(word,True)) #Obtiene el plural de la palabra en ingles
-		list_patterns.append(translate_word(plural_word.lower(),False))
+	if singular_word == word: #Si el resultado es el mismo, es singular
+
+		plural_word = ift.pluralize(word) #Obtiene el plural de la palabra en ingles
+		list_patterns.append(plural_word.lower()) #Agrega la palabra en plural
 	else: #Sino es plural
-		singular_word 	= ift.singular_noun(translate_word(word,True)) #Obtiene el singular de la palabra en ingles
-		list_patterns.append(translate_word(singular_word.lower(),False))
+
+		list_patterns.append(singular_word.lower()) #Agrega la palabra en singular
 
 	
 	return list_patterns
 
-def translate_word(word,flag):
-	translator = Translator()
-
-	if flag:
-		fuente 	= 	"es"
-		destino	=	"en" 
-	else:
-		fuente 	= 	"en"
-		destino	=	"es" 
-	
-	return translator.translate(word,src=fuente,dest=destino).text
-
-sentence = "busca los mejores vinos"
-#sentence = "hamburguesa"
+sentence = input("Ingresa la frase de busqueda: ")
 
 print(f"Frase obtenida: {sentence}")
 result = get_noun(sentence)
