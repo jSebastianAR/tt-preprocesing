@@ -9,7 +9,7 @@ class Cliente():
 	def __init__(self):
 
 		self.HOST = '127.0.0.1'
-		self.PORT = 50000
+		self.PORT = 5021
 		self.sckt = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 
 	def do_connection(self):
@@ -28,6 +28,17 @@ class Cliente():
 		msglen = int(tam) #gets the header from the message
 		return msglen
 
+	def sendMessageThread(self):
+
+		tries = 0
+		while True:
+			self.do_connection()
+			tries += 1
+			str_tries = str(tries)
+			final_msg = "Hi im sending you data by "+str_tries+ " time"
+			self.sckt.send(final_msg.encode())
+			self.sckt.close()
+			time.sleep(1.5)
 
 	def sendMessage(self):
 
@@ -60,4 +71,4 @@ class Cliente():
 
 
 client = Cliente()
-client.sendMessage()
+client.sendMessageThread()
