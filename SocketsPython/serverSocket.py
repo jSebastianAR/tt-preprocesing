@@ -25,13 +25,13 @@ class Servidor():
 			print('Waiting for conection')
 			conn, addr = self.sckt.accept()
 			print('Connected by {}'.format(str(addr)))
-			#data = conn.recv(1024) #gets the data from the client
-			#print('Message from client: {}'.format(data))
-
-			full_data = f'The time is: {time.time()}'
-			full_data = f"{len(full_data):<10}"+full_data #adding the header to specify the size of the message
+			data = conn.recv(1024) #gets the data from the client
+			print('Message from client: {}'.format(data))
 			
-			conn.sendall(bytes(full_data,'utf-8'))
+			#full_data = f'The time is: {time.time()}'
+			#full_data = f"{len(full_data):<10}"+full_data #adding the header to specify the size of the message
+			
+			#conn.sendall(bytes(full_data,'utf-8'))
 			conn.close()
 
 

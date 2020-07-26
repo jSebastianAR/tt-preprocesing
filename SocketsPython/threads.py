@@ -1,9 +1,11 @@
 from threading import Thread
 import socket
 import time
+#from clienteSocket import GLOBAL_DATA
+from cliente_socket import GLOBAL_DATA
 
 class listener_thread(Thread):
-	"""docstring for listener_thread"""
+	#docstring for listener_thread
 	def run(self):
 		print(f"Server socket escuchando a GLTerminal")
 		self.listen()
@@ -28,6 +30,7 @@ class listener_thread(Thread):
 					msg = clientsocket.recv(4096)
 					#logger.info('LOG_ID'+ str(currentTransaction)+ ' TRAMA RECIBIDA DE PARTE DE GLTERMINAL: '+str(msg))
 					print(' TRAMA RECIBIDA DE PARTE DE GLTERMINAL: '+str(msg))
+					GLOBAL_DATA = "HELLO WORLD"
 					clientsocket.close()
 				except socket.error as e:
 					err = e.args[0]
@@ -40,7 +43,24 @@ class listener_thread(Thread):
 				else:
 					break
 
-			clientsocket.close()    
+			clientsocket.close()
+			self.send_data(msg)
+
+	def send_data(self,data):
+
+		clientsocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)    
+
+		clientsocket.connect((socket.gethostbyname(socket.gethostname()),50000))
+
+		try:
+			clientsocket.send(data)	
+		except Exception as e:
+			print(f'Exception {e}')
+		finally:
+			clientsocket.close()
+			time.sleep(.5)
+
+
 
 def outThread():
 	i = 0

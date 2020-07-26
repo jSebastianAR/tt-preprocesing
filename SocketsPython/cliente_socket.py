@@ -2,7 +2,10 @@ import socket
 import sys
 import time
 
+
+
 HEADERSIZE = 10
+GLOBAL_DATA = "HOLA MUNDO"
 
 class Cliente():
 
@@ -14,7 +17,7 @@ class Cliente():
 
 	def do_connection(self):
 		self.sckt = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-		self.sckt.connect((self.HOST,self.PORT))	
+		self.sckt.connect((self.HOST,self.PORT))
 
 	@staticmethod	
 	def readHeader(msg):
@@ -36,6 +39,7 @@ class Cliente():
 			tries += 1
 			str_tries = str(tries)
 			final_msg = "Hi im sending you data by "+str_tries+ " time"
+			print(GLOBAL_DATA)
 			self.sckt.send(final_msg.encode())
 			self.sckt.close()
 			time.sleep(1.5)
@@ -68,7 +72,7 @@ class Cliente():
 
 			time.sleep(1.5)		
 		
+def main():
 
-
-client = Cliente()
-client.sendMessageThread()
+	client = Cliente()
+	client.sendMessageThread()
