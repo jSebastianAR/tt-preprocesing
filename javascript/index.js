@@ -131,3 +131,7 @@ prom2.then(data => {
     console.log(data)
 })
 .catch(err => console.log(err));
+
+for (element in list1) {
+    console.log(`Elemento ${element}`);
+}
