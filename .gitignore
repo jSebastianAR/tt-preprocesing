@@ -1,4 +1,3 @@
 /WheaterScript/log.txt
-/javascript/node_crash_course/node_modules
-/javascript/socketio/node_modules/
+**/node_modules/
 
