@@ -2,6 +2,12 @@ import subprocess
 import re
 import json
 
+"""
+Este script es para extraer los datos climaticos de nuestro interes 
+de cada uno de los .txt que obtuvimos de conagua, en este caso
+se obtendrán los datos de precipitacion, tempMax,tempMin y evaporación en el periodo 2008-2018
+"""
+
 def fill_list():
 	return ['2008','2009','2010','2011','2012','2013','2014','2015','2016','2017','2018']
 

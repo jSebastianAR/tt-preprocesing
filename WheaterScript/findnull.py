@@ -1,6 +1,11 @@
 import re
 import subprocess
 
+"""
+Este script permite encontrar todos los nulos que existen en los archivos
+climaticos de algún municipio.
+"""
+
 # https://regex101.com/r/bY2njt/1
 # https://regex101.com/r/bY2njt/3
 

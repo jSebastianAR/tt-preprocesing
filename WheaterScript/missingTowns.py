@@ -1,6 +1,12 @@
 import unidecode
 import subprocess
 
+"""
+Este Script esta diseñado para encontrar los municipios faltantes
+en la lista de todos los municipios que teniamos con datos
+
+"""
+
 def get_all_towns():
 	l = []
 	with open('ListaMunicipiosJalisco.txt','r') as file:
