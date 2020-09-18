@@ -1,41 +1,26 @@
-from math import sin, cos, sqrt, atan2, radians
-import re
+from filechooser import Filechooser
+from towns import get_distances_between_towns
+from towns import build_towns, getValuesTown, getValuesTown
 
-regex_lat = r'LATITUD (.*)'
-regex_lon = r'LONGITUD (.*)'
+dict_months_days = {'01':31,'02':[28,29],'03':31,'04':30,'05':31,'06':30,'07':31,'08':31,'09':30,'10':31,\
+    '11':30,'12':31}
 
-def getDistance (latPointA, lonPointA, latPointB, lonPointB):
+leap_years = ['2008', '2012', '2016']
 
-   radiusOfEarth = 6373.0
+def build_date(day,month,year):
 
-   lat1 = radians(latPointA)
-   lon1 = radians(lonPointA)
-   lat2 = radians(latPointB)
-   lon2 = radians(lonPointB)
+    return day+'/'+month+'/'+year
 
-   dlon = lon2 - lon1
-   dlat = lat2 - lat1
+def main():
+    fc = Filechooser()
+    data_towns = get_distances_between_towns(fc.filechooser())
+    towns_list = build_towns(data_towns)
+    
+    print(towns_list)
+    print(list(map(getValuesTown,towns_list)))
 
-   a = sin(dlat / 2)**2 + cos(lat1) * cos(lat2) * sin(dlon / 2)**2
-   c = 2 * atan2(sqrt(a), sqrt(1 - a))
-
-   distance = radiusOfEarth * c
-
-   return distance
-
-def get_lon_lat(file_path):
-
-    with open(file_path,'r') as file:
-        content = file.read()
-        match_lat = re.findall(regex_lat,content,re.DOTALL)
-        match_lon = re.findall(regex_lon,content,re.DOTALL)
-        
-        lat = get_value(match_lat)
-        lon = get_value(match_lon)
-
-        return [lat,lon]
-
-def get_value(match):
-
-    match_splitted = match.split(' ')[2]
-    return match_splitted[:len(match_splitted)-1]
+    for town in towns_list:
+        town.getContent()
+    
+if __name__ == '__main__':
+    main()
