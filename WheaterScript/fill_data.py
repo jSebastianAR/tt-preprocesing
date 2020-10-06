@@ -17,7 +17,7 @@ def main():
     towns_list = build_towns(data_towns)
     
     print(towns_list)
-    print(list(map(getValuesTown,towns_list)))
+    print(f"Values town: {list(map(getValuesTown,towns_list))}")
 
     for town in towns_list:
         town.getContent()

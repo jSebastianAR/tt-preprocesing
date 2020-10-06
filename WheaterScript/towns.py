@@ -1,4 +1,5 @@
 from math import sin, cos, sqrt, atan2, radians
+import re
 """
 KEYWORDS:
 
@@ -8,6 +9,7 @@ a otras ciudades
 TU: Town to use, se refiere a cada una de las ciudades a usar para llenar los datos faltantes en TF
 """
 
+REGEX_BLANK_SPACES = r'[ ]+'
 
 #Obtiene la distancia entre TF con respecto a las TU
 def get_distances_between_towns(dict_files):
@@ -76,7 +78,7 @@ def build_towns(data_towns):
     return list_towns
 
 def getValuesTown(town):
-    list_values = [town.path,town.lat,town.lon,town.dist,town.name,town.content,]
+    list_values = [town.path,town.lat,town.lon,town.dist,town.name,town.content]
     return list_values
 
 class Towns(object):
@@ -99,9 +101,11 @@ class Towns(object):
     def getContent(self):
         dataList = []
         #Flag que indicará si ya se puede obtener info
-        getDailyData = lambda line: True if ('FECHA' in line) else False 
+        getDailyData = lambda line: True if ('FECHA' in line) else False
+        isLastLine = lambda line: True if('--------------------------------------' in line) else False #Si la última linea es leida 
+        
         #Agregará la línea de datos si la bandera obtenida por getDailyData es true
-        evaluateLine = lambda line,flag: dataList.append(line) if(flag) else False
+        evaluateLine = lambda line,flag: dataList.append(self.clean_line_data(line)) if(flag and not(isLastLine(line))) else False
         getData = False
 
         with open(self.path,'r',encoding = "ISO-8859-1") as file:
@@ -115,3 +119,20 @@ class Towns(object):
         
         self.content = dataList
         print(f'Content for {self.name}: \n\n{self.content}')
+
+    def clean_line_data(self,line):
+
+        r1 = line.split('\n')[0] #Removes the '\n'
+        r2 = re.sub(REGEX_BLANK_SPACES,' ',r1) #Replaces all concatenated blank spaces by just one of them
+        r3 = r2.split(' ')
+        
+        if r3[len(r3)-1] == '':
+            r4 = r3[0:len(r3)-1]
+        else:
+            r4 = r3
+
+        if len(r4)==5:
+            return r4
+        else:
+            raise ValueError(f"La línea {r4} no contiene el formato: [FECHA,PRECIP,EVAP,TMAX,TMIN] despues de la limpieza para archivo {self.name}")
+        
