@@ -1,3 +1,5 @@
 /WheaterScript/log.txt
 **/node_modules/
+**/__pycache__/
+**/.vscode/
 
