@@ -10,6 +10,13 @@ from datetime import datetime
 regex_lat = r'LATITUD[ ]+:(.*)°'
 regex_lon = r'LONGITUD[ ]+:(.*)°'
 
+def refill_date(date):
+
+    date_parts = date.split('/')
+    date_parts[2] = "20"+date_parts[2]
+
+    return '/'.join(date_parts)
+
 def get_value(s,match):
     #print(f'{s}: {match}')
     match_splitted = match.split(' ')
@@ -37,10 +44,10 @@ class Filechooser(object):
 
     def grab_date(self,calendar,label,flag):
         
-        date = calendar.get_date()
+        date = refill_date(calendar.get_date())
         label.config(text=date)
         
-        if flag:
+        if flag:  
             self.date_from = date
         else:
             self.date_to = date

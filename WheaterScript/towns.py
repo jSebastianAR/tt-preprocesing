@@ -1,5 +1,6 @@
 from math import sin, cos, sqrt, atan2, radians
 import re
+from datetime import datetime
 """
 KEYWORDS:
 
@@ -81,6 +82,65 @@ def getValuesTown(town):
     list_values = [town.path,town.lat,town.lon,town.dist,town.name,town.content]
     return list_values
 
+def currentDayOlder_ThanDate(current_date,eval_date):
+
+    print(f'cd:{current_date} ed:{eval_date}')
+    cast_to_int = lambda string: int(string)
+    current_date_int = list(map(cast_to_int,current_date))
+    eval_date_int = list(map(cast_to_int,eval_date))
+
+    date1 = datetime(current_date_int[2],current_date_int[1],current_date_int[0])
+    date2 = datetime(eval_date_int[2],eval_date_int[1],eval_date_int[0])
+
+    #print(f'evaluando cd: {current_date_int} ed: {eval_date_int}')
+    if date1>date2:
+        #print('cd > ed')
+        return True
+    elif date1==date2:
+        #print('cd == ed')
+        return 'This'
+    else:
+        #print('cd < ed')
+        return False
+    
+def find_index_forDate(init_date,final_date,content):
+    
+    index_date = {}
+    init_founded = False
+    final_founded = False
+
+    get_index_lambda = lambda index: 0 if (index==-1) else (index)
+
+    for data_line in content:
+        #print(data_line[0])
+        bool_init_date = currentDayOlder_ThanDate(data_line[0].split('/'),init_date.split('/'))
+        bool_final_date = currentDayOlder_ThanDate(data_line[0].split('/'),final_date.split('/'))
+
+        #Si current_date>eval_date
+        
+        if bool_init_date == True and init_founded==False:
+            index_date['init_date_index'] = get_index_lambda(content.index(data_line)-1) #retorna el indice del elemento anterior
+            init_founded = True
+        #Si current_date==eval_date
+        elif bool_init_date == 'This' and init_founded==False:
+            index_date['init_date_index'] = content.index(data_line) #retorna el indice del elemento actual
+            init_founded = True
+
+        if bool_final_date == True and final_founded==False:
+            index_date['final_date_index'] = get_index_lambda(content.index(data_line)-1) #retorna el indice del elemento anterior
+            #print(f'====================={index_date}=====================')
+            final_founded = True
+            break
+        elif bool_final_date == 'This' and final_founded==False:
+            index_date['final_date_index'] = content.index(data_line) #retorna el indice del elemento actual
+            #print(f'====================={index_date}=====================')
+            final_founded = True
+            break
+        
+
+    print(f'Dates founded!!!: \n{content[index_date["init_date_index"]]}:{content[index_date["final_date_index"]]}')
+    return index_date
+
 class Towns(object):
     
     #Constructor
@@ -118,7 +178,7 @@ class Towns(object):
                     getData = True
         
         self.content = dataList
-        print(f'Content for {self.name}: \n\n{self.content}')
+        #print(f'Content for {self.name}: \n\n{self.content}')
 
     def clean_line_data(self,line):
 
