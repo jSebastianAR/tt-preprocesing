@@ -2,10 +2,6 @@ from filechooser import Filechooser
 from towns import get_distances_between_towns
 from towns import build_towns, getValuesTown
 
-dict_months_days = {'01':31,'02':[28,29],'03':31,'04':30,'05':31,'06':30,'07':31,'08':31,'09':30,'10':31,\
-    '11':30,'12':31}
-
-leap_years = ['2008', '2012', '2016']
 
 def build_date(day,month,year):
 

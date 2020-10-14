@@ -1,6 +1,6 @@
 from math import sin, cos, sqrt, atan2, radians
 import re
-from datetime import datetime
+from dates import currentDayOlder_ThanDate
 """
 KEYWORDS:
 
@@ -82,27 +82,6 @@ def getValuesTown(town):
     list_values = [town.path,town.lat,town.lon,town.dist,town.name,town.content]
     return list_values
 
-def currentDayOlder_ThanDate(current_date,eval_date):
-
-    print(f'cd:{current_date} ed:{eval_date}')
-    cast_to_int = lambda string: int(string)
-    current_date_int = list(map(cast_to_int,current_date))
-    eval_date_int = list(map(cast_to_int,eval_date))
-
-    date1 = datetime(current_date_int[2],current_date_int[1],current_date_int[0])
-    date2 = datetime(eval_date_int[2],eval_date_int[1],eval_date_int[0])
-
-    #print(f'evaluando cd: {current_date_int} ed: {eval_date_int}')
-    if date1>date2:
-        #print('cd > ed')
-        return True
-    elif date1==date2:
-        #print('cd == ed')
-        return 'This'
-    else:
-        #print('cd < ed')
-        return False
-
 class Towns(object):
     
     #Constructor
@@ -174,7 +153,6 @@ class Towns(object):
             bool_final_date = currentDayOlder_ThanDate(data_line[0].split('/'),final_date.split('/'))
 
             #Si current_date>eval_date
-            
             if bool_init_date == True and init_founded==False:
                 self.index_date['init_date_index'] = get_index_lambda(self.content.index(data_line)-1) #retorna el indice del elemento anterior
                 init_founded = True

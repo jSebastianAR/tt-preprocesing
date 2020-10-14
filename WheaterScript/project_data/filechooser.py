@@ -116,8 +116,8 @@ class Filechooser(object):
         #Select files
         root = Tk()
         root.withdraw() # we don't want a full GUI, so keep the root window from appearing
-        filename_tofill = askopenfilename(initialdir='./CleanedData', title='Seleccione archivo a llenar información') # show an "Open" dialog box and return the path to the selected file
-        files_touse = list(askopenfilenames(initialdir='./CleanedData', title='Seleccione archivos a a usar para llenar información')) # show an "Open" dialog box and return the path to the selected file
+        filename_tofill = askopenfilename(initialdir='../CleanedData', title='Seleccione archivo a llenar información') # show an "Open" dialog box and return the path to the selected file
+        files_touse = list(askopenfilenames(initialdir='../CleanedData', title='Seleccione archivos a a usar para llenar información')) # show an "Open" dialog box and return the path to the selected file
 
         #Get Lat and Lon of each town
         
