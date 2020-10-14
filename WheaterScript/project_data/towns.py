@@ -1,6 +1,8 @@
 from math import sin, cos, sqrt, atan2, radians
+import dates as dt
 import re
-from dates import currentDayOlder_ThanDate
+#from dates import currentDayOlder_ThanDate
+
 """
 KEYWORDS:
 
@@ -139,6 +141,33 @@ class Towns(object):
             raise ValueError(f"La línea {r4} no contiene el formato: [FECHA,PRECIP,EVAP,TMAX,TMIN] despues de la limpieza para archivo {self.name}")
     
     #Encuentra los index en el array de contenido lo que permite saber entre qué valores se estara llenando el array
+    def find_index_forDate_nindex(self,init_date,final_date):
+    
+        self.index_date = {}
+        current_date_dt = dt.string2datetime(init_date)
+        final_date_dt = dt.string2datetime(final_date)
+
+        while (current_date_dt <= final_date_dt):
+            
+            current_date_str = dt.datetime2string(current_date_dt)
+            for data_line in self.content:
+
+                bool_date = dt.currentDayOlder_ThanDate(data_line[0].split('/'), current_date_str.split('/'))
+
+                #current_day > data_line[0] la fecha buscada no está
+                if bool_date == True:
+                    self.index_date[current_date_str] = None
+                    break
+                #Ha encontrado la fecha
+                elif bool_date == 'This':
+                    self.index_date[current_date_str] = self.content.index(data_line)
+                    break
+                
+
+            current_date_dt = dt.addDay2Date(current_date_dt)
+        print(self.index_date)
+    
+    #Encuentra los index en el array de contenido lo que permite saber entre qué valores se estara llenando el array
     def find_index_forDate(self,init_date,final_date):
     
         self.index_date = {}
@@ -149,8 +178,8 @@ class Towns(object):
 
         for data_line in self.content:
             #print(data_line[0])
-            bool_init_date = currentDayOlder_ThanDate(data_line[0].split('/'),init_date.split('/'))
-            bool_final_date = currentDayOlder_ThanDate(data_line[0].split('/'),final_date.split('/'))
+            bool_init_date = dt.currentDayOlder_ThanDate(data_line[0].split('/'),init_date.split('/'))
+            bool_final_date = dt.currentDayOlder_ThanDate(data_line[0].split('/'),final_date.split('/'))
 
             #Si current_date>eval_date
             if bool_init_date == True and init_founded==False:
