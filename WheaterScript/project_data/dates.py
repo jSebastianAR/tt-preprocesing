@@ -3,6 +3,21 @@ Este archivo contendrá todas las operaciones necesarias a realizar con fechas
 """
 from datetime import datetime, timedelta
 
+def generate_date_list(start_date, final_date):
+
+    current_date_dt = string2datetime(start_date)
+    final_date_dt = string2datetime(final_date)
+
+    list_dates_str = []
+    
+    while(current_date_dt <= final_date_dt):
+
+        list_dates_str.append(datetime2string(current_date_dt))
+        current_date_dt = addDay2Date(current_date_dt)
+
+    print(list_dates_str)
+    return list_dates_str
+
 def subsDay2Date(date):
     adder = timedelta(days=1) #La variable permitira agregar un día a la fecha
     prev_date = date - adder #resta un día mas
@@ -58,3 +73,7 @@ def currentDayOlder_ThanDate(current_date,eval_date):
         #print('cd < ed')
         return False
 
+
+if __name__ == '__main__':
+
+    generate_date_list('01/01/2008','31/03/2008')
