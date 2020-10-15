@@ -3,6 +3,12 @@ Este archivo contendrá todas las operaciones necesarias a realizar con fechas
 """
 from datetime import datetime, timedelta
 
+def subsDay2Date(date):
+    adder = timedelta(days=1) #La variable permitira agregar un día a la fecha
+    prev_date = date - adder #resta un día mas
+
+    return prev_date
+
 def addDay2Date(date):
     adder = timedelta(days=1) #La variable permitira agregar un día a la fecha
     next_date = date + adder #aumenta un día mas

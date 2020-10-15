@@ -149,12 +149,21 @@ class Towns(object):
 
         while (current_date_dt <= final_date_dt):
             
-            current_date_str = dt.datetime2string(current_date_dt)
-            for data_line in self.content:
+            current_date_str = dt.datetime2string(current_date_dt) #Convierte la fecha actual a str
+
+            #Calcula la fecha de un día anterior
+            prev_current_date_str = dt.datetime2string(dt.subsDay2Date(current_date_dt)) 
+            #Si la fecha anterior tiene un indice que no es None
+            if self.index_date.get(prev_current_date_str) != None:
+                start_index = self.index_date[prev_current_date_str] #Obtiene el indice de busqueda para reducir tiempo
+            else:
+                start_index = 0 #busca desde el inicio
+            print(start_index,prev_current_date_str)
+            for data_line in self.content[start_index:]:
 
                 bool_date = dt.currentDayOlder_ThanDate(data_line[0].split('/'), current_date_str.split('/'))
 
-                #current_day > data_line[0] la fecha buscada no está
+                #data_line[0] > current_day,  la fecha buscada no está
                 if bool_date == True:
                     self.index_date[current_date_str] = None
                     break
