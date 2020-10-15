@@ -21,7 +21,7 @@ def main():
     for town in towns_list:
         print(f'Town: {town.name}')
         town.getContent()
-        town.find_index_forDate_nindex(dates['from'],dates['to'])
+        town.find_indexes_for_dates(dates['from'],dates['to'])
 
     
 if __name__ == '__main__':

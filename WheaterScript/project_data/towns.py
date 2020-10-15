@@ -141,7 +141,7 @@ class Towns(object):
             raise ValueError(f"La línea {r4} no contiene el formato: [FECHA,PRECIP,EVAP,TMAX,TMIN] despues de la limpieza para archivo {self.name}")
     
     #Encuentra los index en el array de contenido lo que permite saber entre qué valores se estara llenando el array
-    def find_index_forDate_nindex(self,init_date,final_date):
+    def find_indexes_for_dates(self,init_date,final_date):
     
         self.index_date = {}
         current_date_dt = dt.string2datetime(init_date)
@@ -167,41 +167,3 @@ class Towns(object):
             current_date_dt = dt.addDay2Date(current_date_dt)
         print(self.index_date)
     
-    #Encuentra los index en el array de contenido lo que permite saber entre qué valores se estara llenando el array
-    def find_index_forDate(self,init_date,final_date):
-    
-        self.index_date = {}
-        init_founded = False
-        final_founded = False
-
-        get_index_lambda = lambda index: 0 if (index==-1) else (index)
-
-        for data_line in self.content:
-            #print(data_line[0])
-            bool_init_date = dt.currentDayOlder_ThanDate(data_line[0].split('/'),init_date.split('/'))
-            bool_final_date = dt.currentDayOlder_ThanDate(data_line[0].split('/'),final_date.split('/'))
-
-            #Si current_date>eval_date
-            if bool_init_date == True and init_founded==False:
-                self.index_date['init_date_index'] = get_index_lambda(self.content.index(data_line)-1) #retorna el indice del elemento anterior
-                init_founded = True
-            #Si current_date==eval_date
-            elif bool_init_date == 'This' and init_founded==False:
-                self.index_date['init_date_index'] = self.content.index(data_line) #retorna el indice del elemento actual
-                init_founded = True
-
-            if bool_final_date == True and final_founded==False:
-                self.index_date['final_date_index'] = get_index_lambda(self.content.index(data_line)-1) #retorna el indice del elemento anterior
-                #print(f'====================={self.index_date}=====================')
-                final_founded = True
-                break
-            elif bool_final_date == 'This' and final_founded==False:
-                self.index_date['final_date_index'] = self.content.index(data_line) #retorna el indice del elemento actual
-                #print(f'====================={self.index_date}=====================')
-                final_founded = True
-                break
-            
-
-        print(f'Dates founded!!!: \n{self.content[self.index_date["init_date_index"]]}:{self.content[self.index_date["final_date_index"]]}')
-        
-        return self.index_date

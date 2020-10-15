@@ -3,17 +3,6 @@ Este archivo contendrá todas las operaciones necesarias a realizar con fechas
 """
 from datetime import datetime, timedelta
 
-dict_months_days = {'01':31,'02':[28,29],'03':31,'04':30,'05':31,'06':30,'07':31,'08':31,'09':30,'10':31,\
-    '11':30,'12':31}
-
-leap_years = ['2008', '2012', '2016']
-
-def subsDay2Date(date):
-    adder = timedelta(days=1) #La variable permitira agregar un día a la fecha
-    prev_date = date - adder #aumenta un día mas
-
-    return prev_date
-
 def addDay2Date(date):
     adder = timedelta(days=1) #La variable permitira agregar un día a la fecha
     next_date = date + adder #aumenta un día mas
