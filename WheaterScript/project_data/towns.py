@@ -20,11 +20,11 @@ def get_distances_between_towns(dict_files):
     getDistances_lambda = lambda towntouse: getDistance(dict_files['tofill'][1],dict_files['tofill'][2],towntouse[1],towntouse[2]) #Distancia entre la TF a llenar datos y una TU
     all_distances = list(map(getDistances_lambda,dict_files['touse'])) #Mapea todas las ciudades a usar para el llenado y calcula las distancias
     
-    print(all_distances)
+    #print(all_distances)
     appendNewDistance_lambda = lambda current_list,index: current_list.append(all_distances[index]) #Agrega las distancias que tiene cada TU con TF
     [appendNewDistance_lambda(townlist,dict_files['touse'].index(townlist)) for townlist in dict_files['touse']]
     
-    print(f'final data: {dict_files}')
+    #print(f'final data: {dict_files}')
 
     return dict_files
 
@@ -158,13 +158,14 @@ class Towns(object):
                 start_index = self.index_date[prev_current_date_str] #Obtiene el indice de busqueda para reducir tiempo
             else:
                 start_index = 0 #busca desde el inicio
-            print(start_index,prev_current_date_str)
+            #print(start_index,prev_current_date_str)
             for data_line in self.content[start_index:]:
 
                 bool_date = dt.currentDayOlder_ThanDate(data_line[0].split('/'), current_date_str.split('/'))
 
                 #data_line[0] > current_day,  la fecha buscada no está
-                if bool_date == True:
+                # or Si se ha llegado al final del archivo y no se encontro la fecha
+                if (bool_date == True) or (self.content.index(data_line) == len(self.content) -1):
                     self.index_date[current_date_str] = None
                     break
                 #Ha encontrado la fecha
@@ -172,7 +173,6 @@ class Towns(object):
                     self.index_date[current_date_str] = self.content.index(data_line)
                     break
                 
-
             current_date_dt = dt.addDay2Date(current_date_dt)
         print(self.index_date)
     

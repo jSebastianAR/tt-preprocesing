@@ -15,7 +15,7 @@ def generate_date_list(start_date, final_date):
         list_dates_str.append(datetime2string(current_date_dt))
         current_date_dt = addDay2Date(current_date_dt)
 
-    print(list_dates_str)
+    print(f'\nDates for search: {list_dates_str}')
     return list_dates_str
 
 def subsDay2Date(date):
@@ -54,7 +54,7 @@ def string2datetime(current_date):
 
 def currentDayOlder_ThanDate(current_date,eval_date):
 
-    print(f'cd:{current_date} ed:{eval_date}')
+    #print(f'cd:{current_date} ed:{eval_date}')
     cast_to_int = lambda string: int(string)
     current_date_int = list(map(cast_to_int,current_date))
     eval_date_int = list(map(cast_to_int,eval_date))
