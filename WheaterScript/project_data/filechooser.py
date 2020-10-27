@@ -1,10 +1,10 @@
 import re
-import tkinter as tk
+#import tkinter as tk
 from tkinter import Tk     # from tkinter import Tk for Python 3.x
 from tkinter.filedialog import askopenfilename #Filechooser for one file
 from tkinter.filedialog import askopenfilenames #Filechooser for multiple files
-from tkcalendar import Calendar, DateEntry
-from tkinter import Label, Button
+from tkcalendar import Calendar
+from tkinter import Label, Button, Checkbutton, IntVar
 from datetime import datetime
 
 regex_lat = r'LATITUD[ ]+:(.*)°'
@@ -41,6 +41,7 @@ class Filechooser(object):
     def __init__(self, *args, **kwargs):
         self.date_from = None
         self.date_to = None
+        self.testing = False #Por default no iniciará en modo testing
 
     def grab_date(self,calendar,label,flag):
         
@@ -52,6 +53,12 @@ class Filechooser(object):
         else:
             self.date_to = date
 
+    def grab_testing_var(self,var):
+        if var == 1:
+            self.testing = True
+        else:
+            self.testing = False
+        print(self.testing)
     def calendar(self):
         
         
@@ -91,7 +98,12 @@ class Filechooser(object):
 
         my_button_to = Button(root,text='Final date', command=grab_date_to_lambda)
         my_button_to.pack(pady=20)
-
+        #Checkbox para testing 
+        testing = IntVar()
+        grab_testing_var_lambda = lambda : self.grab_testing_var(testing.get())
+        checkbox_testing = Checkbutton(root, text="Testing?", variable=testing, onvalue=1, offvalue=0, command = grab_testing_var_lambda)
+        checkbox_testing.pack()
+        #Boton de termino
         the_button = Button(root,text='Finish', command = root.destroy)
         the_button.pack()
         root.mainloop()
@@ -134,8 +146,8 @@ if __name__ == '__main__':
 
     chooser = Filechooser()
     
-    result = chooser.filechooser()
-    print(result)
+    #result = chooser.filechooser()
+    #print(result)
     
     dates = chooser.calendar()
     print(dates)

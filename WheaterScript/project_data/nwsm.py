@@ -25,7 +25,7 @@ i-esima estación a ser usada.
 
 from datetime import datetime
 
-def do_refill_data(towns_list, dates_list):
+def do_refill_data(towns_list, dates_list,testing):
 
     town_tf = towns_list[0] #Toma la TF ubicada en la primer posicion
     towns_tu = towns_list[1:] #Toma el resto de towns
@@ -42,21 +42,27 @@ def do_refill_data(towns_list, dates_list):
                 line_tf = town_tf.content[index_for_tf]
                 nulls_index_list = check_line_in_town_tofill(line_tf)
                 
+                if testing:
+                    nulls_index_list = [1,2,3,4]
+
                 new_data_for_line = refill_data(nulls_index_list,data_date,filtered_towns_tu)
                 
-                final_line = build_list_format_data(new_data_for_line,line_tf,nulls_index_list,data_date)
+                final_line = build_list_format_data(new_data_for_line,line_tf,nulls_index_list,data_date,testing)
                 
                 print(f'Result for date {data_date} data: {final_line} old_data: {line_tf}')
             else:
                 
                 new_data_for_line = refill_data([1,2,3,4],data_date,filtered_towns_tu)
 
-                final_line =  build_list_format_data(new_data_for_line,[],[1,2,3,4],data_date)
+                final_line =  build_list_format_data(new_data_for_line,[],[1,2,3,4],data_date,testing)
 
                 print(f'Result for date {data_date} data: {final_line} old_data: {[]}')
 
 def refill_data(nulls_index_list, data_date, filtered_towns_tu):
 
+    """test = True
+    if test:
+        nulls_index_list = [1,2,3,4]"""
     new_data = []
     for null_index in nulls_index_list:
         data_for_param = [[town.content[town.index_date[data_date]][null_index], town.dist] for town in filtered_towns_tu \
@@ -67,7 +73,7 @@ def refill_data(nulls_index_list, data_date, filtered_towns_tu):
             new_data.append(nwsm(data_for_param))
         else:
             new_data.append('#Nulo')
-
+    print(f'new_data:{new_data}')
     return new_data
 
 def nwsm(params):
@@ -89,15 +95,16 @@ def nwsm(params):
 
     dividendo = 0
     divisor = 0
-    print(f'Ejecutando nwsm para: {params}')
+    #print(f'Ejecutando nwsm para: {params}')
     for param in params:
         w = get_w_value_lambda(float(param[1])) #Obtiene el valor Wi
-        print(f'w: {w}')
+        #print(f'w: {w}')
         dividendo += float(param[0]) * w   #E(Vi * Wi)
         divisor += w # E(Wi)
-        print(f'dividendo: {dividendo} divisor: {divisor}')
+        #print(f'dividendo: {dividendo} divisor: {divisor}')
 
-    print(f'dividendo/divisor: {dividendo/divisor}')
+    #print(f'dividendo: {dividendo} divisor: {divisor}')
+    #Sprint(f'dividendo/divisor: {dividendo/divisor}\n')
     return round(dividendo/divisor,1)
 
 def clean_line(line):
@@ -112,9 +119,14 @@ def clean_line(line):
             
     return line
 
-def build_list_format_data(new_data,old_data,index_list,date):
-
+def build_list_format_data(new_data,old_data,index_list,date,testing):
+    
     #Si la línea a llenar no tiene la fecha
+    if testing:
+        new_data.insert(0,date)
+        #print(f'buey2 {new_data} date2: {date} typedate: {type(date)}')
+        return new_data
+
     if len(old_data) == 0:
         cleaned_data = [date]
     else:

@@ -24,8 +24,8 @@ def main():
         print(f'Getting content for Town: {town.name}...')
         town.getContent()
         town.find_indexes_for_dates(dates['from'],dates['to'])
-        time.sleep(3)
+        time.sleep(.5)
 
-    do_refill_data(towns_list, dt.generate_date_list(dates['from'],dates['to']))
+    do_refill_data(towns_list, dt.generate_date_list(dates['from'],dates['to']),fc.testing)
 if __name__ == '__main__':
     main()
