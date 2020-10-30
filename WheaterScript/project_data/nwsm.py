@@ -29,7 +29,7 @@ def do_refill_data(towns_list, dates_list,testing):
 
     town_tf = towns_list[0] #Toma la TF ubicada en la primer posicion
     towns_tu = towns_list[1:] #Toma el resto de towns
-
+    Filled_data_list = []
     for data_date in dates_list:
         
         filtered_towns_tu = check_line_in_towns_touse(towns_tu,data_date)
@@ -39,30 +39,36 @@ def do_refill_data(towns_list, dates_list,testing):
             index_for_tf = town_tf.index_date[data_date]
             #Si la fecha se encuentra en el índice
             if index_for_tf != None:
+                #Obtiene la linea de datos a la que serán sustituidos los nulos
                 line_tf = town_tf.content[index_for_tf]
-                nulls_index_list = check_line_in_town_tofill(line_tf)
-                
+                #Si la flag es para testing
                 if testing:
                     nulls_index_list = [1,2,3,4]
-
-                new_data_for_line = refill_data(nulls_index_list,data_date,filtered_towns_tu)
-                
-                final_line = build_list_format_data(new_data_for_line,line_tf,nulls_index_list,data_date,testing)
-                
+                else:
+                    #Obtiene la lista de indices de datos nulos de la linea de datos a llenar
+                    nulls_index_list = check_line_in_town_tofill(line_tf)        
+                #Si la lista de nulos no esta vacia
+                if len(nulls_index_list) > 0:
+                    #Llena los datos
+                    new_data_for_line = refill_data(nulls_index_list,data_date,filtered_towns_tu)
+                    #Obtiene el formato final de la linea de datos(con fecha incluida)
+                    final_line = build_list_format_data(new_data_for_line,line_tf,nulls_index_list,data_date,testing)
+                else:
+                    #No hay nulos, por lo tanto la linea se pasa como tal                    
+                    final_line = line_tf
                 print(f'Result for date {data_date} data: {final_line} old_data: {line_tf}')
             else:
-                
+                #Todos son nulos, se pasa el array completo de posiciones nulas
                 new_data_for_line = refill_data([1,2,3,4],data_date,filtered_towns_tu)
 
                 final_line =  build_list_format_data(new_data_for_line,[],[1,2,3,4],data_date,testing)
 
                 print(f'Result for date {data_date} data: {final_line} old_data: {[]}')
+        Filled_data_list.append(final_line)
+    return final_line
 
 def refill_data(nulls_index_list, data_date, filtered_towns_tu):
 
-    """test = True
-    if test:
-        nulls_index_list = [1,2,3,4]"""
     new_data = []
     for null_index in nulls_index_list:
         data_for_param = [[town.content[town.index_date[data_date]][null_index], town.dist] for town in filtered_towns_tu \
@@ -73,7 +79,7 @@ def refill_data(nulls_index_list, data_date, filtered_towns_tu):
             new_data.append(nwsm(data_for_param))
         else:
             new_data.append('#Nulo')
-    print(f'new_data:{new_data}')
+    #print(f'new_data:{new_data}')
     return new_data
 
 def nwsm(params):
