@@ -11,15 +11,14 @@ data_before_refill = [{'Path': '../CleanedData/14002-ACATLAN DE JUAREZ.txt', 'Na
 def graph_global_nulls(data_dict):
 
     pct_list, names_list = data_for_graph_null(data_dict)
-
     # Wedge properties 
     wp = { 'linewidth' : 1, 'edgecolor' : "black" } 
 
     # Creating autocpt arguments 
     def func(pct, allvalues): 
-        #absolute = int(pct / 100.*np.sum(allvalues)) 
-        #return "{:.1f}%".format(pct)
-        return ''
+        #absolute = int(pct / 100.*np.sum(allvalues))
+        return "{:.1f}%".format(pct)
+        
 
     # Creating explode data 
     #explode = tuple([0.3 for x in range(0,134)])
@@ -37,7 +36,7 @@ def graph_global_nulls(data_dict):
     
     # Adding legend 
     ax.legend(wedges, ['Grupo 1', 'Grupo 2', 'Grupo 3', 'Grupo 4'], 
-            title ="Towns", 
+            title ="Grupos", 
             loc ="center left", 
             bbox_to_anchor =(1, 0, 0.5, 1)) 
     
@@ -50,36 +49,69 @@ def group_data(global_nulls_percentage_list, names_towns):
     group2 = {'pct': 0, 'towns':[]}
     group3 = {'pct': 0, 'towns':[]}
     group4 = {'pct': 0, 'towns':[]}
-
+    list_groups = []
+    list_towns = []
     index = 0
+    #Por cada porcentaje
     for pct in global_nulls_percentage_list:
+        #Grupo 1 pertenece a las ciudades que aportan entre 0-0.5 porciento de nulos totales
         if pct <= 0.5:
             group1['pct'] += pct
             group1['towns'].append(names_towns[index])
+        #Grupo 2 pertenece a las ciudades que aportan entre 0.5-1.0 porciento de nulos totales
         elif pct > 0.5 and pct <= 1:
             group2['pct'] += pct
             group2['towns'].append(names_towns[index])
+        #Grupo 3 pertenece a las ciudades que aportan entre 1.0-2.0 porciento de nulos totales
         elif pct > 1 and pct <= 2:
             group3['pct'] += pct
             group3['towns'].append(names_towns[index])
+        #Grupo 4 pertenece a las ciudades que aportan entre 2.0-3.0 porciento de nulos totales
         elif pct > 2 and pct <= 3:
             group4['pct'] += pct
             group4['towns'].append(names_towns[index])
         index += 1
 
-    return np.array([round(group1['pct'],2), round(group2['pct'],2), round(group3['pct'],2), round(group4['pct'],2)]), [group1['towns'], group2['towns'], group3['towns'], group4['towns']]
+    #Si el porcentaje de nulos en el grupo 1 tuvo porcentaje mayor a cero
+    if group1['pct']>0:
+        list_groups.append(round(group1['pct'],2))
+        list_towns.append(group1['towns'])
+    #Si el porcentaje de nulos en el grupo 2 tuvo porcentaje mayor a cero
+    if group2['pct']>0:
+        list_groups.append(round(group2['pct'],2))
+        list_towns.append(group2['towns'])
+    #Si el porcentaje de nulos en el grupo 3 tuvo porcentaje mayor a cero
+    if group3['pct']>0:
+        list_groups.append(round(group3['pct'],2))
+        list_towns.append(group3['towns'])
+    #Si el porcentaje de nulos en el grupo 4 tuvo porcentaje mayor a cero
+    if group4['pct']>0:
+        list_groups.append(round(group4['pct'],2))
+        list_towns.append(group4['towns'])
+
+    print(f'LENS   G1: {len(group1["towns"])} G2: {len(group2["towns"])} G3: {len(group3["towns"])} G4: {len(group4["towns"])}')
+    return np.array(list_groups), list_towns
 
 def data_for_graph_null(list_data):
 
+    #Ordena los diccionarios de las ciudades de mayor a menor porcentaje global de nulos que aportan
     ordered_data = sorted(list_data, key=itemgetter('Porcentaje_global_nulos'), reverse=True)
+    #Obtiene la lista de porcentajes globales de cada ciudad
     global_nulls_percentage_list = np.array([dict_file['Porcentaje_global_nulos'] for dict_file in ordered_data])
+    #Obtiene la lista de nombres de cada ciudad
     names_towns = np.array([dict_file['Name'] for dict_file in ordered_data])
+    #Agrupa los datos de las ciudades hasta en 4 posibles grupos
     grouped_data, grouped_towns = group_data(global_nulls_percentage_list,names_towns)
-    print(global_nulls_percentage_list)
-    print(grouped_data)
-    print(names_towns)
-    print(grouped_towns)
-    return grouped_data, names_towns
+    return grouped_data, grouped_towns
+
+def get_sample_group(names_list,num_groups):
+
+    final_list = []
+    num_of_samples = 36/num_groups
+    for group in names_list:
+        final_list += [group[i] for i in range(0,num_of_samples)]
+    print(final_list)
+    return final_list
 
 if __name__ == '__main__':
     #pie_graph_null(data)
