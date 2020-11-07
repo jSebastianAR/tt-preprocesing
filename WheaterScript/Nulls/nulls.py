@@ -1,6 +1,7 @@
 import subprocess
 from dates import generate_date_list
 import re
+from graphics import graph_global_nulls
 
 REGEX_BLANK_SPACES = r'[ ]+'
 REGEX_DATES = r'[\d]{2}\/[\d]{2}\/[\d]{4}'
@@ -41,6 +42,8 @@ def Evaluate_Towns():
 		txt['Porcentaje_global_nulos'] = round(get_global_percentage(txt['Total_nulos']),2)
 		#write_file(info_to_write(txt))
 	print(RESULTS_FOR_FILE_LIST)
+	return RESULTS_FOR_FILE_LIST
+
 #Obtendrá cada uno de los datos del archivo de cada town
 def find_nulls(text,txt):
 
@@ -200,4 +203,5 @@ if __name__ == '__main__':
 	"""
 	#print(f'LIST_DAYS: {len(LIST_DAYS)}')
 	#delete_file()
-	Evaluate_Towns()
+	result_towns = Evaluate_Towns()
+	graph_global_nulls(result_towns)
