@@ -64,8 +64,21 @@ def do_refill_data(towns_list, dates_list,testing):
                 final_line =  build_list_format_data(new_data_for_line,[],[1,2,3,4],data_date,testing)
 
                 print(f'Result for date {data_date} data: {final_line} old_data: {[]}')
+        #Si no se puede calcular porque faltan TU's
+        else:
+            #Busca la linea de datos
+            index_for_tf = town_tf.index_date[data_date]
+            #Si la fecha se encuentra en el índice
+            if index_for_tf != None:
+                #Si la encuentra entonces la guarda como tal
+                final_line = town_tf.content[index_for_tf]
+            else:
+                #Sino la crea y pone todos nulos
+                final_line = [data_date,'Nulo','Nulo','Nulo','Nulo']
+            
+        #Guarda la linea de datos
         Filled_data_list.append(final_line)
-    return final_line
+    return Filled_data_list
 
 def refill_data(nulls_index_list, data_date, filtered_towns_tu):
 
