@@ -8,7 +8,7 @@ class Writer(object):
 
     def generate_path(self):
         parts = self.path_origin_file.split('/')
-        new_path = '../FilledData/'+parts[2]
+        new_path = '../FilledData/'+parts[len(parts)-1]
         return new_path
 
     def get_header_data(self):
@@ -20,8 +20,6 @@ class Writer(object):
                 #print(line)
                 if FINAL_LINE_HEADER in line:
                     break
-        
-        print(self.header)
 
     def write_file(self,info):
         with open(self.path_file,'a+', encoding = "ISO-8859-1") as file:
@@ -29,18 +27,24 @@ class Writer(object):
 
     def newFile(self,content):
 
+        self.get_header_data()
         #Writing header info
         for line in self.header:
             self.write_file(line)
 
         #Writing all wheater data
-        
-        for line in content:
-            self.write_file(line)
+        for line_list in content:
+            str_line_list = self.cast2string(line_list)
+            str_line = '    '.join(str_line_list)
+            self.write_file(str_line + '\n')
+
+    def cast2string(self,line):
+        cast_str_lambda = lambda element: str(element)
+        str_line = list(map(cast_str_lambda,line))
+        return str_line
 
 if __name__ == '__main__':
 
     wtr = Writer('../CleanedData/14002-ACATLAN DE JUAREZ.txt')
-    wtr.get_header_data()
     wtr.newFile(['Nomanches\n','ese\n','buey\n'])
     
