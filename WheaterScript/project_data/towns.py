@@ -1,7 +1,6 @@
 from math import sin, cos, sqrt, atan2, radians
 import dates as dt
 import re
-#from dates import currentDayOlder_ThanDate
 
 """
 KEYWORDS:
@@ -95,6 +94,7 @@ class Towns(object):
         self.content = []
         self.name = self.getNameTown(path)
         self.index_date = {}
+        self.boundaries_indexes = {'first': None, 'last': None} #Guarda el primer y último indice donde se ubican los datos a llenar
 
     #Obtiene el nombre respecto al path
     def getNameTown(self,path):
@@ -171,8 +171,79 @@ class Towns(object):
                 #Ha encontrado la fecha
                 elif bool_date == 'This':
                     self.index_date[current_date_str] = self.content.index(data_line)
+                        
+                    #Si aun no se ha guardado el primer indice válido de fechas
+                    if self.boundaries_indexes['first'] == None:
+                        #Guarda el indice
+                        self.boundaries_indexes['first'] = self.index_date[current_date_str]
                     break
-                
+                    
             current_date_dt = dt.addDay2Date(current_date_dt)
+        
+            #Obtiene el indice donde se debe poner el último elemento
+        if self.boundaries_indexes['first'] != None:
+            self.boundaries_indexes['last'] = self.boundaries_indexes['first'] + len(self.index_date) - 1
         print(self.index_date)
-    
+
+    def get_start_index(self,init_date):
+        """
+        current_date_dt = dt.subsDay2Date(dt.string2datetime(init_date))
+        current_date_str = dt.datetime2string(current_date_dt)
+        for key in self.index_date:
+            if self.index_date[current_date_str] != None:
+                self.boundaries_indexes['first'] = self.index_date[current_date_str]
+                return
+            else:
+                current_date_dt = dt.subsDay2Date(current_date_dt)
+                current_date_str = dt.datetime2string(current_date_dt)
+        """
+        #Si no encontro ningún indice(en el caso de que no exista ninguna fecha)
+        current_date_dt = dt.subsDay2Date(dt.string2datetime(init_date))
+        current_date_str = dt.datetime2string(current_date_dt)
+        flag = False
+        print(f'content: {self.content}')
+        if self.boundaries_indexes['first'] == None:
+            #Mientras el indice de la fecha de inicio para insertar los nuevos datos siga siendo None
+            # o se llegué a la primer fecha que debe tener un archivo
+            while (self.boundaries_indexes['first']== None or current_date_str != '01/01/2008'):
+                print(f'LOOKING FOR: {current_date_str}')
+                #Por cada linea de datos del archivo leido
+                for data_line in self.content:
+                    #Evalua si encontro la linea con la fecha requerida
+                    print(f'comparando {data_line[0]} - {current_date_str}')
+                    bool_date = dt.currentDayOlder_ThanDate(data_line[0].split('/'), current_date_str.split('/'))
+                    #Si la encontro
+                    if bool_date == 'This':
+                        #Guarda el indice donde se encuentra esa linea, para comenzar a insertar los nuevos datos alli
+                        print(f'ENCONTRE LA LINEA DE FRONTERA!!!: {data_line}')
+                        self.boundaries_indexes['first'] = self.content.index(data_line) + 1
+                        flag = True
+                        break
+                if flag:    
+                    break
+                else:
+                    current_date_dt = dt.subsDay2Date(current_date_dt)
+                    current_date_str = dt.datetime2string(current_date_dt)
+        
+        #Si continua siendo None (No hay ninguna fecha en el archivo)
+        if self.boundaries_indexes['first'] == None:
+            #Comenzará a insertar los datos desde el primer indice
+            self.boundaries_indexes['first'] = 0
+
+        self.boundaries_indexes['last'] = self.boundaries_indexes['first'] + len(self.index_date) - 1
+        print(f'Boundaries: {self.boundaries_indexes["first"]},{self.boundaries_indexes["last"]}')
+
+    def delete_old_content(self):
+        del self.content[self.boundaries_indexes['first']:self.boundaries_indexes['last']+1]
+
+    def append_new_data(self,new_data):
+
+        index_new_data = 0
+        for index in range(self.boundaries_indexes['first'],self.boundaries_indexes['last']+1):
+            self.content.insert(index,new_data[index_new_data])
+            index_new_data += 1
+
+    def refill_content(self,new_data):
+
+        self.delete_old_content()
+        self.append_new_data(new_data)
