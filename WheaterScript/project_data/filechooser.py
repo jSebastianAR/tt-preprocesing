@@ -59,6 +59,15 @@ class Filechooser(object):
         else:
             self.testing = False
         print(self.testing)
+    
+    def grab_default_var(self,var):
+        if var == 1:
+            self.date_from = '01/01/2008'
+            self.date_to = '31/12/2018'
+        else:
+            self.date_from = None
+            self.date_to = None
+        print(f'{self.date_from} - {self.date_to}')
     def calendar(self):
         
         
@@ -103,6 +112,11 @@ class Filechooser(object):
         grab_testing_var_lambda = lambda : self.grab_testing_var(testing.get())
         checkbox_testing = Checkbutton(root, text="Testing?", variable=testing, onvalue=1, offvalue=0, command = grab_testing_var_lambda)
         checkbox_testing.pack()
+        #Checkbox para seleccion rápida
+        default = IntVar()
+        grab_default_var_lambda = lambda : self.grab_default_var(default.get())
+        checkbox_default = Checkbutton(root, text="default?", variable=default, onvalue=1, offvalue=0, command = grab_default_var_lambda)
+        checkbox_default.pack()
         #Boton de termino
         the_button = Button(root,text='Finish', command = root.destroy)
         the_button.pack()
