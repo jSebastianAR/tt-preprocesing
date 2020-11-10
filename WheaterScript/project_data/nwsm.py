@@ -91,7 +91,7 @@ def refill_data(nulls_index_list, data_date, filtered_towns_tu):
         if len(data_for_param)>1:
             new_data.append(nwsm(data_for_param))
         else:
-            new_data.append('#Nulo')
+            new_data.append('Nulo')
     #print(f'new_data:{new_data}')
     return new_data
 
