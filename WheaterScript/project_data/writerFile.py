@@ -39,7 +39,7 @@ class Writer(object):
             self.write_file(str_line + '\n')
 
     def cast2string(self,line):
-        cast_str_lambda = lambda element: str(element)
+        cast_str_lambda = lambda element: str(float(element)) if element==0 else str(element)
         str_line = list(map(cast_str_lambda,line))
         return str_line
 
