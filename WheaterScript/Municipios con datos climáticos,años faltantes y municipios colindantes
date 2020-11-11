@@ -44,6 +44,8 @@ TEOCALTICHE
 	2011
 	2018
 
+	14145-TEOCALTICHE.txt
+
 	#######################
 	MUNICIPIOS COLINDANTES
 	#######################
@@ -883,6 +885,26 @@ ARANDAS
 ETZATLAN
 	
 	14063-ETZATLAN.txt  #Ciclo 2008-2019
+
+	#######################
+	MUNICIPIOS COLINDANTES
+	#######################
+
+	14093-MAGDALENA.txt
+	2018
+
+	14009-AMECA.txt
+	2018
+
+	14195-SAN JUANITO DE ESCOBEDO.txt
+	2008
+	2009
+	2010
+	2011
+
+	14269-AHUALULCO DE MERCADO.txt #Ciclo 2008-2018
+
+	SAN MARCOS #Sin datos
 ============================================================================
 GUADALAJARA
 
@@ -899,6 +921,42 @@ GUADALAJARA
 
 	14329-GUADALAJARA.txt
 	2010
+
+	IXTLAHUACAN DEL RIO #Sin datos
+
+	14386-TONALA.txt
+	2010
+
+	14104-ZAPOTLANEJO.txt
+	2012
+	2013
+	2014
+	2018
+
+	14388-ZAPOTLANEJO.txt
+	2012
+	2013
+	2014
+	2015
+	2016
+	2017
+	2018
+
+	14397-ZAPOTLANEJO.txt
+	2010
+
+	14132-SAN PEDRO TLAQUEPAQUE.txt
+	2018
+
+	14200-SAN PEDRO TLAQUEPAQUE.txt
+	2008
+	2009
+	2010
+	2011
+	2012
+	2014
+
+	14169-ZAPOPAN.txt #Ciclo 2008-2018
 ============================================================================
 HOSTOTIPAQUILLO
 
@@ -1251,6 +1309,40 @@ ZAPOTLANEJO
 
 	14397-ZAPOTLANEJO.txt
 	2010
+
+	IXTLAHUACAN DEL RIO #Sin datos
+
+	14039-CUQUIO.txt
+		2018
+
+	ACATIC #Sin datos
+
+	14087-TEPATITLAN DE MORELOS.txt
+		2018
+
+	14090-TOTOTLAN.txt
+		2018
+
+	ZAPOTLAN DEL REY #Sin datos
+
+	JUANACATLAN #Sin datos
+
+	14386-TONALA.txt
+		2010
+
+	14065-GUADALAJARA.txt
+		2011
+		2012
+		2014
+		2017
+		2018
+
+
+	14066-GUADALAJARA.txt
+	2018
+
+	14329-GUADALAJARA.txt
+	2010
 ============================================================================
 PIHUAMO
 
@@ -1258,6 +1350,11 @@ PIHUAMO
 
 	14336-PIHUAMO.txt
 	2010
+
+	14118-TUXPAN.txt
+	2018
+
+	TECALITLAN #Sin datos
 ============================================================================
 VILLA PURIFICACION
 
@@ -1486,8 +1583,6 @@ AMATITAN
 	2018
 
 	14269-AHUALULCO DE MERCADO.txt #Ciclo 2008-2018
-
-	14187-TEQUILA.txt #Ciclo 2008-2018
 ============================================================================
 UNION DE TULA
 
@@ -1592,6 +1687,33 @@ TUXCACUESCO
 
 	14350-TUXCACUESCO.txt
 	2010
+
+	EL GRULLO #Sin datos
+
+	EL LIMON #Sin datos
+
+	TONAYA #Sin datos
+
+	SAN GABRIEL #Sin datos 
+
+	14311-TOLIMAN.txt #Ciclo 2008-2018
+
+	14036-CUAUTITLAN DE GARCIA BARRAGAN.txt
+	2018
+
+	14198-CUAUTITLAN DE GARCIA BARRAGAN.txt
+	2008
+	2009
+	2010
+
+	14046-AUTLAN DE NAVARRO.txt
+	2018
+
+	14390-AUTLAN DE NAVARRO.txt
+	2015
+	2016
+	2017
+	2018
 ============================================================================
 TUXCUECA
 
@@ -1731,28 +1853,213 @@ VILLA GUERRERO
 CAÑADAS DE OBREGON
 
 	14165-CAÑADAS DE OBREGON.txt #Ciclo 2008-2018
+
+	#######################
+	MUNICIPIOS COLINDANTES
+	#######################
+
+	14080-YAHUALICA DE GONZALEZ GALLO.txt
+	2016
+	2017
+	2018
+
+	14167-YAHUALICA DE GONZALEZ GALLO.txt #Ciclo 2008-2019
+
+	14337-YAHUALICA DE GONZALEZ GALLO.txt
+	2010
+
+	14100-MEXTICACAN.txt
+	2018
+
+	14266-JALOSTOTITLAN.txt #Ciclo 2008-2018
+
+	VALLE DE GUADALUPE #Sin datos
 ============================================================================
 ZACOALCO DE TORRES
 
 	14168-ZACOALCO DE TORRES.txt #Ciclo 2008-2018
+
+	#######################
+	MUNICIPIOS COLINDANTES
+	#######################
+
+	14323-TECHALUTA DE MONTENEGRO.txt
+	2008
+	2009
+	2010
+	2011
+	2012
+	2013
+	2015
+	2016
+	2017
+
+	14396-JOCOTEPEC.txt
+	2010
+
+	14002-ACATLAN DE JUAREZ.txt
+	2018
+
+	14113-ACATLAN DE JUAREZ.txt
+	2018
+
+	14018-ATOYAC.txt
+		2018
+
+	14146-TEOCUITATLAN DE CORONA.txt
+		2018
+
+	ATEMAJAC DE BRIZUELA #Sin datos
 ============================================================================
 ZAPOPAN
 
 	14169-ZAPOPAN.txt #Ciclo 2008-2018
+
+	#######################
+	MUNICIPIOS COLINDANTES
+	#######################
+
+	14294-TLAJOMULCO DE ZUÑIGA.txt
+	2012
+	2013
+	2014
+	2015
+	2016
+	2017
+	2018
+
+	14038-SAN CRISTOBAL DE LA BARRANCA.txt
+	2018
+
+	14065-GUADALAJARA.txt
+	2011
+	2012
+	2014
+	2017
+	2018
+
+
+	14066-GUADALAJARA.txt
+	2018
+
+	14329-GUADALAJARA.txt
+	2010
+
+	14132-SAN PEDRO TLAQUEPAQUE.txt
+	2018
+
+	14200-SAN PEDRO TLAQUEPAQUE.txt
+	2008
+	2009
+	2010
+	2011
+	2012
+	2014
+
+	14136-AMATITAN.txt
+	2018
+
+	IXTLAHUACAN DEL RIO #Sin datos
+
+	14351-TALA.txt
+	2010
+
+	EL ARENAL #Sin datos
+
+	14187-TEQUILA.txt #Ciclo 2008-2018
 ============================================================================
 OJUELOS DE JALISCO
 
 	14179-OJUELOS DE JALISCO.txt #Ciclo 2008-2018
+
+	#######################
+	MUNICIPIOS COLINDANTES
+	#######################
+
+	14033-LAGOS DE MORENO.txt
+	2012
+	2018
+
+	14054-LAGOS DE MORENO.txt
+	2018
+
+	14083-LAGOS DE MORENO.txt
+	2008
+	2009
+	2010
+	2018
+
+	14084-LAGOS DE MORENO.txt
+	2018
+
+	14114-LAGOS DE MORENO.txt
+	2018
+
+	14320-LAGOS DE MORENO.txt
+	2014
+	2018
+
+	14392-LAGOS DE MORENO.txt
+	2010
 ============================================================================
 TEQUILA
 
 	14187-TEQUILA.txt #Ciclo 2008-2018
+
+	#######################
+	MUNICIPIOS COLINDANTES
+	#######################
+
+	14195-SAN JUANITO DE ESCOBEDO.txt
+	2008
+	2009
+	2010
+	2011
+
+	14038-SAN CRISTOBAL DE LA BARRANCA.txt
+	2018
+
+	14068-HOSTOTIPAQUILLO.txt
+	2018
+
+	14093-MAGDALENA.txt
+	2018
+
+	14136-AMATITAN.txt
+	2018
+
+	14169-ZAPOPAN.txt #Ciclo 2008-2018
 ============================================================================
 TIZAPAN EL ALTO
 
 	14189-TIZAPAN EL ALTO.txt #Ciclo 2008-2018
 
 	14391-TIZAPAN EL ALTO.txt
+	2010
+
+	#######################
+	MUNICIPIOS COLINDANTES
+	#######################
+
+	14040-CHAPALA.txt
+	2018
+
+	14086-LA MANZANILLA DE LA PAZ.txt
+	2017
+	2018
+
+	14156-TUXCUECA.txt
+	2018
+
+	14199-PONCITLAN.txt
+	2008
+	2009
+	2010
+	2011
+	2012
+	2014
+
+	14379-PONCITLAN.txt
 	2010
 ============================================================================
 SAN JUANITO DE ESCOBEDO
@@ -1809,10 +2116,60 @@ PONCITLAN
 JALOSTOTITLAN
 
 	14266-JALOSTOTITLAN.txt #Ciclo 2008-2018
+
+	#######################
+	MUNICIPIOS COLINDANTES
+	#######################
+
+	14006-TEOCALTICHE.txt
+	2018
+
+	14025-TEOCALTICHE.txt
+	2012
+	2013
+	2014
+	2015
+	2016
+	2018
+
+	14101-TEOCALTICHE.txt
+	2018
+
+	14122-TEOCALTICHE.txt
+	2011
+	2018
+
+	14145-TEOCALTICHE.txt
+
+	14100-MEXTICACAN.txt
+	2018
+
+	14165-CAÑADAS DE OBREGON.txt #Ciclo 2008-2018
 ============================================================================
 AHUALULCO DE MERCADO
 
 	14269-AHUALULCO DE MERCADO.txt #Ciclo 2008-2018
+
+	#######################
+	MUNICIPIOS COLINDANTES
+	#######################
+
+	14009-AMECA.txt
+	2018
+
+	14063-ETZATLAN.txt  #Ciclo 2008-2019
+
+	14089-TEUCHITLAN.txt
+	2018
+
+	14136-AMATITAN.txt
+	2018
+
+	14195-SAN JUANITO DE ESCOBEDO.txt
+	2008
+	2009
+	2010
+	2011
 ============================================================================
 TLAJOMULCO DE ZUÑIGA
 
@@ -1861,10 +2218,52 @@ TLAJOMULCO DE ZUÑIGA
 GUACHINANGO
 
 	14297-GUACHINANGO.txt #Ciclo 2008-2018
+
+	#######################
+	MUNICIPIOS COLINDANTES
+	#######################
+
+	14009-AMECA.txt
+	2018
+
+	14035-MASCOTA.txt
+	2018
+
+	14096-MASCOTA.txt
+	2018
+
+	14125-MIXTLAN.txt
+	2011
+	2018
+
+	14317-MIXTLAN.txt
+	2014
+	2015
+	2016
+	2017
+	2018
 ============================================================================
 TOLIMAN
 
 	14311-TOLIMAN.txt #Ciclo 2008-2018
+
+	#######################
+	MUNICIPIOS COLINDANTES
+	#######################
+
+	14036-CUAUTITLAN DE GARCIA BARRAGAN.txt
+	2018
+
+	14198-CUAUTITLAN DE GARCIA BARRAGAN.txt
+	2008
+	2009
+	2010
+
+	14155-TUXCACUESCO.txt
+	2018
+
+	14350-TUXCACUESCO.txt
+	2010
 ============================================================================
 TECHALUTA DE MONTENEGRO
 
@@ -1901,6 +2300,35 @@ TECHALUTA DE MONTENEGRO
 TOTATICHE
 
 	14324-TOTATICHE.txt #Ciclo 2008-2018
+
+	#######################
+	MUNICIPIOS COLINDANTES
+	#######################
+
+	14026-COLOTLAN.txt
+	2018
+
+	14032-COLOTLAN.txt
+	2010
+	2011
+	2012
+	2017
+	2018
+
+	14144-COLOTLAN.txt
+	2018
+
+	14331-COLOTLAN.txt
+	2009
+	2010
+	2012
+	2013
+	2014
+
+	14164-VILLA GUERRERO.txt
+	2016
+	2017
+	2018
 ============================================================================
 MEZQUITIC
 
@@ -1908,10 +2336,69 @@ MEZQUITIC
 
 	14346-MEZQUITIC.txt
 	2010
+
+	#######################
+	MUNICIPIOS COLINDANTES
+	#######################
+
+	14023-BOLAÑOS.txt
+	2018
+
+	14164-VILLA GUERRERO.txt
+	2016
+	2017
+	2018
+
+	14053-HUEJUQUILLA EL ALTO.txt
+	2018
+
+	14071-HUEJUQUILLA EL ALTO.txt
+	2018
+
+	14306-HUEJUQUILLA EL ALTO.txt #Ciclo 2008-2019
 ============================================================================
 EJUTLA
 
 	14343-EJUTLA.txt #Ciclo 2008-2018
+
+	#######################
+	MUNICIPIOS COLINDANTES
+	#######################
+
+	14139-UNION DE TULA.txt
+	2008
+	2009
+	2010
+	2011
+	2012
+	2016
+	2017
+	2018
+
+	14197-UNION DE TULA.txt
+	2010
+	2014
+
+	14395-UNION DE TULA.txt
+	2010
+	2013
+	2015
+	2016
+	2017
+	2018
+
+	14078-JUCHITLAN.txt
+	2018
+
+	TENAMAXTLAN #Sin datos
+
+	CHIQUILISTLAN #Sin datos
+
+	TONAYA #Sin datos
+
+	EL LIMON #Sin datos
+
+	EL GRULLO #Sin datos
 ============================================================================
 JILOTLAN DE LOS DOLORES
 
