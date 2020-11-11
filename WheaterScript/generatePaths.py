@@ -1,6 +1,7 @@
 import subprocess
 from pathlib import Path
 import time
+import json
 
 DICT_LIST = {}
 
@@ -27,15 +28,30 @@ def get_name_txt(txt):
 	parts = txt.split('/')
 	name = parts[len(parts)-1]
 	return name
-if __name__ == '__main__':
 
+def dump_file(data,name):
+	a_file = open(name, "w")
+	json.dump(data, a_file)
+	a_file.close()
+
+def get_dump(name):
+	a_file = open("data.json", "r")
+	output = a_file.read()
+	print(output)
+
+if __name__ == '__main__':
+	"""
 	text_files = get_txt()
 	index = 1
 	for text_file in text_files:
 		#str_index = str(index)
 		#DICT_LIST[index] = build_path(text_file)
 		DICT_LIST[index] = get_name_txt(text_file)
-		DICT_REL_DATA[index] = [] 
+		#DICT_REL_DATA[index] = [] 
 		index += 1
 	print(f'len: {len(DICT_LIST)} list: {DICT_LIST}')
-	print(DICT_REL_DATA)
+	#print(DICT_REL_DATA)
+	"""
+
+	dump_file(STATIC_DICT,'paths_file.json')
+	dump_file(DICT_REL_DATA,'rel_TF_TU.json')
