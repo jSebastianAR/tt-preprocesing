@@ -2,18 +2,19 @@ GENERADO-TT-2019-B082
 BASE DE DATOS CLIMATOLÓGICA
 DATOS DISPONIBLES EN LA BASE DE DATOS A NOVIEMBRE 2020
  
-ESTACIÓN  : 
-NOMBRE    : 
+ESTACIÓN  :
+NOMBRE    :
 ESTADO    : JALISCO
 MUNICIPIO : 
 SITUACIÓN : -------
 ORGANISMO : TT-2019-B082
 CVE-OMM   : Nulo
-LATITUD   : °
-LONGITUD  : °
+LATITUD   : 
+LONGITUD  : 
 ALTITUD   : ----------
  
 EMISIÓN   : 11/11/2020 
  
            PRECIP  EVAP   TMAX   TMIN
   FECHA      mm     mm     °C     °C 
+--------------------------------------
