@@ -2,6 +2,7 @@ import subprocess
 from pathlib import Path
 import time
 import json
+import pickle
 
 DICT_LIST = {}
 
@@ -18,10 +19,14 @@ STATIC_DICT = {1: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/Whea
 101: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/14269-AHUALULCO DE MERCADO.txt', 102: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/14294-TLAJOMULCO DE ZUÑIGA.txt', 103: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/14297-GUACHINANGO.txt', 104: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/14306-HUEJUQUILLA EL ALTO.txt', 105: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/14311-TOLIMAN.txt', 106: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/14317-MIXTLAN.txt', 107: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/14320-LAGOS DE MORENO.txt', 108: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/14323-TECHALUTA DE MONTENEGRO.txt', 109: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/14324-TOTATICHE.txt', 110: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/14326-MEZQUITIC.txt',\
 111: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/14329-GUADALAJARA.txt', 112: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/14331-COLOTLAN.txt', 113: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/14336-PIHUAMO.txt', 114: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/14337-YAHUALICA DE GONZALEZ GALLO.txt', 115: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/14339-PUERTO VALLARTA.txt', 116: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/14343-EJUTLA.txt', 117: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/14346-MEZQUITIC.txt', 118: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/14348-JILOTLAN DE LOS DOLORES.txt', 119: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/14349-ATENGUILLO.txt', 120: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/14350-TUXCACUESCO.txt',\
 121: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/14351-TALA.txt', 122: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/14355-LA BARCA.txt', 123: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/14367-UNION DE SAN ANTONIO.txt', 124: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/14368-SAYULA.txt', 125: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/14369-ARANDAS.txt', 126: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/14379-PONCITLAN.txt', 127: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/14386-TONALA.txt', 128: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/14388-ZAPOTLANEJO.txt', 129: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/14390-AUTLAN DE NAVARRO.txt', 130: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/14391-TIZAPAN EL ALTO.txt',\
-131: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/14392-LAGOS DE MORENO.txt', 132: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/14395-UNION DE TULA.txt', 133: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/14396-JOCOTEPEC.txt', 134: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/14397-ZAPOTLANEJO.txt'}
-
+131: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/14392-LAGOS DE MORENO.txt', 132: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/14395-UNION DE TULA.txt', 133: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/14396-JOCOTEPEC.txt', 134: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/14397-ZAPOTLANEJO.txt', 135: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/15001-ACATIC.txt', 136: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/15002-AMACUECA.txt', 137: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/15003-EL ARENAL.txt', 138: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/15004-ATEMAJAC DE BRIZUELA.txt', 139: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/15005-ATENGO.txt', 140: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/15006-AYOTLAN.txt',\
+141: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/15007-AYUTLA.txt', 142: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/15008-CASIMIRO CASTILLO.txt', 143: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/15009-COCULA.txt', 144: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/15010-CUAUTLA.txt', 145: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/15011-CHIMALTITAN.txt', 146: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/15012-CHIQUILISTLAN.txt', 147: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/15013-ENCARNACION DE DIAZ.txt', 148: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/15014-EL GRULLO.txt', 149: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/15015-IXTLAHUACAN DEL RIO.txt', 150: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/15016-JUANACATLAN.txt',\
+151: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/15017-EL LIMON.txt', 152: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/15018-SANTA MARIA DEL ORO.txt', 153: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/15019-EL SALTO.txt', 154: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/15020-SAN JUAN DE LOS LAGOS.txt', 155: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/15021-SAN JULIAN.txt', 156: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/15022-SAN MARCOS.txt', 157: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/15023-SAN MARTIN DE BOLAÑOS.txt', 158: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/15024-SAN MIGUEL EL ALTO.txt', 159: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/15025-GOMEZ FARIAS.txt', 160: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/15026-SAN SEBASTIAN DEL OESTE.txt',\
+161: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/15027-SANTA MARIA DE LOS ANGELES.txt', 162: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/15028-TECALITLAN.txt', 163: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/15029-TENAMAXTLAN.txt', 164: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/15030-TONAYA.txt', 165: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/15031-VALLE DE GUADALUPE.txt', 166: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/15032-SAN GABRIEL.txt', 167: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/15033-VILLA CORONA.txt', 168: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/15034-VILLA HIDALGO.txt', 169: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/15035-ZAPOTILTIC.txt', 170: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/15036-ZAPOTITLAN DE VADILLO.txt',\
+171: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/15037-ZAPOTLAN DEL REY.txt', 172: '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/15038-SAN IGNACIO CERRO GORDO.txt'}
+"""
 d = {1: '14002-ACATLAN DE JUAREZ.txt', 2: '14006-TEOCALTICHE.txt', 3: '14009-AMECA.txt', 4: '14011-LA HUERTA.txt', 5: '14016-IXTLAHUACAN DE LOS MEMBRILLOS.txt', 6: '14017-ATOTONILCO EL ALTO.txt', 7: '14018-ATOYAC.txt', 8: '14023-BOLAÑOS.txt', 9: '14024-TOMATLAN.txt', 10: '14025-TEOCALTICHE.txt',\
-	11: '14026-COLOTLAN.txt', 12: '14028-CIHUATLAN.txt', 13: '14029-CONCEPCION DE BUENOS AIRES.txt', 14: '14030-ZAPOTLAN EL GRANDE.txt', 15: '14032-COLOTLAN.txt', 16: '14033-LAGOS DE MORENO.txt', 17: '14034-TAMAZULA DE GORDIANO.txt', 18: '14035-MASCOTA.txt', 19: '14036-CUAUTITLAN DE GARCIA BARRAGAN.txt', 20: '14037-HUEJUCAR.txt',\ 
+	11: '14026-COLOTLAN.txt', 12: '14028-CIHUATLAN.txt', 13: '14029-CONCEPCION DE BUENOS AIRES.txt', 14: '14030-ZAPOTLAN EL GRANDE.txt', 15: '14032-COLOTLAN.txt', 16: '14033-LAGOS DE MORENO.txt', 17: '14034-TAMAZULA DE GORDIANO.txt', 18: '14035-MASCOTA.txt', 19: '14036-CUAUTITLAN DE GARCIA BARRAGAN.txt', 20: '14037-HUEJUCAR.txt',\
 	21: '14038-SAN CRISTOBAL DE LA BARRANCA.txt', 22: '14039-CUQUIO.txt', 23: '14040-CHAPALA.txt', 24: '14044-TALPA DE ALLENDE.txt', 25: '14046-AUTLAN DE NAVARRO.txt', 26: '14047-OCOTLAN.txt', 27: '14048-CIHUATLAN.txt', 28: '14052-TAPALPA.txt', 29: '14053-HUEJUQUILLA EL ALTO.txt', 30: '14054-LAGOS DE MORENO.txt',\
 	31: '14056-SAN MARTIN HIDALGO.txt', 32: '14059-CABO CORRIENTES.txt', 33: '14060-ARANDAS.txt', 34: '14063-ETZATLAN.txt', 35: '14065-GUADALAJARA.txt', 36: '14066-GUADALAJARA.txt', 37: '14067-TOMATLAN.txt', 38: '14068-HOSTOTIPAQUILLO.txt', 39: '14069-HUEJUCAR.txt', 40: '14070-DEGOLLADO.txt',\
 	41: '14071-HUEJUQUILLA EL ALTO.txt', 42: '14072-IXTLAHUACAN DE LOS MEMBRILLOS.txt', 43: '14075-JAMAY.txt', 44: '14076-JESUS MARIA.txt', 45: '14078-JUCHITLAN.txt', 46: '14080-YAHUALICA DE GONZALEZ GALLO.txt', 47: '14081-PUERTO VALLARTA.txt', 48: '14083-LAGOS DE MORENO.txt', 49: '14084-LAGOS DE MORENO.txt', 50: '14085-LA HUERTA.txt',\
@@ -38,7 +43,7 @@ d = {1: '14002-ACATLAN DE JUAREZ.txt', 2: '14006-TEOCALTICHE.txt', 3: '14009-AME
 	151: '15017-EL LIMON.txt', 152: '15018-SANTA MARIA DEL ORO.txt', 153: '15019-EL SALTO.txt', 154: '15020-SAN JUAN DE LOS LAGOS.txt', 155: '15021-SAN JULIAN.txt', 156: '15022-SAN MARCOS.txt', 157: '15023-SAN MARTIN DE BOLAÑOS.txt', 158: '15024-SAN MIGUEL EL ALTO.txt', 159: '15025-GOMEZ FARIAS.txt', 160: '15026-SAN SEBASTIAN DEL OESTE.txt',\
 	161: '15027-SANTA MARIA DE LOS ANGELES.txt', 162: '15028-TECALITLAN.txt', 163: '15029-TENAMAXTLAN.txt', 164: '15030-TONAYA.txt', 165: '15031-VALLE DE GUADALUPE.txt', 166: '15032-SAN GABRIEL.txt', 167: '15033-VILLA CORONA.txt', 168: '15034-VILLA HIDALGO.txt', 169: '15035-ZAPOTILTIC.txt', 170: '15036-ZAPOTITLAN DE VADILLO.txt',\
 	171: '15037-ZAPOTLAN DEL REY.txt', 172: '15038-SAN IGNACIO CERRO GORDO.txt'}
-
+"""
 DICT_REL_DATA = {1: [62,121,102,133,88,None], 2: [10,59,67,None,None,None,100,58,79], 3: [34,101,53,31,77,69,106,103], 4: [50,9,37,64,None,19,97,12,27], 5: [42,None,23,133,102], 6: [52,33,125], 7: [108,88,80,13,None,124,None], 8: [110,117,85,None,None], 9: [37,24,74,None,None,64,4,50], 10: [2,59,67,None,None,None,100,58,79],\
 11: [15,78,112,109], 12: [27,4,50,19,97], 13: [80,82,51,57,17,75,None,7], 14: [None,None,17,75,None,65,70,None,None], 15: [11,78,112,109], 16: [30,48,49,63,107,131,90,None,None,83,123], 17: [75,13,57,84,94,None,118,None,None,14,None], 18: [56,None,103,69,106,119,24,74,115], 19: [97,None,25,129,81,120,105,12,27,4,50], 20: [39,None],\
 21: [92,89,None], 22: [46,87,114,60,128,134,None,52,None], 23: [5,42,None,98,126,93,130,82,133], 24: [74,47,115,18,56,119,None,9,37,32], 25: [129,None,73,96,132,81,120,19,97,None,64], 26: [None,54,6,122,43,98,126,23], 27: [12,4,50,19,97], 28: [76,None,None,108,None,124,None,None], 29: [41,104], 30: [16,48,49,63,107,131,90,None,None,83,123],\
@@ -53,10 +58,10 @@ DICT_REL_DATA = {1: [62,121,102,133,88,None], 2: [10,59,67,None,None,None,100,58
 111: [35,36,None,127,60,128,134,71,99,89], 112: [11,15,78,109], 113: [61,65,None], 114: [46,87,58,86,None,52,22], 115: [47], 116: [73,96,132,45,None,None,None,None,None], 117: [110,8,85,29,41,104], 118: [None,17,75,None], 119: [18,56,69,None,None,24,74], 120: [81,None,None,None,None,105,19,97,25,129],\
 121: [13,57,66,91,None,None,118,None,84,94,14,None], 122: [26,6,None,43], 123: [83,16,30,48,49,63,107,131,68,None], 124: [None,7,None,None,28,76], 125: [33,None,None,68,None,52,6,None,44], 126: [98,None,None,26,43,23], 127: [60,128,134,None,None,71,99,35,36,111], 128: [60,134,None,22,None,52,54,None,None,127,35,36,111], 129: [25,None,73,96,132,81,120,19,97,None,64], 130: [93,23,51,82,98,126],\
 131: [30,16,48,49,63,107,90,None,None,83,123], 132: [73,96,None,None,116,None,25,129], 133: [102,5,42,23,82,80,88,1,62], 134: [60,128,None,22,None,52,54,None,None,127,35,36,111], 135: [22,52,60,128,134], 136: [28,76,108,7,124], 137: [72,121,89], 138: [143,167,88,108,28,76,146,77], 139: [69,106,77,163,141,144,119], 140: [122,6,33,125,44,40],\
-141: [45,145,139,163,73,96,132,25,129,64,9,37], 142: [64,25,129,19,97,4,50], 143: [62,31,167,138,77], 144: [73,45,119,139,141,9,37,24,74], 145: [11,8,85,109,157], 146: [77,138,28,76,164,116,45], 147: [16,30,48,49,63,107,131,154,2,10,59,67,79], 148: [73,96,132,116,25,129,151,81,120], 149: [35,36,111,60,128,134,22,21,89], 150: [127,60,128,134,23,98,126,171,5,42,153,102],\
+141: [45,144,139,163,73,96,132,25,129,64,9,37], 142: [64,25,129,19,97,4,50], 143: [62,31,167,138,77], 144: [73,45,119,139,141,9,37,24,74], 145: [11,8,85,109,157], 146: [77,138,28,76,164,116,45], 147: [16,30,48,49,63,107,131,154,2,10,59,67,79], 148: [73,96,132,116,25,129,151,81,120], 149: [35,36,111,60,128,134,22,21,89], 150: [127,60,128,134,23,98,126,171,5,42,153,102],\
 151: [25,129,116,81,120,164,148], 152: [17,75,84,94,66,91,118], 153: [5,42,127,71,99,102,150], 154: [2,10,59,67,79,147,100,158,155,83,123], 155: [33,125,83,123,154,158,68], 156: [95,34,3,8], 157: [8,145,92,38], 158: [86,100,154,33,125,155,52,165], 159: [7,14,17,75,13,124], 160: [69,106,18,56,103,47,115],\
 161: [11,15,78,112,20,39], 162: [65,169,17,75,118,61,113], 163: [139,73,96,132,77,45,141], 164: [146,81,120,28,76,166,116,151], 165: [86,100,52,158,46,87,114], 166: [28,76,124,105,170,14,159,164,81,120], 167: [121,31,138,88,1,62,143], 168: [2,10,59,67,79], 169: [65,14,17,75,162], 170: [166,105,70,14],\
-171: [60,128,134,54,98,126,26,150], 172: [6,33,125,52]}
+171: [60,128,134,54,98,126,26,150], 172: [158,6,33,125,52]}
 
 def get_txt():
 	result = subprocess.check_output('ls CleanedData/*.txt',shell=True)
@@ -77,28 +82,33 @@ def get_name_txt(txt):
 	return name
 
 def dump_file(data,name):
-	a_file = open(name, "w")
-	json.dump(data, a_file)
-	a_file.close()
+	with open(name, "wb") as a_file:
+		pickle.dump(data, a_file, protocol=pickle.HIGHEST_PROTOCOL)
+		a_file.close()
 
 def get_dump(name):
-	a_file = open("data.json", "r")
-	output = a_file.read()
-	print(output)
+
+	with open(name, "rb") as a_file:
+		output = pickle.load(a_file)
+		print(output)
 
 if __name__ == '__main__':
-	
+	"""
 	text_files = get_txt()
 	index = 1
 	for text_file in text_files:
 		#str_index = str(index)
-		#DICT_LIST[index] = build_path(text_file)
-		DICT_LIST[index] = get_name_txt(text_file)
-		DICT_REL_DATA[index] = [] 
+		DICT_LIST[index] = build_path(text_file)
+		#DICT_LIST[index] = get_name_txt(text_file)
+		#DICT_REL_DATA[index] = [] 
 		index += 1
 	print(f'len: {len(DICT_LIST)} list: {DICT_LIST}')
-	print(DICT_REL_DATA)
-	
-
+	#print(DICT_REL_DATA)
+	"""
 	#dump_file(STATIC_DICT,'paths_file.json')
-	#dump_file(DICT_REL_DATA,'rel_TF_TU.json')
+	dump_file(STATIC_DICT,'paths_file.pickle')
+	dump_file(DICT_REL_DATA,'rel_TF_TU.pickle')
+	
+	get_dump('paths_file.pickle')
+	print('\n\n')
+	get_dump('rel_TF_TU.pickle')
