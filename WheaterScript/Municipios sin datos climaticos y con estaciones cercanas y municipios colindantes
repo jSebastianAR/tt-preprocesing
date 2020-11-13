@@ -1,7 +1,7 @@
 Estaciones cercanas a Municipios sin datos climáticos
 
 ============================================================================
-ACATIC
+15001-ACATIC.txt
 
 	#######################
 	MUNICIPIOS COLINDANTES
@@ -20,7 +20,7 @@ ACATIC
 	14397-ZAPOTLANEJO.txt
 	2010
 ============================================================================
-AMACUECA
+15002-AMACUECA.txt
 
 	#######################
 	MUNICIPIOS COLINDANTES
@@ -40,7 +40,7 @@ AMACUECA
 	14368-SAYULA.txt
 	2010
 ============================================================================
-EL ARENAL
+15003-EL ARENAL.txt
 	
 	#######################
 	MUNICIPIOS COLINDANTES
@@ -54,7 +54,7 @@ EL ARENAL
 
 	14169-ZAPOPAN.txt #Ciclo 2008-2018
 ============================================================================
-ATEMAJAC DE BRIZUELA
+15004-ATEMAJAC DE BRIZUELA.txt
 
 	#######################
 	MUNICIPIOS COLINDANTES
@@ -78,8 +78,6 @@ ATEMAJAC DE BRIZUELA
 
 	14143-TECOLOTLAN.txt
 	2018
-
-	15010-COCULA.txt #Sin datos
 ============================================================================
 15005-ATENGO.txt
 	
@@ -105,7 +103,7 @@ ATEMAJAC DE BRIZUELA
 
 	15007-AYUTLA.txt #Sin datos
 
-	15011-CUAUTLA.txt	#Sin datos
+	15010-CUAUTLA.txt	#Sin datos
 
 	14349-ATENGUILLO.txt
 	2010
@@ -145,7 +143,7 @@ ATEMAJAC DE BRIZUELA
 	MUNICIPIOS COLINDANTES
 	#######################
 
-	15011-CUAUTLA.txt #Sin datos
+	15010-CUAUTLA.txt #Sin datos
 
 	15005-ATENGO.txt #Sin datos
 
@@ -178,7 +176,7 @@ ATEMAJAC DE BRIZUELA
 	2017
 	2018
 ============================================================================
-15009-CASIMIRO CASTILLO.txt
+15008-CASIMIRO CASTILLO.txt
 
 	#######################
 	MUNICIPIOS COLINDANTES
@@ -348,9 +346,6 @@ ATEMAJAC DE BRIZUELA
 
 	14145-TEOCALTICHE.txt
 ============================================================================
-ETZATLAN
-	- 14063 Se encuentra suspendida, pero con info del 2008-2019
-============================================================================
 15014-EL GRULLO.txt
 
 	#######################
@@ -447,7 +442,7 @@ ETZATLAN
 
 	15019-EL SALTO.txt #Sin datos
 
-	14294-TLAJOMULCO DE ZUÑIGA #Ya valio
+	14294-TLAJOMULCO DE ZUÑIGA.txt #Ya valio
 ============================================================================
 15017-EL LIMON.txt
 	14046-AUTLAN DE NAVARRO.txt
@@ -513,12 +508,12 @@ ETZATLAN
 	14386-TONALA.txt
 	2010
 
-	14132-SAN PEDRO TLAQUEPAQUE
+	14132-SAN PEDRO TLAQUEPAQUE.txt
 	2018
 
-	14200-SAN PEDRO TLAQUEPAQUE #Ya valio
+	14200-SAN PEDRO TLAQUEPAQUE.txt #Ya valio
 
-	14294-TLAJOMULCO DE ZUÑIGA #Ya valio
+	14294-TLAJOMULCO DE ZUÑIGA.txt #Ya valio
 
 	15016-JUANACATLAN.txt #Sin datos
 ============================================================================
@@ -579,7 +574,7 @@ ETZATLAN
 
 	15020-SAN JUAN DE LOS LAGOS.txt #Sin datos
 
-	15024-SAN MIGUEL EL ALTO.tx #Sin datos
+	15024-SAN MIGUEL EL ALTO.txt #Sin datos
 
 	14123-SAN DIEGO DE ALEJANDRIA.txt
 	2011
@@ -598,7 +593,7 @@ ETZATLAN
 	MUNICIPIOS COLINDANTES
 	#######################
 
-	14063-ETZATLAN #Ciclo 2008-2018
+	14063-ETZATLAN.txt #Ciclo 2008-2018
 
 	14009-AMECA.txt
 	2018
@@ -751,7 +746,7 @@ ETZATLAN
 	14336-PIHUAMO.txt
 	2010
 ============================================================================
-TENAMAXTLAN
+15029-TENAMAXTLAN.txt
 
 	#######################
 	MUNICIPIOS COLINDANTES
@@ -775,7 +770,7 @@ TENAMAXTLAN
 
 	15007-AYUTLA.txt #Sin datos
 ============================================================================
-TONAYA
+15030-TONAYA.txt
 
 	#######################
 	MUNICIPIOS COLINDANTES
@@ -789,8 +784,6 @@ TONAYA
 	14350-TUXCACUESCO.txt
 	2010
 
-	14350-TUXCACUESCO.txt
-
 	14052-TAPALPA.txt
 	2018
 
@@ -801,7 +794,7 @@ TONAYA
 
 	14343-EJUTLA.txt #Ciclo 2008-2018
 
-	EL LIMON #Sin datos
+	15017-EL LIMON.txt #Sin datos
 ============================================================================
 15031-VALLE DE GUADALUPE.txt
 
@@ -903,15 +896,14 @@ TONAYA
 
 	14145-TEOCALTICHE.txt
 ============================================================================
-ZAPOTILTIC
-	- #Rodean en triángulo
-	- 14118-TUXPAN.txt
-	- 14030
-	- 14141
+15035-ZAPOTILTIC.txt
 
 	#######################
 	MUNICIPIOS COLINDANTES
 	#######################
+
+	14118-TUXPAN.txt
+	2018
 
 	14030-ZAPOTLAN EL GRANDE.txt #Ya valio
 
@@ -919,9 +911,6 @@ ZAPOTILTIC
 	2018
 
 	14141-TAMAZULA DE GORDIANO.txt
-	2018
-
-	14118-TUXPAN.txt
 	2018
 
 	15028-TECALITLAN.txt #Sin datos
@@ -941,7 +930,7 @@ ZAPOTILTIC
 
 	14030-ZAPOTLAN EL GRANDE.txt #Ya valio
 ============================================================================
-ZAPOTLAN DEL REY
+15037-ZAPOTLAN DEL REY.txt
 
 	#######################
 	MUNICIPIOS COLINDANTES
