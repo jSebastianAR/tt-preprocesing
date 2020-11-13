@@ -1,4 +1,5 @@
 FINAL_LINE_HEADER = 'FECHA'
+import time
 class Writer(object):
     
     def __init__(self,path):
@@ -13,16 +14,20 @@ class Writer(object):
 
     def get_header_data(self):
         
-        with open(self.path_origin_file, 'r', encoding = "ISO-8859-1") as file:
+        with open(self.path_origin_file, 'r', encoding = "utf-8") as file:
             #print(file)
             for line in file:
+                if 'PRECIP' in line:
+                    line = '\t' + line
+                elif 'FECHA' in line:
+                    line = line[0:10] + '\t' + line[10:]
                 self.header.append(line)
                 #print(line)
                 if FINAL_LINE_HEADER in line:
                     break
 
     def write_file(self,info):
-        with open(self.path_file,'a+', encoding = "ISO-8859-1") as file:
+        with open(self.path_file,'a+', encoding = "utf-8") as file:
             file.write(info)
 
     def newFile(self,content):
@@ -34,12 +39,18 @@ class Writer(object):
 
         #Writing all wheater data
         for line_list in content:
-            str_line_list = self.cast2string(line_list)
-            str_line = '    '.join(str_line_list)
+            #Guarda solo la fecha
+            final_list = [line_list[0]]
+            #Obtiene los valores de las variables pero en string
+            str_line_list = self.cast2string(line_list[1:])
+            #Une la fecha con sus respectivos valores
+            final_list.extend(str_line_list)
+            str_line = '    '.join(final_list)
             self.write_file(str_line + '\n')
+            #time.sleep(3)
 
     def cast2string(self,line):
-        cast_str_lambda = lambda element: str(float(element)) if element==0 else str(element)
+        cast_str_lambda = lambda element: str(float(element)) if element!='Nulo' else element
         str_line = list(map(cast_str_lambda,line))
         return str_line
 

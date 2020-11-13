@@ -90,7 +90,8 @@ def get_dump(name):
 
 	with open(name, "rb") as a_file:
 		output = pickle.load(a_file)
-		print(output)
+		#print(output)
+		return output
 
 if __name__ == '__main__':
 	"""
@@ -106,9 +107,23 @@ if __name__ == '__main__':
 	#print(DICT_REL_DATA)
 	"""
 	#dump_file(STATIC_DICT,'paths_file.json')
-	dump_file(STATIC_DICT,'paths_file.pickle')
-	dump_file(DICT_REL_DATA,'rel_TF_TU.pickle')
+	#dump_file(STATIC_DICT,'paths_file.pickle')
+	#dump_file(DICT_REL_DATA,'rel_TF_TU.pickle')
+	#get_dump('paths_file.pickle')
+	#print('\n\n')
+	#get_dump('rel_TF_TU.pickle')
+	"""
+	for i in range(1,10):
+		dump_file(i,'key.pickle')
+		key_output = get_dump('key.pickle')
+		print(key_output)
 	
-	get_dump('paths_file.pickle')
-	print('\n\n')
-	get_dump('rel_TF_TU.pickle')
+	key_output = get_dump('key.pickle')
+	print(f'last value of key: {type(key_output)}')
+
+	print(len(STATIC_DICT))
+	"""
+	dump_file(0,'key.pickle')
+	key_output = get_dump('key.pickle')
+	print(f'value of key: {key_output}')
+
