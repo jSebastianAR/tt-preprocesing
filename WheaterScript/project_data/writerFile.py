@@ -48,6 +48,7 @@ class Writer(object):
             str_line = '    '.join(final_list)
             self.write_file(str_line + '\n')
             #time.sleep(3)
+        self.write_file('--------------------------------------\n')
 
     def cast2string(self,line):
         cast_str_lambda = lambda element: str(float(element)) if element!='Nulo' else element
