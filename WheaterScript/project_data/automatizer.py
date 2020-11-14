@@ -54,6 +54,7 @@ def run():
     dict_rel = read_pickle('rel_TF_TU.pickle')
     #Obtiene el último valor de llave donde se detuvo el algoritmo(si es que se detuvo)
     next_index = get_next_key()
+    print(f'START KEY {next_index}')
     #Por cada key que hay en el diccionario que contiene todos los paths
     for key in range(next_index,len(dict_paths)+1):
         #Obtiene la TF
@@ -90,8 +91,8 @@ def run():
         bitacora(town_tf.name)
         #Guardando la última key que tenía el último archivo que se lleno
         save_last_key(key)
-        print('Esperando 15 segundos antes de volver...')
-        time.sleep(15)
+        print('Esperando 25 segundos antes de volver...')
+        time.sleep(25)
     
 if __name__ == '__main__':
     run()
