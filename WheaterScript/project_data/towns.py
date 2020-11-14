@@ -1,7 +1,6 @@
 from math import sin, cos, sqrt, atan2, radians
 import dates as dt
 import re
-
 """
 KEYWORDS:
 
@@ -165,26 +164,30 @@ class Towns(object):
 
                 #data_line[0] > current_day,  la fecha buscada no está
                 # or Si se ha llegado al final del archivo y no se encontro la fecha
-                if (bool_date == True) or (self.content.index(data_line) == len(self.content) -1):
+                #if (bool_date == True) or (self.content.index(data_line) == len(self.content) -1):
+                if (bool_date == True):
                     self.index_date[current_date_str] = None
                     break
                 #Ha encontrado la fecha
                 elif bool_date == 'This':
                     self.index_date[current_date_str] = self.content.index(data_line)
-                        
                     #Si aun no se ha guardado el primer indice válido de fechas
                     if self.boundaries_indexes['first'] == None:
                         #Guarda el indice
                         self.boundaries_indexes['first'] = self.index_date[current_date_str]
                     break
-                    
+                #Si está en el último elemento y la fecha jamas alcanzo la que se buscaba
+                elif (self.content.index(data_line) == len(self.content) -1) and bool_date==False:
+                    self.index_date[current_date_str] = None
+                    break
+
             current_date_dt = dt.addDay2Date(current_date_dt)
         
             #Obtiene el indice donde se debe poner el último elemento
         if self.boundaries_indexes['first'] != None:
             self.boundaries_indexes['last'] = self.boundaries_indexes['first'] + len(self.index_date) - 1
-        print(self.index_date)
 
+        print(self.index_date)
     def get_start_index(self,init_date):
         """
         current_date_dt = dt.subsDay2Date(dt.string2datetime(init_date))
@@ -235,9 +238,10 @@ class Towns(object):
 
     def delete_old_content(self):
         del self.content[self.boundaries_indexes['first']:self.boundaries_indexes['last']+1]
+        #print(f'after del {self.content}')
 
     def append_new_data(self,new_data):
-
+        #print(f'new_data {new_data}')
         index_new_data = 0
         for index in range(self.boundaries_indexes['first'],self.boundaries_indexes['last']+1):
             self.content.insert(index,new_data[index_new_data])
