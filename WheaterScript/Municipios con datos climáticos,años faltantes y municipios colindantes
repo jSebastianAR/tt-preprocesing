@@ -128,7 +128,7 @@ LA HUERTA
 	14117-VILLA PURIFICACION.txt
 	2018
 
-	CASIMIRO CASTILLO #Sin datos
+	15008-CASIMIRO CASTILLO.txt #Sin datos
 
 	14036-CUAUTITLAN DE GARCIA BARRAGAN.txt
 	2018
@@ -156,7 +156,7 @@ IXTLAHUACAN DE LOS MEMBRILLOS
 	MUNICIPIOS COLINDANTES
 	#######################
 
-	JUANACATLAN #Sin datos
+	15016-JUANACATLAN.txt #Sin datos
 
 	14040-CHAPALA.txt
 	2018
@@ -205,12 +205,12 @@ ATOYAC
 	14029-CONCEPCION DE BUENOS AIRES.txt
 	2018
 
-	GOMEZ FARIAS #Sin datos
+	15025-GOMEZ FARIAS.txt #Sin datos
 
 	14368-SAYULA.txt
 	2010
 
-	AMACUECA #Sin datos
+	15002-AMACUECA.txt #Sin datos
 ============================================================================
 BOLAÑOS
 
@@ -231,9 +231,9 @@ BOLAÑOS
 	2017
 	2018
 
-	SAN MARTIN DE BOLAÑOS #Sin datos
+	15023-SAN MARTIN DE BOLAÑOS.txt #Sin datos
 
-	CHIMALTITAN #Sin datos
+	15011-CHIMALTITAN.txt #Sin datos
 ============================================================================
 TOMATLAN
 
@@ -254,9 +254,9 @@ TOMATLAN
 	14140-TALPA DE ALLENDE.txt
 	2018
 
-	CUAUTLA #Sin datos
+	15010-CUAUTLA.txt #Sin datos
 
-	AYUTLA #Sin datos
+	15007-AYUTLA.txt #Sin datos
 
 	14117-VILLA PURIFICACION.txt
 	2018
@@ -347,7 +347,7 @@ CONCEPCION DE BUENOS AIRES
 	14141-TAMAZULA DE GORDIANO.txt
 	2018
 
-	GOMEZ FARIAS #Sin datos
+	15025-GOMEZ FARIAS.txt #Sin datos
 
 	14018-ATOYAC.txt
 	2018
@@ -365,9 +365,9 @@ ZAPOTLAN EL GRANDE
 	MUNICIPIOS COLINDANTES
 	#######################
 
-	SAN GABRIEL #Sin datos
+	15032-SAN GABRIEL.txt #Sin datos
 
-	GOMEZ FARIAS #Sin datos
+	15025-GOMEZ FARIAS.txt #Sin datos
 
 	14034-TAMAZULA DE GORDIANO.txt
 	2018
@@ -375,7 +375,7 @@ ZAPOTLAN EL GRANDE
 	14141-TAMAZULA DE GORDIANO.txt
 	2018
 
-	ZAPOTILTIC #Sin datos
+	15035-ZAPOTILTIC.txt #Sin datos
 
 	14118-TUXPAN.txt
 	2018
@@ -383,9 +383,9 @@ ZAPOTLAN EL GRANDE
 	14129-TONILA.txt
 	2018
 
-	ZAPOTITLAN DE VADILLO #Sin datos
+	15036-ZAPOTITLAN DE VADILLO.txt #Sin datos
 
-	EL GRULLO #Sin datos
+	15014-EL GRULLO.txt #Sin datos
 ============================================================================
 LAGOS DE MORENO
 
@@ -421,9 +421,9 @@ LAGOS DE MORENO
 
 	14179-OJUELOS DE JALISCO.txt #Ciclo 2008-2018
 
-	ENCARNACION DE DIAZ #Sin datos
+	15013-ENCARNACION DE DIAZ.txt #Sin datos
 
-	SAN JUAN DE LOS LAGOS #Sin datos
+	15020-SAN JUAN DE LOS LAGOS.txt #Sin datos
 
 	14157-UNION DE SAN ANTONIO.txt
 	2018
@@ -457,20 +457,20 @@ TAMAZULA DE GORDIANO
 
 	14191-VALLE DE JUAREZ.txt #Ya valio
 
-	SANTA MARIA DEL ORO #Sin datos
+	15018-SANTA MARIA DEL ORO.txt #Sin datos
 
 	14348-JILOTLAN DE LOS DOLORES.txt
 	2010
 	2011
 	2012
 
-	TECALITLAN #Sin datos
+	15028-TECALITLAN.txt #Sin datos
 
-	ZAPOTILTIC #Sin datos
+	15035-ZAPOTILTIC.txt #Sin datos
 
 	14030-ZAPOTLAN EL GRANDE.txt #Ya valio
 
-	GOMEZ FARIAS #Sin datos
+	15025-GOMEZ FARIAS.txt #Sin datos
 ============================================================================
 MASCOTA
 
@@ -484,7 +484,7 @@ MASCOTA
 	MUNICIPIOS COLINDANTES
 	#######################
 
-	SAN SEBASTIAN DEL OESTE #Sin datos
+	15026-SAN SEBASTIAN DEL OESTE.txt #Sin datos
 
 	14297-GUACHINANGO.txt #Ciclo 2008-2018
 
@@ -524,7 +524,7 @@ CUAUTITLAN DE GARCIA BARRAGAN
 	MUNICIPIOS COLINDANTES
 	#######################
 
-	CASIMIRO CASTILLO #Sin datos
+	15008-CASIMIRO CASTILLO.txt #Sin datos
 
 	14046-AUTLAN DE NAVARRO.txt
 	2018
@@ -568,7 +568,7 @@ HUEJUCAR
 	MUNICIPIOS COLINDANTES
 	#######################
 	
-	SANTA MARIA DE LOS ANGELES #Sin datos
+	15027-SANTA MARIA DE LOS ANGELES.txt #Sin datos
 ============================================================================
 SAN CRISTOBAL DE LA BARRANCA
 
@@ -583,7 +583,7 @@ SAN CRISTOBAL DE LA BARRANCA
 
 	14169-ZAPOPAN.txt #Ciclo 2008-2018
 
-	IXTLAHUACAN DEL RIO #Sin datos
+	15015-IXTLAHUACAN DEL RIO.txt #Sin datos
 ============================================================================
 CUQUIO
 
@@ -611,12 +611,12 @@ CUQUIO
 	14397-ZAPOTLANEJO.txt
 	2010
 
-	ACATIC #Sin datos
+	15001-ACATIC.txt #Sin datos
 
 	14087-TEPATITLAN DE MORELOS.txt
 	2018
 
-	IXTLAHUACAN DEL RIO #Sin datos
+	15015-IXTLAHUACAN DEL RIO.txt #Sin datos
 ============================================================================
 CHAPALA
 
@@ -633,7 +633,7 @@ CHAPALA
 	14072-IXTLAHUACAN DE LOS MEMBRILLOS.txt
 	2018
 
-	JUANACATLAN #Sin datos
+	15016-JUANACATLAN.txt #Sin datos
 
 	14199-PONCITLAN.txt #Ya valio
 
@@ -676,7 +676,7 @@ TALPA DE ALLENDE
 	14349-ATENGUILLO.txt
 	2010
 
-	CUAUTLA #Sin datos
+	15010-CUAUTLA.txt #Sin datos
 
 	14024-TOMATLAN.txt
 	2018
@@ -703,7 +703,7 @@ AUTLAN DE NAVARRO
 	MUNICIPIOS COLINDANTES
 	#######################
 
-	AYUTLA #Sin datos
+	15007-AYUTLA.txt #Sin datos
 
 	14139-UNION DE TULA.txt #Ya valio
 
@@ -727,7 +727,7 @@ AUTLAN DE NAVARRO
 	2009
 	2010
 
-	CASIMIRO CASTILLO #Sin datos
+	15008-CASIMIRO CASTILLO.txt #Sin datos
 
 	14117-VILLA PURIFICACION.txt
 	2018
@@ -741,7 +741,7 @@ OCOTLAN
 	MUNICIPIOS COLINDANTES
 	#######################
 
-	ZAPOTLAN DEL REY #Sin datos
+	15037-ZAPOTLAN DEL REY.txt #Sin datos
 
 	14090-TOTOTLAN.txt
 	2018
@@ -775,20 +775,20 @@ TAPALPA
 	MUNICIPIOS COLINDANTES
 	#######################
 
-	CHIQUILISTLAN #Sin datos
+	15012-CHIQUILISTLAN.txt #Sin datos
 
-	ATEMAJAC DE BRIZUELA #Sin datos
+	15004-ATEMAJAC DE BRIZUELA.txt #Sin datos
 
 	14323-TECHALUTA DE MONTENEGRO.txt #Ya valio
 
-	AMACUECA #Sin datos
+	15002-AMACUECA.txt #Sin datos
 
 	14368-SAYULA.txt
 	2010
 
-	SAN GABRIEL #Sin datos
+	15032-SAN GABRIEL.txt #Sin datos
 
-	TONAYA #Sin datos
+	15030-TONAYA.txt #Sin datos
 ============================================================================
 HUEJUQUILLA EL ALTO
 
@@ -799,6 +799,8 @@ HUEJUQUILLA EL ALTO
 	2018
 
 	14306-HUEJUQUILLA EL ALTO.txt #Ciclo 2008-2019
+
+	14326-MEZQUITIC.txt
 ============================================================================
 SAN MARTIN HIDALGO
 
@@ -818,7 +820,7 @@ SAN MARTIN HIDALGO
 	14143-TECOLOTLAN.txt
 	2018
 
-	COCULA #Sin datos
+	15009-COCULA.txt #Sin datos
 ============================================================================
 CABO CORRIENTES
 
@@ -860,16 +862,16 @@ ARANDAS
 	MUNICIPIOS COLINDANTES
 	#######################
 
-	SAN MIGUEL EL ALTO #Sin datos
+	15024-SAN MIGUEL EL ALTO.txt #Sin datos
 
-	SAN JULIAN #Sin datos
+	15021-SAN JULIAN.txt #Sin datos
 
 	14123-SAN DIEGO DE ALEJANDRIA.txt
 	2011
 	2015
 	2018
 
-	SAN IGNACIO CERRO GORDO #Sin datos
+	15038-SAN IGNACIO CERRO GORDO.txt #Sin datos
 
 	14087-TEPATITLAN DE MORELOS.txt
 	2018
@@ -904,7 +906,7 @@ ETZATLAN
 
 	14269-AHUALULCO DE MERCADO.txt #Ciclo 2008-2018
 
-	SAN MARCOS #Sin datos
+	15022-SAN MARCOS.txt #Sin datos
 ============================================================================
 GUADALAJARA
 
@@ -922,7 +924,7 @@ GUADALAJARA
 	14329-GUADALAJARA.txt
 	2010
 
-	IXTLAHUACAN DEL RIO #Sin datos
+	15015-IXTLAHUACAN DEL RIO.txt #Sin datos
 
 	14386-TONALA.txt
 	2010
@@ -980,7 +982,7 @@ DEGOLLADO
 	MUNICIPIOS COLINDANTES
 	#######################
 
-	AYOTLAN #Sin datos
+	15006-AYOTLAN.txt #Sin datos
 
 	14076-JESUS MARIA.txt
 	2018
@@ -1025,7 +1027,7 @@ JESUS MARIA
 	14070-DEGOLLADO.txt
 	2018
 
-	AYOTLAN #Sin datos
+	15006-AYOTLAN.txt #Sin datos
 ============================================================================
 JUCHITLAN
 	
@@ -1039,11 +1041,11 @@ JUCHITLAN
 	14143-TECOLOTLAN.txt
 	2018
 
-	CHIQUILISTLAN #Sin datos
+	15012-CHIQUILISTLAN.txt #Sin datos
 
 	14343-EJUTLA.txt #Ciclo 2008-2018
 
-	TENAMAXTLAN #Sin datos
+	15029-TENAMAXTLAN.txt #Sin datos
 ============================================================================	
 YAHUALICA DE GONZALEZ GALLO
 
@@ -1083,6 +1085,12 @@ PUERTO VALLARTA
 	2018
 
 	14339-PUERTO VALLARTA.txt #Ciclo 2008-2019
+
+	14059-CABO CORRIENTES.txt
+	Talpa de Allende
+	15026-SAN SEBASTIAN DEL OESTE.txt
+	14035-MASCOTA.txt
+	14096-MASCOTA.txt 
 ============================================================================
 LA MANZANILLA DE LA PAZ
 
@@ -1117,7 +1125,7 @@ TEPATITLAN DE MORELOS
 	MUNICIPIOS COLINDANTES
 	#######################
 
-	VALLE DE GUADALUPE #Sin datos
+	165: '15031-VALLE DE GUADALUPE.txt #Sin datos
 
 	14080-YAHUALICA DE GONZALEZ GALLO.txt
 	2016
@@ -1135,7 +1143,7 @@ TEPATITLAN DE MORELOS
 	14017-ATOTONILCO EL ALTO.txt
 	2018
 
-	ACATIC #Sin datos
+	15001-ACATIC.txt #Sin datos
 
 	14104-ZAPOTLANEJO.txt #Ya valio
 
@@ -1165,7 +1173,7 @@ TEUCHITLAN
 	14136-AMATITAN.txt
 	2018
 
-	EL ARENAL #Sin datos
+	15003-EL ARENAL.txt #Sin datos
 
 	14351-TALA.txt
 	2010
@@ -1194,7 +1202,7 @@ TOTOTLAN
 	14047-OCOTLAN.txt
 	2018
 
-	ZAPOTLAN DEL REY #Sin datos
+	15037-ZAPOTLAN DEL REY.txt #Sin datos
 
 	14104-ZAPOTLANEJO.txt #Ya valio
 
@@ -1215,7 +1223,7 @@ MAGDALENA
 	14068-HOSTOTIPAQUILLO.txt
 	2018
 
-	SAN MARCOS #Sin datos
+	15022-SAN MARCOS.txt #Sin datos
 
 	14063-ETZATLAN Se encuentra suspendida, pero con info del 2008-2019
 
@@ -1309,6 +1317,10 @@ ZAPOTLANEJO
 
 	14397-ZAPOTLANEJO.txt
 	2010
+
+	#######################
+	MUNICIPIOS COLINDANTES
+	#######################
 
 	IXTLAHUACAN DEL RIO #Sin datos
 
