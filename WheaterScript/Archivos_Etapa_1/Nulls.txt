@@ -1,0 +1,1725 @@
+TOTAL DE DATOS QUE DEBEN EXISTIR EN EL DATASET:2764384
+TOTAL DE DATOS NULOS EN EL DATASET:151216
+TOTAL DE DATOS POR ARCHIVO:16072
+TOTAL DE DIAS QUE DEBE CONTENER UN ARCHIVO:4018
+
+Nulos en ../Archivos_Etapa_1/14002-ACATLAN DE JUAREZ.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14006-TEOCALTICHE.txt
+Precipitacion: 397
+Evaporacion: 458
+Tmax: 427
+Tmin: 427
+Total: 1709
+Porcentaje local de nulos en el archivo: 10.6%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.13%
+
+Nulos en ../Archivos_Etapa_1/14009-AMECA.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14011-LA HUERTA.txt
+Precipitacion: 428
+Evaporacion: 428
+Tmax: 428
+Tmin: 428
+Total: 1712
+Porcentaje local de nulos en el archivo: 10.7%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.13%
+
+Nulos en ../Archivos_Etapa_1/14016-IXTLAHUACAN DE LOS MEMBRILLOS.txt
+Precipitacion: 489
+Evaporacion: 489
+Tmax: 489
+Tmin: 489
+Total: 1956
+Porcentaje local de nulos en el archivo: 12.2%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.29%
+
+Nulos en ../Archivos_Etapa_1/14017-ATOTONILCO EL ALTO.txt
+Precipitacion: 458
+Evaporacion: 458
+Tmax: 458
+Tmin: 458
+Total: 1832
+Porcentaje local de nulos en el archivo: 11.4%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.21%
+
+Nulos en ../Archivos_Etapa_1/14018-ATOYAC.txt
+Precipitacion: 61
+Evaporacion: 399
+Tmax: 61
+Tmin: 61
+Total: 582
+Porcentaje local de nulos en el archivo: 3.6%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.38%
+
+Nulos en ../Archivos_Etapa_1/14023-BOLAÑOS.txt
+Precipitacion: 0
+Evaporacion: 181
+Tmax: 0
+Tmin: 0
+Total: 181
+Porcentaje local de nulos en el archivo: 1.1%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.12%
+
+Nulos en ../Archivos_Etapa_1/14024-TOMATLAN.txt
+Precipitacion: 489
+Evaporacion: 598
+Tmax: 489
+Tmin: 489
+Total: 2065
+Porcentaje local de nulos en el archivo: 12.8%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.37%
+
+Nulos en ../Archivos_Etapa_1/14025-TEOCALTICHE.txt
+Precipitacion: 397
+Evaporacion: 458
+Tmax: 427
+Tmin: 427
+Total: 1709
+Porcentaje local de nulos en el archivo: 10.6%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.13%
+
+Nulos en ../Archivos_Etapa_1/14026-COLOTLAN.txt
+Precipitacion: 99
+Evaporacion: 219
+Tmax: 99
+Tmin: 99
+Total: 516
+Porcentaje local de nulos en el archivo: 3.2%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.34%
+
+Nulos en ../Archivos_Etapa_1/14028-CIHUATLAN.txt
+Precipitacion: 458
+Evaporacion: 485
+Tmax: 458
+Tmin: 458
+Total: 1859
+Porcentaje local de nulos en el archivo: 11.6%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.23%
+
+Nulos en ../Archivos_Etapa_1/14029-CONCEPCION DE BUENOS AIRES.txt
+Precipitacion: 366
+Evaporacion: 458
+Tmax: 366
+Tmin: 366
+Total: 1556
+Porcentaje local de nulos en el archivo: 9.7%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.03%
+
+Nulos en ../Archivos_Etapa_1/14030-ZAPOTLAN EL GRANDE.txt
+Precipitacion: 459
+Evaporacion: 556
+Tmax: 459
+Tmin: 460
+Total: 1934
+Porcentaje local de nulos en el archivo: 12.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.28%
+
+Nulos en ../Archivos_Etapa_1/14032-COLOTLAN.txt
+Precipitacion: 101
+Evaporacion: 222
+Tmax: 101
+Tmin: 102
+Total: 526
+Porcentaje local de nulos en el archivo: 3.3%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.35%
+
+Nulos en ../Archivos_Etapa_1/14033-LAGOS DE MORENO.txt
+Precipitacion: 5
+Evaporacion: 6
+Tmax: 5
+Tmin: 5
+Total: 21
+Porcentaje local de nulos en el archivo: 0.1%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.01%
+
+Nulos en ../Archivos_Etapa_1/14034-TAMAZULA DE GORDIANO.txt
+Precipitacion: 32
+Evaporacion: 45
+Tmax: 43
+Tmin: 44
+Total: 164
+Porcentaje local de nulos en el archivo: 1.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.11%
+
+Nulos en ../Archivos_Etapa_1/14035-MASCOTA.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14036-CUAUTITLAN DE GARCIA BARRAGAN.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14037-HUEJUCAR.txt
+Precipitacion: 1097
+Evaporacion: 1097
+Tmax: 1097
+Tmin: 1097
+Total: 4388
+Porcentaje local de nulos en el archivo: 27.3%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 2.9%
+
+Nulos en ../Archivos_Etapa_1/14038-SAN CRISTOBAL DE LA BARRANCA.txt
+Precipitacion: 31
+Evaporacion: 440
+Tmax: 31
+Tmin: 31
+Total: 533
+Porcentaje local de nulos en el archivo: 3.3%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.35%
+
+Nulos en ../Archivos_Etapa_1/14039-CUQUIO.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14040-CHAPALA.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14044-TALPA DE ALLENDE.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14046-AUTLAN DE NAVARRO.txt
+Precipitacion: 0
+Evaporacion: 2
+Tmax: 0
+Tmin: 0
+Total: 2
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14047-OCOTLAN.txt
+Precipitacion: 0
+Evaporacion: 31
+Tmax: 0
+Tmin: 0
+Total: 31
+Porcentaje local de nulos en el archivo: 0.2%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.02%
+
+Nulos en ../Archivos_Etapa_1/14048-CIHUATLAN.txt
+Precipitacion: 458
+Evaporacion: 485
+Tmax: 458
+Tmin: 458
+Total: 1859
+Porcentaje local de nulos en el archivo: 11.6%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.23%
+
+Nulos en ../Archivos_Etapa_1/14052-TAPALPA.txt
+Precipitacion: 367
+Evaporacion: 374
+Tmax: 367
+Tmin: 367
+Total: 1475
+Porcentaje local de nulos en el archivo: 9.2%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.98%
+
+Nulos en ../Archivos_Etapa_1/14053-HUEJUQUILLA EL ALTO.txt
+Precipitacion: 428
+Evaporacion: 434
+Tmax: 428
+Tmin: 428
+Total: 1718
+Porcentaje local de nulos en el archivo: 10.7%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.14%
+
+Nulos en ../Archivos_Etapa_1/14054-LAGOS DE MORENO.txt
+Precipitacion: 5
+Evaporacion: 6
+Tmax: 5
+Tmin: 5
+Total: 21
+Porcentaje local de nulos en el archivo: 0.1%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.01%
+
+Nulos en ../Archivos_Etapa_1/14056-SAN MARTIN HIDALGO.txt
+Precipitacion: 427
+Evaporacion: 427
+Tmax: 427
+Tmin: 427
+Total: 1708
+Porcentaje local de nulos en el archivo: 10.6%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.13%
+
+Nulos en ../Archivos_Etapa_1/14059-CABO CORRIENTES.txt
+Precipitacion: 397
+Evaporacion: 399
+Tmax: 397
+Tmin: 397
+Total: 1590
+Porcentaje local de nulos en el archivo: 9.9%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.05%
+
+Nulos en ../Archivos_Etapa_1/14060-ARANDAS.txt
+Precipitacion: 397
+Evaporacion: 401
+Tmax: 397
+Tmin: 397
+Total: 1592
+Porcentaje local de nulos en el archivo: 9.9%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.05%
+
+Nulos en ../Archivos_Etapa_1/14063-ETZATLAN.txt
+Precipitacion: 30
+Evaporacion: 335
+Tmax: 30
+Tmin: 30
+Total: 425
+Porcentaje local de nulos en el archivo: 2.6%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.28%
+
+Nulos en ../Archivos_Etapa_1/14065-GUADALAJARA.txt
+Precipitacion: 0
+Evaporacion: 5
+Tmax: 0
+Tmin: 0
+Total: 5
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14066-GUADALAJARA.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14067-TOMATLAN.txt
+Precipitacion: 489
+Evaporacion: 600
+Tmax: 489
+Tmin: 489
+Total: 2067
+Porcentaje local de nulos en el archivo: 12.9%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.37%
+
+Nulos en ../Archivos_Etapa_1/14068-HOSTOTIPAQUILLO.txt
+Precipitacion: 428
+Evaporacion: 430
+Tmax: 428
+Tmin: 428
+Total: 1714
+Porcentaje local de nulos en el archivo: 10.7%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.13%
+
+Nulos en ../Archivos_Etapa_1/14069-HUEJUCAR.txt
+Precipitacion: 520
+Evaporacion: 553
+Tmax: 519
+Tmin: 520
+Total: 2112
+Porcentaje local de nulos en el archivo: 13.1%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.4%
+
+Nulos en ../Archivos_Etapa_1/14070-DEGOLLADO.txt
+Precipitacion: 587
+Evaporacion: 588
+Tmax: 587
+Tmin: 587
+Total: 2349
+Porcentaje local de nulos en el archivo: 14.6%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.55%
+
+Nulos en ../Archivos_Etapa_1/14071-HUEJUQUILLA EL ALTO.txt
+Precipitacion: 428
+Evaporacion: 434
+Tmax: 428
+Tmin: 428
+Total: 1718
+Porcentaje local de nulos en el archivo: 10.7%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.14%
+
+Nulos en ../Archivos_Etapa_1/14072-IXTLAHUACAN DE LOS MEMBRILLOS.txt
+Precipitacion: 489
+Evaporacion: 489
+Tmax: 489
+Tmin: 489
+Total: 1956
+Porcentaje local de nulos en el archivo: 12.2%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.29%
+
+Nulos en ../Archivos_Etapa_1/14075-JAMAY.txt
+Precipitacion: 0
+Evaporacion: 31
+Tmax: 0
+Tmin: 0
+Total: 31
+Porcentaje local de nulos en el archivo: 0.2%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.02%
+
+Nulos en ../Archivos_Etapa_1/14076-JESUS MARIA.txt
+Precipitacion: 521
+Evaporacion: 523
+Tmax: 521
+Tmin: 522
+Total: 2087
+Porcentaje local de nulos en el archivo: 13.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.38%
+
+Nulos en ../Archivos_Etapa_1/14078-JUCHITLAN.txt
+Precipitacion: 428
+Evaporacion: 465
+Tmax: 428
+Tmin: 428
+Total: 1749
+Porcentaje local de nulos en el archivo: 10.9%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.16%
+
+Nulos en ../Archivos_Etapa_1/14080-YAHUALICA DE GONZALEZ GALLO.txt
+Precipitacion: 1
+Evaporacion: 1
+Tmax: 1
+Tmin: 1
+Total: 4
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14081-PUERTO VALLARTA.txt
+Precipitacion: 1597
+Evaporacion: 1610
+Tmax: 1609
+Tmin: 1609
+Total: 6425
+Porcentaje local de nulos en el archivo: 40.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 4.25%
+
+Nulos en ../Archivos_Etapa_1/14083-LAGOS DE MORENO.txt
+Precipitacion: 5
+Evaporacion: 6
+Tmax: 5
+Tmin: 5
+Total: 21
+Porcentaje local de nulos en el archivo: 0.1%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.01%
+
+Nulos en ../Archivos_Etapa_1/14084-LAGOS DE MORENO.txt
+Precipitacion: 5
+Evaporacion: 6
+Tmax: 5
+Tmin: 5
+Total: 21
+Porcentaje local de nulos en el archivo: 0.1%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.01%
+
+Nulos en ../Archivos_Etapa_1/14085-LA HUERTA.txt
+Precipitacion: 428
+Evaporacion: 428
+Tmax: 428
+Tmin: 428
+Total: 1712
+Porcentaje local de nulos en el archivo: 10.7%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.13%
+
+Nulos en ../Archivos_Etapa_1/14086-LA MANZANILLA DE LA PAZ.txt
+Precipitacion: 0
+Evaporacion: 4
+Tmax: 0
+Tmin: 0
+Total: 4
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14087-TEPATITLAN DE MORELOS.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14089-TEUCHITLAN.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14090-TOTOTLAN.txt
+Precipitacion: 366
+Evaporacion: 366
+Tmax: 366
+Tmin: 366
+Total: 1464
+Porcentaje local de nulos en el archivo: 9.1%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.97%
+
+Nulos en ../Archivos_Etapa_1/14093-MAGDALENA.txt
+Precipitacion: 92
+Evaporacion: 369
+Tmax: 92
+Tmin: 92
+Total: 645
+Porcentaje local de nulos en el archivo: 4.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.43%
+
+Nulos en ../Archivos_Etapa_1/14096-MASCOTA.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14099-MAZAMITLA.txt
+Precipitacion: 397
+Evaporacion: 397
+Tmax: 397
+Tmin: 397
+Total: 1588
+Porcentaje local de nulos en el archivo: 9.9%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.05%
+
+Nulos en ../Archivos_Etapa_1/14100-MEXTICACAN.txt
+Precipitacion: 1
+Evaporacion: 1
+Tmax: 1
+Tmin: 1
+Total: 4
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14101-TEOCALTICHE.txt
+Precipitacion: 397
+Evaporacion: 458
+Tmax: 427
+Tmin: 427
+Total: 1709
+Porcentaje local de nulos en el archivo: 10.6%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.13%
+
+Nulos en ../Archivos_Etapa_1/14104-ZAPOTLANEJO.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14112-PIHUAMO.txt
+Precipitacion: 370
+Evaporacion: 856
+Tmax: 370
+Tmin: 371
+Total: 1967
+Porcentaje local de nulos en el archivo: 12.2%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.3%
+
+Nulos en ../Archivos_Etapa_1/14113-ACATLAN DE JUAREZ.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 30
+Tmin: 27
+Total: 57
+Porcentaje local de nulos en el archivo: 0.4%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.04%
+
+Nulos en ../Archivos_Etapa_1/14114-LAGOS DE MORENO.txt
+Precipitacion: 5
+Evaporacion: 6
+Tmax: 5
+Tmin: 5
+Total: 21
+Porcentaje local de nulos en el archivo: 0.1%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.01%
+
+Nulos en ../Archivos_Etapa_1/14117-VILLA PURIFICACION.txt
+Precipitacion: 428
+Evaporacion: 707
+Tmax: 428
+Tmin: 428
+Total: 1991
+Porcentaje local de nulos en el archivo: 12.4%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.32%
+
+Nulos en ../Archivos_Etapa_1/14118-TUXPAN.txt
+Precipitacion: 276
+Evaporacion: 779
+Tmax: 276
+Tmin: 276
+Total: 1607
+Porcentaje local de nulos en el archivo: 10.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.06%
+
+Nulos en ../Archivos_Etapa_1/14119-QUITUPAN.txt
+Precipitacion: 1462
+Evaporacion: 1479
+Tmax: 1473
+Tmin: 1473
+Total: 5887
+Porcentaje local de nulos en el archivo: 36.6%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 3.89%
+
+Nulos en ../Archivos_Etapa_1/14122-TEOCALTICHE.txt
+Precipitacion: 397
+Evaporacion: 458
+Tmax: 427
+Tmin: 427
+Total: 1709
+Porcentaje local de nulos en el archivo: 10.6%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.13%
+
+Nulos en ../Archivos_Etapa_1/14123-SAN DIEGO DE ALEJANDRIA.txt
+Precipitacion: 523
+Evaporacion: 690
+Tmax: 523
+Tmin: 523
+Total: 2259
+Porcentaje local de nulos en el archivo: 14.1%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.49%
+
+Nulos en ../Archivos_Etapa_1/14125-MIXTLAN.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14129-TONILA.txt
+Precipitacion: 827
+Evaporacion: 4018
+Tmax: 1692
+Tmin: 1695
+Total: 8232
+Porcentaje local de nulos en el archivo: 51.2%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 5.44%
+
+Nulos en ../Archivos_Etapa_1/14132-SAN PEDRO TLAQUEPAQUE.txt
+Precipitacion: 0
+Evaporacion: 9
+Tmax: 0
+Tmin: 0
+Total: 9
+Porcentaje local de nulos en el archivo: 0.1%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.01%
+
+Nulos en ../Archivos_Etapa_1/14136-AMATITAN.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14139-UNION DE TULA.txt
+Precipitacion: 277
+Evaporacion: 283
+Tmax: 282
+Tmin: 282
+Total: 1124
+Porcentaje local de nulos en el archivo: 7.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.74%
+
+Nulos en ../Archivos_Etapa_1/14140-TALPA DE ALLENDE.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14141-TAMAZULA DE GORDIANO.txt
+Precipitacion: 32
+Evaporacion: 45
+Tmax: 43
+Tmin: 44
+Total: 164
+Porcentaje local de nulos en el archivo: 1.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.11%
+
+Nulos en ../Archivos_Etapa_1/14142-TAPALPA.txt
+Precipitacion: 397
+Evaporacion: 407
+Tmax: 397
+Tmin: 397
+Total: 1598
+Porcentaje local de nulos en el archivo: 9.9%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.06%
+
+Nulos en ../Archivos_Etapa_1/14143-TECOLOTLAN.txt
+Precipitacion: 428
+Evaporacion: 465
+Tmax: 428
+Tmin: 428
+Total: 1749
+Porcentaje local de nulos en el archivo: 10.9%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.16%
+
+Nulos en ../Archivos_Etapa_1/14144-COLOTLAN.txt
+Precipitacion: 101
+Evaporacion: 222
+Tmax: 101
+Tmin: 102
+Total: 526
+Porcentaje local de nulos en el archivo: 3.3%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.35%
+
+Nulos en ../Archivos_Etapa_1/14145-TEOCALTICHE.txt
+Precipitacion: 397
+Evaporacion: 458
+Tmax: 427
+Tmin: 427
+Total: 1709
+Porcentaje local de nulos en el archivo: 10.6%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.13%
+
+Nulos en ../Archivos_Etapa_1/14146-TEOCUITATLAN DE CORONA.txt
+Precipitacion: 61
+Evaporacion: 458
+Tmax: 61
+Tmin: 61
+Total: 641
+Porcentaje local de nulos en el archivo: 4.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.42%
+
+Nulos en ../Archivos_Etapa_1/14155-TUXCACUESCO.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14156-TUXCUECA.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14157-UNION DE SAN ANTONIO.txt
+Precipitacion: 193
+Evaporacion: 193
+Tmax: 193
+Tmin: 193
+Total: 772
+Porcentaje local de nulos en el archivo: 4.8%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.51%
+
+Nulos en ../Archivos_Etapa_1/14160-VALLE DE JUAREZ.txt
+Precipitacion: 31
+Evaporacion: 31
+Tmax: 42
+Tmin: 42
+Total: 146
+Porcentaje local de nulos en el archivo: 0.9%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.1%
+
+Nulos en ../Archivos_Etapa_1/14164-VILLA GUERRERO.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14165-CAÑADAS DE OBREGON.txt
+Precipitacion: 1
+Evaporacion: 1
+Tmax: 1
+Tmin: 1
+Total: 4
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14167-YAHUALICA DE GONZALEZ GALLO.txt
+Precipitacion: 1
+Evaporacion: 1
+Tmax: 1
+Tmin: 1
+Total: 4
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14168-ZACOALCO DE TORRES.txt
+Precipitacion: 31
+Evaporacion: 399
+Tmax: 32
+Tmin: 32
+Total: 494
+Porcentaje local de nulos en el archivo: 3.1%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.33%
+
+Nulos en ../Archivos_Etapa_1/14169-ZAPOPAN.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4138
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14179-OJUELOS DE JALISCO.txt
+Precipitacion: 0
+Evaporacion: 2
+Tmax: 0
+Tmin: 0
+Total: 2
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14180-QUITUPAN.txt
+Precipitacion: 489
+Evaporacion: 489
+Tmax: 489
+Tmin: 489
+Total: 1956
+Porcentaje local de nulos en el archivo: 12.2%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.29%
+
+Nulos en ../Archivos_Etapa_1/14187-TEQUILA.txt
+Precipitacion: 31
+Evaporacion: 33
+Tmax: 31
+Tmin: 31
+Total: 126
+Porcentaje local de nulos en el archivo: 0.8%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.08%
+
+Nulos en ../Archivos_Etapa_1/14189-TIZAPAN EL ALTO.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4075
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14191-VALLE DE JUAREZ.txt
+Precipitacion: 31
+Evaporacion: 31
+Tmax: 42
+Tmin: 42
+Total: 146
+Porcentaje local de nulos en el archivo: 0.9%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.1%
+
+Nulos en ../Archivos_Etapa_1/14195-SAN JUANITO DE ESCOBEDO.txt
+Precipitacion: 0
+Evaporacion: 34
+Tmax: 0
+Tmin: 0
+Total: 34
+Porcentaje local de nulos en el archivo: 0.2%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.02%
+
+Nulos en ../Archivos_Etapa_1/14197-UNION DE TULA.txt
+Precipitacion: 277
+Evaporacion: 283
+Tmax: 282
+Tmin: 282
+Total: 1124
+Porcentaje local de nulos en el archivo: 7.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.74%
+
+Nulos en ../Archivos_Etapa_1/14198-CUAUTITLAN DE GARCIA BARRAGAN.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14199-PONCITLAN.txt
+Precipitacion: 64
+Evaporacion: 64
+Tmax: 64
+Tmin: 64
+Total: 256
+Porcentaje local de nulos en el archivo: 1.6%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.17%
+
+Nulos en ../Archivos_Etapa_1/14200-SAN PEDRO TLAQUEPAQUE.txt
+Precipitacion: 0
+Evaporacion: 9
+Tmax: 0
+Tmin: 0
+Total: 9
+Porcentaje local de nulos en el archivo: 0.1%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.01%
+
+Nulos en ../Archivos_Etapa_1/14266-JALOSTOTITLAN.txt
+Precipitacion: 52
+Evaporacion: 52
+Tmax: 52
+Tmin: 52
+Total: 208
+Porcentaje local de nulos en el archivo: 1.3%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.14%
+
+Nulos en ../Archivos_Etapa_1/14269-AHUALULCO DE MERCADO.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4047
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14294-TLAJOMULCO DE ZUÑIGA.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14297-GUACHINANGO.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4169
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14306-HUEJUQUILLA EL ALTO.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4046
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14311-TOLIMAN.txt
+Precipitacion: 0
+Evaporacion: 14
+Tmax: 13
+Tmin: 14
+Total: 41
+Porcentaje local de nulos en el archivo: 0.3%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.03%
+
+Nulos en ../Archivos_Etapa_1/14317-MIXTLAN.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14320-LAGOS DE MORENO.txt
+Precipitacion: 5
+Evaporacion: 6
+Tmax: 5
+Tmin: 5
+Total: 21
+Porcentaje local de nulos en el archivo: 0.1%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.01%
+
+Nulos en ../Archivos_Etapa_1/14323-TECHALUTA DE MONTENEGRO.txt
+Precipitacion: 336
+Evaporacion: 495
+Tmax: 336
+Tmin: 336
+Total: 1503
+Porcentaje local de nulos en el archivo: 9.4%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.99%
+
+Nulos en ../Archivos_Etapa_1/14324-TOTATICHE.txt
+Precipitacion: 3
+Evaporacion: 4
+Tmax: 3
+Tmin: 4
+Total: 14
+Porcentaje local de nulos en el archivo: 0.1%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.01%
+
+Nulos en ../Archivos_Etapa_1/14326-MEZQUITIC.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14329-GUADALAJARA.txt
+Precipitacion: 0
+Evaporacion: 5
+Tmax: 0
+Tmin: 0
+Total: 5
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14331-COLOTLAN.txt
+Precipitacion: 101
+Evaporacion: 222
+Tmax: 101
+Tmin: 102
+Total: 526
+Porcentaje local de nulos en el archivo: 3.3%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.35%
+
+Nulos en ../Archivos_Etapa_1/14336-PIHUAMO.txt
+Precipitacion: 154
+Evaporacion: 584
+Tmax: 154
+Tmin: 154
+Total: 1046
+Porcentaje local de nulos en el archivo: 6.5%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.69%
+
+Nulos en ../Archivos_Etapa_1/14337-YAHUALICA DE GONZALEZ GALLO.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14339-PUERTO VALLARTA.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4139
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14343-EJUTLA.txt
+Precipitacion: 1
+Evaporacion: 1
+Tmax: 1
+Tmin: 1
+Total: 4
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14346-MEZQUITIC.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14348-JILOTLAN DE LOS DOLORES.txt
+Precipitacion: 63
+Evaporacion: 105
+Tmax: 184
+Tmin: 184
+Total: 536
+Porcentaje local de nulos en el archivo: 3.3%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.35%
+
+Nulos en ../Archivos_Etapa_1/14349-ATENGUILLO.txt
+Precipitacion: 0
+Evaporacion: 31
+Tmax: 0
+Tmin: 0
+Total: 31
+Porcentaje local de nulos en el archivo: 0.2%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.02%
+
+Nulos en ../Archivos_Etapa_1/14350-TUXCACUESCO.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14351-TALA.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14355-LA BARCA.txt
+Precipitacion: 0
+Evaporacion: 1
+Tmax: 0
+Tmin: 0
+Total: 1
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14367-UNION DE SAN ANTONIO.txt
+Precipitacion: 186
+Evaporacion: 186
+Tmax: 186
+Tmin: 186
+Total: 744
+Porcentaje local de nulos en el archivo: 4.6%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.49%
+
+Nulos en ../Archivos_Etapa_1/14368-SAYULA.txt
+Precipitacion: 30
+Evaporacion: 31
+Tmax: 30
+Tmin: 30
+Total: 121
+Porcentaje local de nulos en el archivo: 0.8%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.08%
+
+Nulos en ../Archivos_Etapa_1/14369-ARANDAS.txt
+Precipitacion: 5
+Evaporacion: 5
+Tmax: 5
+Tmin: 5
+Total: 20
+Porcentaje local de nulos en el archivo: 0.1%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.01%
+
+Nulos en ../Archivos_Etapa_1/14379-PONCITLAN.txt
+Precipitacion: 0
+Evaporacion: 31
+Tmax: 0
+Tmin: 0
+Total: 31
+Porcentaje local de nulos en el archivo: 0.2%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.02%
+
+Nulos en ../Archivos_Etapa_1/14386-TONALA.txt
+Precipitacion: 0
+Evaporacion: 5
+Tmax: 0
+Tmin: 0
+Total: 5
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14388-ZAPOTLANEJO.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14390-AUTLAN DE NAVARRO.txt
+Precipitacion: 0
+Evaporacion: 2
+Tmax: 0
+Tmin: 0
+Total: 2
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14391-TIZAPAN EL ALTO.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14392-LAGOS DE MORENO.txt
+Precipitacion: 5
+Evaporacion: 6
+Tmax: 5
+Tmin: 5
+Total: 21
+Porcentaje local de nulos en el archivo: 0.1%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.01%
+
+Nulos en ../Archivos_Etapa_1/14395-UNION DE TULA.txt
+Precipitacion: 277
+Evaporacion: 283
+Tmax: 282
+Tmin: 282
+Total: 1124
+Porcentaje local de nulos en el archivo: 7.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.74%
+
+Nulos en ../Archivos_Etapa_1/14396-JOCOTEPEC.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/14397-ZAPOTLANEJO.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/15001-ACATIC.txt
+Precipitacion: 397
+Evaporacion: 397
+Tmax: 397
+Tmin: 397
+Total: 1588
+Porcentaje local de nulos en el archivo: 9.9%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.05%
+
+Nulos en ../Archivos_Etapa_1/15002-AMACUECA.txt
+Precipitacion: 366
+Evaporacion: 369
+Tmax: 366
+Tmin: 366
+Total: 1467
+Porcentaje local de nulos en el archivo: 9.1%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.97%
+
+Nulos en ../Archivos_Etapa_1/15003-EL ARENAL.txt
+Precipitacion: 46
+Evaporacion: 1087
+Tmax: 46
+Tmin: 45
+Total: 1224
+Porcentaje local de nulos en el archivo: 7.6%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.81%
+
+Nulos en ../Archivos_Etapa_1/15004-ATEMAJAC DE BRIZUELA.txt
+Precipitacion: 397
+Evaporacion: 494
+Tmax: 397
+Tmin: 397
+Total: 1685
+Porcentaje local de nulos en el archivo: 10.5%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.11%
+
+Nulos en ../Archivos_Etapa_1/15005-ATENGO.txt
+Precipitacion: 458
+Evaporacion: 613
+Tmax: 458
+Tmin: 458
+Total: 1987
+Porcentaje local de nulos en el archivo: 12.4%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.31%
+
+Nulos en ../Archivos_Etapa_1/15006-AYOTLAN.txt
+Precipitacion: 5
+Evaporacion: 5
+Tmax: 5
+Tmin: 5
+Total: 20
+Porcentaje local de nulos en el archivo: 0.1%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.01%
+
+Nulos en ../Archivos_Etapa_1/15007-AYUTLA.txt
+Precipitacion: 366
+Evaporacion: 461
+Tmax: 374
+Tmin: 374
+Total: 1575
+Porcentaje local de nulos en el archivo: 9.8%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.04%
+
+Nulos en ../Archivos_Etapa_1/15008-CASIMIRO CASTILLO.txt
+Precipitacion: 397
+Evaporacion: 421
+Tmax: 397
+Tmin: 397
+Total: 1612
+Porcentaje local de nulos en el archivo: 10.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.07%
+
+Nulos en ../Archivos_Etapa_1/15009-COCULA.txt
+Precipitacion: 489
+Evaporacion: 491
+Tmax: 519
+Tmin: 519
+Total: 2018
+Porcentaje local de nulos en el archivo: 12.6%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.33%
+
+Nulos en ../Archivos_Etapa_1/15010-CUAUTLA.txt
+Precipitacion: 428
+Evaporacion: 461
+Tmax: 428
+Tmin: 428
+Total: 1745
+Porcentaje local de nulos en el archivo: 10.9%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.15%
+
+Nulos en ../Archivos_Etapa_1/15011-CHIMALTITAN.txt
+Precipitacion: 371
+Evaporacion: 374
+Tmax: 372
+Tmin: 373
+Total: 1490
+Porcentaje local de nulos en el archivo: 9.3%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.99%
+
+Nulos en ../Archivos_Etapa_1/15012-CHIQUILISTLAN.txt
+Precipitacion: 428
+Evaporacion: 464
+Tmax: 428
+Tmin: 428
+Total: 1748
+Porcentaje local de nulos en el archivo: 10.9%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.16%
+
+Nulos en ../Archivos_Etapa_1/15013-ENCARNACION DE DIAZ.txt
+Precipitacion: 366
+Evaporacion: 366
+Tmax: 366
+Tmin: 366
+Total: 1464
+Porcentaje local de nulos en el archivo: 9.1%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.97%
+
+Nulos en ../Archivos_Etapa_1/15014-EL GRULLO.txt
+Precipitacion: 1
+Evaporacion: 3
+Tmax: 1
+Tmin: 1
+Total: 6
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/15015-IXTLAHUACAN DEL RIO.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/15016-JUANACATLAN.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/15017-EL LIMON.txt
+Precipitacion: 1
+Evaporacion: 3
+Tmax: 1
+Tmin: 1
+Total: 6
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/15018-SANTA MARIA DEL ORO.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/15019-EL SALTO.txt
+Precipitacion: 34
+Evaporacion: 122
+Tmax: 38
+Tmin: 39
+Total: 233
+Porcentaje local de nulos en el archivo: 1.4%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.15%
+
+Nulos en ../Archivos_Etapa_1/15020-SAN JUAN DE LOS LAGOS.txt
+Precipitacion: 237
+Evaporacion: 280
+Tmax: 237
+Tmin: 237
+Total: 991
+Porcentaje local de nulos en el archivo: 6.2%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.66%
+
+Nulos en ../Archivos_Etapa_1/15021-SAN JULIAN.txt
+Precipitacion: 523
+Evaporacion: 704
+Tmax: 523
+Tmin: 523
+Total: 2273
+Porcentaje local de nulos en el archivo: 14.1%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.5%
+
+Nulos en ../Archivos_Etapa_1/15022-SAN MARCOS.txt
+Precipitacion: 366
+Evaporacion: 418
+Tmax: 366
+Tmin: 366
+Total: 1516
+Porcentaje local de nulos en el archivo: 9.4%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.0%
+
+Nulos en ../Archivos_Etapa_1/15023-SAN MARTIN DE BOLAÑOS.txt
+Precipitacion: 428
+Evaporacion: 430
+Tmax: 428
+Tmin: 428
+Total: 1714
+Porcentaje local de nulos en el archivo: 10.7%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.13%
+
+Nulos en ../Archivos_Etapa_1/15024-SAN MIGUEL EL ALTO.txt
+Precipitacion: 1
+Evaporacion: 1
+Tmax: 1
+Tmin: 1
+Total: 4
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/15025-GOMEZ FARIAS.txt
+Precipitacion: 396
+Evaporacion: 488
+Tmax: 396
+Tmin: 396
+Total: 1676
+Porcentaje local de nulos en el archivo: 10.4%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.11%
+
+Nulos en ../Archivos_Etapa_1/15026-SAN SEBASTIAN DEL OESTE.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/15027-SANTA MARIA DE LOS ANGELES.txt
+Precipitacion: 428
+Evaporacion: 428
+Tmax: 428
+Tmin: 428
+Total: 1712
+Porcentaje local de nulos en el archivo: 10.7%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.13%
+
+Nulos en ../Archivos_Etapa_1/15028-TECALITLAN.txt
+Precipitacion: 62
+Evaporacion: 68
+Tmax: 62
+Tmin: 62
+Total: 254
+Porcentaje local de nulos en el archivo: 1.6%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.17%
+
+Nulos en ../Archivos_Etapa_1/15029-TENAMAXTLAN.txt
+Precipitacion: 459
+Evaporacion: 664
+Tmax: 461
+Tmin: 461
+Total: 2045
+Porcentaje local de nulos en el archivo: 12.7%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.35%
+
+Nulos en ../Archivos_Etapa_1/15030-TONAYA.txt
+Precipitacion: 1
+Evaporacion: 3
+Tmax: 1
+Tmin: 1
+Total: 6
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/15031-VALLE DE GUADALUPE.txt
+Precipitacion: 1
+Evaporacion: 1
+Tmax: 1
+Tmin: 1
+Total: 4
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/15032-SAN GABRIEL.txt
+Precipitacion: 0
+Evaporacion: 1
+Tmax: 0
+Tmin: 0
+Total: 1
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/15033-VILLA CORONA.txt
+Precipitacion: 61
+Evaporacion: 489
+Tmax: 62
+Tmin: 62
+Total: 674
+Porcentaje local de nulos en el archivo: 4.2%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.45%
+
+Nulos en ../Archivos_Etapa_1/15034-VILLA HIDALGO.txt
+Precipitacion: 458
+Evaporacion: 458
+Tmax: 458
+Tmin: 458
+Total: 1832
+Porcentaje local de nulos en el archivo: 11.4%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.21%
+
+Nulos en ../Archivos_Etapa_1/15035-ZAPOTILTIC.txt
+Precipitacion: 490
+Evaporacion: 583
+Tmax: 490
+Tmin: 490
+Total: 2053
+Porcentaje local de nulos en el archivo: 12.8%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.36%
+
+Nulos en ../Archivos_Etapa_1/15036-ZAPOTITLAN DE VADILLO.txt
+Precipitacion: 795
+Evaporacion: 2635
+Tmax: 1974
+Tmin: 1980
+Total: 7384
+Porcentaje local de nulos en el archivo: 45.9%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 4.88%
+
+Nulos en ../Archivos_Etapa_1/15037-ZAPOTLAN DEL REY.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../Archivos_Etapa_1/15038-SAN IGNACIO CERRO GORDO.txt
+Precipitacion: 459
+Evaporacion: 458
+Tmax: 458
+Tmin: 458
+Total: 1833
+Porcentaje local de nulos en el archivo: 11.4%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.21%
+

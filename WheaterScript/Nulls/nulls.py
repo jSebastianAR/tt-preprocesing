@@ -2,6 +2,7 @@ import subprocess
 from dates import generate_date_list
 import re
 from graphics import graph_global_nulls
+import pickle
 
 REGEX_BLANK_SPACES = r'[ ]+'
 REGEX_DATES = r'[\d]{2}\/[\d]{2}\/[\d]{4}'
@@ -10,10 +11,32 @@ TOTAL_DAYS_FOR_FILE = 4018
 TOTAL_DATA_FOR_FILE = 16072
 TOTAL_NULLS = 0
 TOTAL_DATA_IN_DATASET = 0
-	
+ETAPA_1_PATH = 'Archivos_Etapa_1'
+ETAPA_2_PATH = 'Archivos_Etapa_2'
+PRE_ETAPAS = 'CleanedData'
+
+PICKLE_PRE_ETAPA = 'pre_etapas_datos_graficas.pickle'
+PICKLE_ETAPA_1 = 'etapa1_datos_graficas.pickle'
+PICKLE_ETAPA_2 = 'etapa2_datos_graficas.pickle'
+
 def Evaluate_Towns():
 	global TOTAL_NULLS
-	txt_files = get_txt()
+	#Descomentar cada linea por cada etapa que se desee hacer
+	#PRE ETAPA
+	"""current_path = build_path(PRE_ETAPAS)
+	delete_file(current_path)
+	txt_files = get_txt(PRE_ETAPAS)"""
+	#ETAPA 1
+	"""current_path = build_path(ETAPA_1_PATH)
+	delete_file(current_path)
+	txt_files = get_txt(ETAPA_1_PATH)"""
+	#ETAPA 2
+	current_path = build_path(ETAPA_2_PATH)
+	delete_file(current_path)
+	txt_files = get_txt(ETAPA_2_PATH)
+	
+	
+
 	TOTAL_DATA_IN_DATASET = TOTAL_DATA_FOR_FILE * len(txt_files)
 	RESULTS_FOR_FILE_LIST = []
 	#Por cada archivo
@@ -24,7 +47,6 @@ def Evaluate_Towns():
 		with open(txt,'r',encoding = "ISO-8859-1") as file:
 
 			conteo = find_nulls(file,txt)
-			#write_file(info_to_write(txt,conteo))
 			txt_dict['Name'] = get_name_txt(txt_dict['Path'])
 			txt_dict['Conteo'] = conteo
 			txt_dict['Total_nulos'] = get_total_nulls_for_file(conteo)
@@ -32,15 +54,15 @@ def Evaluate_Towns():
 			txt_dict['Total dias existentes'] = len(get_dates_file_list(txt))
 			RESULTS_FOR_FILE_LIST.append(txt_dict)
 			TOTAL_NULLS += txt_dict['Total_nulos']
-	"""
+	
 	write_file('TOTAL DE DATOS QUE DEBEN EXISTIR EN EL DATASET:' + str(TOTAL_DATA_IN_DATASET) + \
 				'\nTOTAL DE DATOS NULOS EN EL DATASET:'+ str(TOTAL_NULLS) + \
 				'\nTOTAL DE DATOS POR ARCHIVO:'+ str(TOTAL_DATA_FOR_FILE) + \
-				'\nTOTAL DE DIAS QUE DEBE CONTENER UN ARCHIVO:' + str(TOTAL_DAYS_FOR_FILE) + '\n\n')
-	"""
+				'\nTOTAL DE DIAS QUE DEBE CONTENER UN ARCHIVO:' + str(TOTAL_DAYS_FOR_FILE) + '\n\n', current_path)
+	
 	for txt in RESULTS_FOR_FILE_LIST:
 		txt['Porcentaje_global_nulos'] = round(get_global_percentage(txt['Total_nulos']),2)
-		#write_file(info_to_write(txt))
+		write_file(info_to_write(txt),current_path)
 	print(RESULTS_FOR_FILE_LIST)
 	return RESULTS_FOR_FILE_LIST
 
@@ -157,27 +179,29 @@ def get_global_percentage(total_nulls_file):
 	nulls_percentage = (total_nulls_file * 100)/ TOTAL_NULLS
 	return nulls_percentage
 #					FUNCIONES PARA ARCHIVOS
-def get_txt():
-	result = subprocess.check_output('ls ../CleanedData/*.txt',shell=True)
+def get_txt(path_folder):
+	result = subprocess.check_output('ls ../'+ path_folder +'/*.txt',shell=True)
 	txt_list = result.decode().split('\n')
 	txt_list = txt_list[:len(txt_list)-1]
 	#print(f"{len(txt_list)} Archivos a leer \nTXT: \n{txt_list}")
 	return txt_list
 
-def write_file(info):
+def write_file(info,path_file):
 	
-	with open('Nulls.txt','a+') as file:
+	with open(path_file + 'Nulls.txt','a+') as file:
 		file.write(info)
 
 
-def delete_file():
-	file = subprocess.check_output('find . -name Nulls.txt',shell=True)
-	if len(file)>0:
-		name_file = file.decode().split('/')[1].split('\n')[0]
-		print(f"{name_file}")
-		if name_file == "Nulls.txt":
-			
-			print(subprocess.call(['rm', '-rf', 'Nulls.txt']))
+def delete_file(path_file):
+	#file = subprocess.check_output('find . -name '+ path_file +'Nulls.txt',shell=True)
+	try:
+		file = subprocess.check_output('find '+ path_file +'Nulls.txt',shell=True)
+		if len(file)>0:
+			parts = file.decode().split('/')#.split('\n')[0]
+			name_file = parts[len(parts)-1]
+			print(subprocess.call(['rm', '-rf', path_file + 'Nulls.txt']))
+	except:
+		print('No existe archivo Nulls.txt')
 
 def get_dates_file_list(txt):
 
@@ -188,6 +212,16 @@ def get_dates_file_list(txt):
 		#print(f'dates {dates} tam:{len(dates)}')
 	return dates
 #					FUNCIONES PARA ARCHIVOS
+
+def build_path(path_folder):
+	return '../'+ path_folder +'/'
+
+def get_dump(name):
+
+	with open('../Pickles/'+name, "rb") as a_file:
+		output = pickle.load(a_file)
+		print(output)
+		return output
 
 if __name__ == '__main__':
 	"""
@@ -202,6 +236,20 @@ if __name__ == '__main__':
 	
 	"""
 	#print(f'LIST_DAYS: {len(LIST_DAYS)}')
-	#delete_file()
-	result_towns = Evaluate_Towns()
-	graph_global_nulls(result_towns)
+	
+	#Esta función analiza todos los archivos y obtiene los nulos
+	#result_towns = Evaluate_Towns()
+
+	#Esta funcion obtiene el pickle especifico con la lista de datos
+	#que la función Evaluate_Towns() calcula, pero sin necesidad de obtenerlos nuevamente
+	option = 0
+	while( option==0 or option==1 or option==2):
+		option = int(input('Graficar: 0-Pre_Etapa 1-Etapa_1 2-Etapa_2: '))
+		if option==0:
+			result_towns = get_dump(PICKLE_PRE_ETAPA)
+		elif option==1:
+			result_towns = get_dump(PICKLE_ETAPA_1)
+		elif option==2:
+			result_towns = get_dump(PICKLE_ETAPA_2)
+		
+		graph_global_nulls(result_towns)
