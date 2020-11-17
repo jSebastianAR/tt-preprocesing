@@ -9,7 +9,7 @@ class Writer(object):
 
     def generate_path(self):
         parts = self.path_origin_file.split('/')
-        new_path = '../Archivos_Etapa_3/'+parts[len(parts)-1]
+        new_path = '../Archivos_Etapa_4/'+parts[len(parts)-1]
         return new_path
 
     def get_header_data(self):

@@ -11,21 +11,24 @@ import pickle
 PATH_E1 = './Etapa_1/'
 PATH_E2 = './Etapa_2/'
 PATH_E3 = './Etapa_3/'
+PATH_E4 = './Etapa_4/'
 
 
 def bitacora(info,path):
-        with open(path + 'ArchivosLlenados.txt','a+', encoding = "utf-8") as file:
+        with open('/home/Archivos_Etapa_4/' + 'ArchivosLlenados.txt','a+', encoding = "utf-8") as file:
             file.write(info+'\n')
 
 def save_last_key(key,path):
+    path = '/home/shared_container/'
     with open(path + 'key.pickle', "wb") as a_file:
         pickle.dump(key, a_file, protocol=pickle.HIGHEST_PROTOCOL)
         a_file.close()
 
 def get_next_key(path):
-	with open(path + 'key.pickle', "rb") as a_file:
-		output = pickle.load(a_file)
-		return output + 1
+    path = '/home/shared_container/'
+    with open(path + 'key.pickle', "rb") as a_file:
+        output = pickle.load(a_file)
+        return output + 1
 
 def read_pickle(name,path):
     with open(path + name, "rb") as a_file:
@@ -54,11 +57,11 @@ def get_paths_TUs(key,dict_rel,dict_paths):
 
 def run():
     #Obtiene los paths de todas los archivos
-    dict_paths = read_pickle('paths_file_e3.pickle',PATH_E3)
+    dict_paths = read_pickle('paths_file_e4.pickle',PATH_E4)
     #Obtiene las listas de relacion de todas las ciudades con sus respectivas TU's
-    dict_rel = read_pickle('rel_TF_TU_e3.pickle',PATH_E3)
+    dict_rel = read_pickle('rel_TF_TU.pickle',PATH_E4)
     #Obtiene el último valor de llave donde se detuvo el algoritmo(si es que se detuvo)
-    next_index = get_next_key(PATH_E3)
+    next_index = get_next_key(PATH_E4)
     print(f'START KEY {next_index}')
     #Por cada key que hay en el diccionario que contiene todos los paths
     for key in range(next_index,len(dict_paths)+1):
@@ -93,9 +96,9 @@ def run():
         #Crea un nuevo archivo y escribe todo el contenido
         wrt.newFile(town_tf.content)
         #Escribiendo en registro el archivo que fue llenado
-        bitacora(town_tf.name,PATH_E3)
+        bitacora(town_tf.name,PATH_E4)
         #Guardando la última key que tenía el último archivo que se lleno
-        save_last_key(key,PATH_E3)
+        save_last_key(key,PATH_E4)
         print('Esperando 25 segundos antes de volver...')
         time.sleep(25)
     
