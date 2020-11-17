@@ -69,7 +69,7 @@ def get_name_txt(txt):
 	return name
 
 def get_txt():
-	result = subprocess.check_output('ls Dataset\ Clima\ Diario/*.txt',shell=True)
+	result = subprocess.check_output('ls ../Dataset\ Clima\ Diario/*.txt',shell=True)
 	txt_list = result.decode().split('\n')
 	txt_list = txt_list[:len(txt_list)-1]
 	print(f"{len(txt_list)} Archivos a leer \nTXT: \n{txt_list}")
@@ -78,7 +78,7 @@ def get_txt():
 def write_file(line,txt):
 	name = get_name_txt(txt)
 	#with open('CleanedData/'+name+'-Cleaned','a+') as file:
-	with open('CleanedData/'+name,'a+') as file:
+	with open('../CleanedData/'+name,'a+') as file:
 		file.write(line)
 
 def write_file_missing_years(line):
@@ -97,6 +97,4 @@ def write_log(line):
 	with open('log.txt','a+') as file:
 		file.write(line+'\n')	
 
-result = read_files()
-
-print(result)
+read_files()
