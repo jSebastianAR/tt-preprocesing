@@ -15,7 +15,8 @@ def graph_comparison(etapa):
     total_nulos_preetapa = 1201445
     total_nulos_etapa1 = 151216
     total_nulos_etapa2 = 24516
-    total_nulos_recuperados = total_nulos_preetapa - total_nulos_etapa2
+    total_nulos_etapa3 = 6947
+    total_nulos_recuperados = total_nulos_preetapa - total_nulos_etapa3
 
     if etapa == 0:
         pct_list = [Total_data_in_dataset-total_nulos_preetapa,total_nulos_preetapa]
@@ -24,7 +25,9 @@ def graph_comparison(etapa):
     elif etapa == 2:
         pct_list = [Total_data_in_dataset-total_nulos_etapa2,total_nulos_etapa2]
     elif etapa == 3:
-        pct_list = [total_nulos_recuperados,total_nulos_etapa2]
+        pct_list = [Total_data_in_dataset-total_nulos_etapa3,total_nulos_etapa3]
+    elif etapa == 4:
+        pct_list = [total_nulos_recuperados,total_nulos_etapa3]
     # Wedge properties 
     wp = { 'linewidth' : 1, 'edgecolor' : "black" } 
 
@@ -269,5 +272,5 @@ def get_labels_cols(num_cols, num_group):
 if __name__ == '__main__':
     #graph_global_nulls(data_before_refill)
     while(True):
-        etapa = int(input('Comparacion 0-Pre_Etapa 1-Etapa_1 2-Etapa_2: '))
+        etapa = int(input('Comparacion 0-Pre_Etapa 1-Etapa_1 2-Etapa_2 3-Etapa_3: 4-NulosVSRecuperados: '))
         graph_comparison(etapa)
