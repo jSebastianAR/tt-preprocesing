@@ -10,6 +10,7 @@ import pickle
 
 PATH_E1 = './Etapa_1/'
 PATH_E2 = './Etapa_2/'
+PATH_E3 = './Etapa_3/'
 
 
 def bitacora(info,path):
@@ -53,11 +54,11 @@ def get_paths_TUs(key,dict_rel,dict_paths):
 
 def run():
     #Obtiene los paths de todas los archivos
-    dict_paths = read_pickle('paths_file_e2.pickle',PATH_E2)
+    dict_paths = read_pickle('paths_file_e3.pickle',PATH_E3)
     #Obtiene las listas de relacion de todas las ciudades con sus respectivas TU's
-    dict_rel = read_pickle('rel_TF_TU_e2.pickle',PATH_E2)
+    dict_rel = read_pickle('rel_TF_TU_e3.pickle',PATH_E3)
     #Obtiene el último valor de llave donde se detuvo el algoritmo(si es que se detuvo)
-    next_index = get_next_key(PATH_E2)
+    next_index = get_next_key(PATH_E3)
     print(f'START KEY {next_index}')
     #Por cada key que hay en el diccionario que contiene todos los paths
     for key in range(next_index,len(dict_paths)+1):
@@ -92,9 +93,9 @@ def run():
         #Crea un nuevo archivo y escribe todo el contenido
         wrt.newFile(town_tf.content)
         #Escribiendo en registro el archivo que fue llenado
-        bitacora(town_tf.name,PATH_E2)
+        bitacora(town_tf.name,PATH_E3)
         #Guardando la última key que tenía el último archivo que se lleno
-        save_last_key(key,PATH_E2)
+        save_last_key(key,PATH_E3)
         print('Esperando 25 segundos antes de volver...')
         time.sleep(25)
     
