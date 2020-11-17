@@ -14,35 +14,23 @@ TOTAL_DATA_IN_DATASET = 0
 ETAPA_1_PATH = 'Archivos_Etapa_1'
 ETAPA_2_PATH = 'Archivos_Etapa_2'
 ETAPA_3_PATH = 'Archivos_Etapa_3'
+ETAPA_4_PATH = 'Archivos_Etapa_4'
 PRE_ETAPAS = 'CleanedData'
 
 PICKLE_PRE_ETAPA = 'pre_etapas_datos_graficas.pickle'
 PICKLE_ETAPA_1 = 'etapa1_datos_graficas.pickle'
 PICKLE_ETAPA_2 = 'etapa2_datos_graficas.pickle'
 PICKLE_ETAPA_3 = 'etapa3_datos_graficas.pickle'
+PICKLE_ETAPA_4 = 'etapa4_datos_graficas.pickle'
 
 def Evaluate_Towns():
 	global TOTAL_NULLS
-	#Descomentar cada linea por cada etapa que se desee hacer
-	#PRE ETAPA
-	"""current_path = build_path(PRE_ETAPAS)
+	#Working path debe ser modificado por cada etapa que se desee hacer
+	working_path = ETAPA_4_PATH
+	current_path = build_path(working_path)
 	delete_file(current_path)
-	txt_files = get_txt(PRE_ETAPAS)"""
-	#ETAPA 1
-	"""current_path = build_path(ETAPA_1_PATH)
-	delete_file(current_path)
-	txt_files = get_txt(ETAPA_1_PATH)"""
-	#ETAPA 2
-	#current_path = build_path(ETAPA_2_PATH)
-	#delete_file(current_path)
-	#txt_files = get_txt(ETAPA_2_PATH)
-	#ETAPA 3
-	current_path = build_path(ETAPA_3_PATH)
-	delete_file(current_path)
-	txt_files = get_txt(ETAPA_3_PATH)
+	txt_files = get_txt(working_path)
 	
-	
-
 	TOTAL_DATA_IN_DATASET = TOTAL_DATA_FOR_FILE * len(txt_files)
 	RESULTS_FOR_FILE_LIST = []
 	#Por cada archivo
@@ -250,14 +238,15 @@ if __name__ == '__main__':
 	#que la función Evaluate_Towns() calcula, pero sin necesidad de obtenerlos nuevamente
 	option = 0
 	while(True):
-		option = int(input('Graficar: 0-Pre_Etapa 1-Etapa_1 2-Etapa_2: '))
+		option = int(input('Graficar: 0-Pre_Etapa 1-Etapa_1 2-Etapa_2 3-Etapa_3 4-Etapa_4: '))
 		if option==0:
 			result_towns = get_dump(PICKLE_PRE_ETAPA)
 		elif option==1:
 			result_towns = get_dump(PICKLE_ETAPA_1)
 		elif option==2:
 			result_towns = get_dump(PICKLE_ETAPA_2)
-		else:
+		elif option==3:
 			result_towns = get_dump(PICKLE_ETAPA_3)
-		
+		else:
+			result_towns = get_dump(PICKLE_ETAPA_4)
 		graph_global_nulls(result_towns)
