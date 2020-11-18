@@ -12,19 +12,24 @@ PATH_E1 = './Etapa_1/'
 PATH_E2 = './Etapa_2/'
 PATH_E3 = './Etapa_3/'
 PATH_E4 = './Etapa_4/'
+PATH_E5 = './Etapa_5/'
 
 
 def bitacora(info,path):
-        with open('/home/Archivos_Etapa_4/' + 'ArchivosLlenados.txt','a+', encoding = "utf-8") as file:
+        #Modificar el número de este path dependiendo de la etapa que se este ejecutando
+        path = '/home/Archivos_Etapa_5/'   
+        with open(path + 'ArchivosLlenados.txt','a+', encoding = "utf-8") as file:
             file.write(info+'\n')
 
 def save_last_key(key,path):
+    #Path que tiene compartido el container para obtener la key
     path = '/home/shared_container/'
     with open(path + 'key.pickle', "wb") as a_file:
         pickle.dump(key, a_file, protocol=pickle.HIGHEST_PROTOCOL)
         a_file.close()
 
 def get_next_key(path):
+    #Path que tiene compartido el container para obtener la key
     path = '/home/shared_container/'
     with open(path + 'key.pickle', "rb") as a_file:
         output = pickle.load(a_file)
@@ -56,12 +61,14 @@ def get_paths_TUs(key,dict_rel,dict_paths):
     return paths_TUs
 
 def run():
+    #Modificar este working path dependiendo de la etapa que se este ejecutando
+    working_path = PATH_E5
     #Obtiene los paths de todas los archivos
-    dict_paths = read_pickle('paths_file_e4.pickle',PATH_E4)
+    dict_paths = read_pickle('paths_file_e5.pickle',working_path)
     #Obtiene las listas de relacion de todas las ciudades con sus respectivas TU's
-    dict_rel = read_pickle('rel_TF_TU.pickle',PATH_E4)
+    dict_rel = read_pickle('rel_TF_TU.pickle',working_path)
     #Obtiene el último valor de llave donde se detuvo el algoritmo(si es que se detuvo)
-    next_index = get_next_key(PATH_E4)
+    next_index = get_next_key(working_path)
     print(f'START KEY {next_index}')
     #Por cada key que hay en el diccionario que contiene todos los paths
     for key in range(next_index,len(dict_paths)+1):
@@ -96,9 +103,9 @@ def run():
         #Crea un nuevo archivo y escribe todo el contenido
         wrt.newFile(town_tf.content)
         #Escribiendo en registro el archivo que fue llenado
-        bitacora(town_tf.name,PATH_E4)
+        bitacora(town_tf.name,working_path)
         #Guardando la última key que tenía el último archivo que se lleno
-        save_last_key(key,PATH_E4)
+        save_last_key(key,working_path)
         print('Esperando 25 segundos antes de volver...')
         time.sleep(25)
     
