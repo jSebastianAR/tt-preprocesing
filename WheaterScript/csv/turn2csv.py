@@ -56,6 +56,8 @@ def get_txt(path_folder):
 def get_name_txt(path_file):
     parts = path_file.split('/')
     name = parts[len(parts)-1]
+    parts_name = name.split('.txt')
+    name = parts_name[0]
     print(name)
     return name
 
@@ -67,7 +69,7 @@ def do_turn2csv(txt_list):
 
     for txt in txt_list:
         name = get_name_txt(txt)
-        if name != 'Nulls.txt':
+        if name != 'Nulls':
             content = getContent(txt,name)
             to_csv(content,name)
 
