@@ -15,6 +15,7 @@ ETAPA_1_PATH = 'Archivos_Etapa_1'
 ETAPA_2_PATH = 'Archivos_Etapa_2'
 ETAPA_3_PATH = 'Archivos_Etapa_3'
 ETAPA_4_PATH = 'Archivos_Etapa_4'
+ETAPA_5_PATH = 'Archivos_Etapa_5'
 PRE_ETAPAS = 'CleanedData'
 
 PICKLE_PRE_ETAPA = 'pre_etapas_datos_graficas.pickle'
@@ -22,11 +23,12 @@ PICKLE_ETAPA_1 = 'etapa1_datos_graficas.pickle'
 PICKLE_ETAPA_2 = 'etapa2_datos_graficas.pickle'
 PICKLE_ETAPA_3 = 'etapa3_datos_graficas.pickle'
 PICKLE_ETAPA_4 = 'etapa4_datos_graficas.pickle'
+PICKLE_ETAPA_5 = 'etapa5_datos_graficas.pickle'
 
 def Evaluate_Towns():
 	global TOTAL_NULLS
 	#Working path debe ser modificado por cada etapa que se desee hacer
-	working_path = ETAPA_4_PATH
+	working_path = ETAPA_5_PATH
 	current_path = build_path(working_path)
 	delete_file(current_path)
 	txt_files = get_txt(working_path)
@@ -238,7 +240,7 @@ if __name__ == '__main__':
 	#que la función Evaluate_Towns() calcula, pero sin necesidad de obtenerlos nuevamente
 	option = 0
 	while(True):
-		option = int(input('Graficar: 0-Pre_Etapa 1-Etapa_1 2-Etapa_2 3-Etapa_3 4-Etapa_4: '))
+		option = int(input('Graficar: 0-Pre_Etapa 1-Etapa_1 2-Etapa_2 3-Etapa_3 4-Etapa_4 5-Etapa_5: '))
 		if option==0:
 			result_towns = get_dump(PICKLE_PRE_ETAPA)
 		elif option==1:
@@ -247,6 +249,9 @@ if __name__ == '__main__':
 			result_towns = get_dump(PICKLE_ETAPA_2)
 		elif option==3:
 			result_towns = get_dump(PICKLE_ETAPA_3)
-		else:
+		elif option==4:
 			result_towns = get_dump(PICKLE_ETAPA_4)
+		elif option==5:
+			result_towns = get_dump(PICKLE_ETAPA_5)
+
 		graph_global_nulls(result_towns)
