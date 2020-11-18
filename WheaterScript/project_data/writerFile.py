@@ -10,7 +10,7 @@ class Writer(object):
     def generate_path(self):
         parts = self.path_origin_file.split('/')
         #Modificar el numero del path dependiendo de la etapa a ejecutar
-        path = '../Archivos_Etapa_5/'
+        path = '../Archivos_Etapa_6/'
         new_path = path + parts[len(parts)-1]
         return new_path
 
@@ -19,10 +19,10 @@ class Writer(object):
         with open(self.path_origin_file, 'r', encoding = "utf-8") as file:
             #print(file)
             for line in file:
-                if 'PRECIP' in line:
+                """if 'PRECIP' in line:
                     line = '\t' + line
                 elif 'FECHA' in line:
-                    line = line[0:10] + '\t' + line[10:]
+                    line = line[0:10] + '\t' + line[10:]"""
                 self.header.append(line)
                 #print(line)
                 if FINAL_LINE_HEADER in line:
