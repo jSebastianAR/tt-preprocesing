@@ -1,0 +1,1 @@
+Minimo 3 nulos por archivo aleatoriamente
