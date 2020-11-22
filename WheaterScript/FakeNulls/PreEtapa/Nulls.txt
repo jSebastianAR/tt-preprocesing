@@ -1,0 +1,1725 @@
+TOTAL DE DATOS QUE DEBEN EXISTIR EN EL DATASET:2764384
+TOTAL DE DATOS NULOS EN EL DATASET:1201445
+TOTAL DE DATOS POR ARCHIVO:16072
+TOTAL DE DIAS QUE DEBE CONTENER UN ARCHIVO:4018
+
+Nulos en ../CleanedData/14002-ACATLAN DE JUAREZ.txt
+Precipitacion: 580
+Evaporacion: 580
+Tmax: 580
+Tmin: 580
+Total: 2320
+Porcentaje local de nulos en el archivo: 14.4%
+Total dias existentes en el archivo: 3438
+Porcentaje global de nulos en el archivo: 0.19%
+
+Nulos en ../CleanedData/14006-TEOCALTICHE.txt
+Precipitacion: 488
+Evaporacion: 489
+Tmax: 488
+Tmin: 489
+Total: 1954
+Porcentaje local de nulos en el archivo: 12.2%
+Total dias existentes en el archivo: 3530
+Porcentaje global de nulos en el archivo: 0.16%
+
+Nulos en ../CleanedData/14009-AMECA.txt
+Precipitacion: 504
+Evaporacion: 505
+Tmax: 505
+Tmin: 503
+Total: 2017
+Porcentaje local de nulos en el archivo: 12.5%
+Total dias existentes en el archivo: 3515
+Porcentaje global de nulos en el archivo: 0.17%
+
+Nulos en ../CleanedData/14011-LA HUERTA.txt
+Precipitacion: 824
+Evaporacion: 2408
+Tmax: 822
+Tmin: 822
+Total: 4876
+Porcentaje local de nulos en el archivo: 30.3%
+Total dias existentes en el archivo: 3196
+Porcentaje global de nulos en el archivo: 0.41%
+
+Nulos en ../CleanedData/14016-IXTLAHUACAN DE LOS MEMBRILLOS.txt
+Precipitacion: 655
+Evaporacion: 661
+Tmax: 660
+Tmin: 654
+Total: 2630
+Porcentaje local de nulos en el archivo: 16.4%
+Total dias existentes en el archivo: 3369
+Porcentaje global de nulos en el archivo: 0.22%
+
+Nulos en ../CleanedData/14017-ATOTONILCO EL ALTO.txt
+Precipitacion: 490
+Evaporacion: 522
+Tmax: 497
+Tmin: 493
+Total: 2002
+Porcentaje local de nulos en el archivo: 12.5%
+Total dias existentes en el archivo: 3541
+Porcentaje global de nulos en el archivo: 0.17%
+
+Nulos en ../CleanedData/14018-ATOYAC.txt
+Precipitacion: 672
+Evaporacion: 678
+Tmax: 673
+Tmin: 673
+Total: 2696
+Porcentaje local de nulos en el archivo: 16.8%
+Total dias existentes en el archivo: 3347
+Porcentaje global de nulos en el archivo: 0.22%
+
+Nulos en ../CleanedData/14023-BOLAÑOS.txt
+Precipitacion: 551
+Evaporacion: 550
+Tmax: 550
+Tmin: 550
+Total: 2201
+Porcentaje local de nulos en el archivo: 13.7%
+Total dias existentes en el archivo: 3468
+Porcentaje global de nulos en el archivo: 0.18%
+
+Nulos en ../CleanedData/14024-TOMATLAN.txt
+Precipitacion: 883
+Evaporacion: 900
+Tmax: 884
+Tmin: 884
+Total: 3551
+Porcentaje local de nulos en el archivo: 22.1%
+Total dias existentes en el archivo: 3135
+Porcentaje global de nulos en el archivo: 0.3%
+
+Nulos en ../CleanedData/14025-TEOCALTICHE.txt
+Precipitacion: 2761
+Evaporacion: 3505
+Tmax: 2727
+Tmin: 2700
+Total: 11693
+Porcentaje local de nulos en el archivo: 72.8%
+Total dias existentes en el archivo: 1319
+Porcentaje global de nulos en el archivo: 0.97%
+
+Nulos en ../CleanedData/14026-COLOTLAN.txt
+Precipitacion: 458
+Evaporacion: 457
+Tmax: 457
+Tmin: 457
+Total: 1829
+Porcentaje local de nulos en el archivo: 11.4%
+Total dias existentes en el archivo: 3561
+Porcentaje global de nulos en el archivo: 0.15%
+
+Nulos en ../CleanedData/14028-CIHUATLAN.txt
+Precipitacion: 584
+Evaporacion: 612
+Tmax: 597
+Tmin: 598
+Total: 2391
+Porcentaje local de nulos en el archivo: 14.9%
+Total dias existentes en el archivo: 3443
+Porcentaje global de nulos en el archivo: 0.2%
+
+Nulos en ../CleanedData/14029-CONCEPCION DE BUENOS AIRES.txt
+Precipitacion: 518
+Evaporacion: 1551
+Tmax: 519
+Tmin: 518
+Total: 3106
+Porcentaje local de nulos en el archivo: 19.3%
+Total dias existentes en el archivo: 3500
+Porcentaje global de nulos en el archivo: 0.26%
+
+Nulos en ../CleanedData/14030-ZAPOTLAN EL GRANDE.txt
+Precipitacion: 2284
+Evaporacion: 2294
+Tmax: 2275
+Tmin: 2279
+Total: 9132
+Porcentaje local de nulos en el archivo: 56.8%
+Total dias existentes en el archivo: 1764
+Porcentaje global de nulos en el archivo: 0.76%
+
+Nulos en ../CleanedData/14032-COLOTLAN.txt
+Precipitacion: 1957
+Evaporacion: 1953
+Tmax: 1928
+Tmin: 1928
+Total: 7766
+Porcentaje local de nulos en el archivo: 48.3%
+Total dias existentes en el archivo: 2093
+Porcentaje global de nulos en el archivo: 0.65%
+
+Nulos en ../CleanedData/14033-LAGOS DE MORENO.txt
+Precipitacion: 1650
+Evaporacion: 1782
+Tmax: 1650
+Tmin: 1651
+Total: 6733
+Porcentaje local de nulos en el archivo: 41.9%
+Total dias existentes en el archivo: 2368
+Porcentaje global de nulos en el archivo: 0.56%
+
+Nulos en ../CleanedData/14034-TAMAZULA DE GORDIANO.txt
+Precipitacion: 610
+Evaporacion: 612
+Tmax: 638
+Tmin: 639
+Total: 2499
+Porcentaje local de nulos en el archivo: 15.5%
+Total dias existentes en el archivo: 3408
+Porcentaje global de nulos en el archivo: 0.21%
+
+Nulos en ../CleanedData/14035-MASCOTA.txt
+Precipitacion: 691
+Evaporacion: 702
+Tmax: 690
+Tmin: 688
+Total: 2771
+Porcentaje local de nulos en el archivo: 17.2%
+Total dias existentes en el archivo: 3337
+Porcentaje global de nulos en el archivo: 0.23%
+
+Nulos en ../CleanedData/14036-CUAUTITLAN DE GARCIA BARRAGAN.txt
+Precipitacion: 488
+Evaporacion: 608
+Tmax: 488
+Tmin: 488
+Total: 2072
+Porcentaje local de nulos en el archivo: 12.9%
+Total dias existentes en el archivo: 3530
+Porcentaje global de nulos en el archivo: 0.17%
+
+Nulos en ../CleanedData/14037-HUEJUCAR.txt
+Precipitacion: 1096
+Evaporacion: 1096
+Tmax: 1096
+Tmin: 1096
+Total: 4384
+Porcentaje local de nulos en el archivo: 27.3%
+Total dias existentes en el archivo: 2922
+Porcentaje global de nulos en el archivo: 0.36%
+
+Nulos en ../CleanedData/14038-SAN CRISTOBAL DE LA BARRANCA.txt
+Precipitacion: 489
+Evaporacion: 492
+Tmax: 488
+Tmin: 488
+Total: 1957
+Porcentaje local de nulos en el archivo: 12.2%
+Total dias existentes en el archivo: 3530
+Porcentaje global de nulos en el archivo: 0.16%
+
+Nulos en ../CleanedData/14039-CUQUIO.txt
+Precipitacion: 519
+Evaporacion: 519
+Tmax: 519
+Tmin: 519
+Total: 2076
+Porcentaje local de nulos en el archivo: 12.9%
+Total dias existentes en el archivo: 3499
+Porcentaje global de nulos en el archivo: 0.17%
+
+Nulos en ../CleanedData/14040-CHAPALA.txt
+Precipitacion: 518
+Evaporacion: 518
+Tmax: 518
+Tmin: 518
+Total: 2072
+Porcentaje local de nulos en el archivo: 12.9%
+Total dias existentes en el archivo: 3500
+Porcentaje global de nulos en el archivo: 0.17%
+
+Nulos en ../CleanedData/14044-TALPA DE ALLENDE.txt
+Precipitacion: 580
+Evaporacion: 2789
+Tmax: 581
+Tmin: 581
+Total: 4531
+Porcentaje local de nulos en el archivo: 28.2%
+Total dias existentes en el archivo: 3438
+Porcentaje global de nulos en el archivo: 0.38%
+
+Nulos en ../CleanedData/14046-AUTLAN DE NAVARRO.txt
+Precipitacion: 518
+Evaporacion: 637
+Tmax: 518
+Tmin: 518
+Total: 2191
+Porcentaje local de nulos en el archivo: 13.6%
+Total dias existentes en el archivo: 3500
+Porcentaje global de nulos en el archivo: 0.18%
+
+Nulos en ../CleanedData/14047-OCOTLAN.txt
+Precipitacion: 488
+Evaporacion: 510
+Tmax: 488
+Tmin: 488
+Total: 1974
+Porcentaje local de nulos en el archivo: 12.3%
+Total dias existentes en el archivo: 3530
+Porcentaje global de nulos en el archivo: 0.16%
+
+Nulos en ../CleanedData/14048-CIHUATLAN.txt
+Precipitacion: 675
+Evaporacion: 686
+Tmax: 797
+Tmin: 793
+Total: 2951
+Porcentaje local de nulos en el archivo: 18.4%
+Total dias existentes en el archivo: 3350
+Porcentaje global de nulos en el archivo: 0.25%
+
+Nulos en ../CleanedData/14052-TAPALPA.txt
+Precipitacion: 519
+Evaporacion: 519
+Tmax: 519
+Tmin: 519
+Total: 2076
+Porcentaje local de nulos en el archivo: 12.9%
+Total dias existentes en el archivo: 3499
+Porcentaje global de nulos en el archivo: 0.17%
+
+Nulos en ../CleanedData/14053-HUEJUQUILLA EL ALTO.txt
+Precipitacion: 488
+Evaporacion: 488
+Tmax: 488
+Tmin: 489
+Total: 1953
+Porcentaje local de nulos en el archivo: 12.2%
+Total dias existentes en el archivo: 3530
+Porcentaje global de nulos en el archivo: 0.16%
+
+Nulos en ../CleanedData/14054-LAGOS DE MORENO.txt
+Precipitacion: 707
+Evaporacion: 3987
+Tmax: 709
+Tmin: 708
+Total: 6111
+Porcentaje local de nulos en el archivo: 38.0%
+Total dias existentes en el archivo: 3312
+Porcentaje global de nulos en el archivo: 0.51%
+
+Nulos en ../CleanedData/14056-SAN MARTIN HIDALGO.txt
+Precipitacion: 702
+Evaporacion: 961
+Tmax: 702
+Tmin: 702
+Total: 3067
+Porcentaje local de nulos en el archivo: 19.1%
+Total dias existentes en el archivo: 3316
+Porcentaje global de nulos en el archivo: 0.26%
+
+Nulos en ../CleanedData/14059-CABO CORRIENTES.txt
+Precipitacion: 638
+Evaporacion: 648
+Tmax: 637
+Tmin: 637
+Total: 2560
+Porcentaje local de nulos en el archivo: 15.9%
+Total dias existentes en el archivo: 3381
+Porcentaje global de nulos en el archivo: 0.21%
+
+Nulos en ../CleanedData/14060-ARANDAS.txt
+Precipitacion: 2271
+Evaporacion: 2644
+Tmax: 2739
+Tmin: 2734
+Total: 10388
+Porcentaje local de nulos en el archivo: 64.6%
+Total dias existentes en el archivo: 1751
+Porcentaje global de nulos en el archivo: 0.86%
+
+Nulos en ../CleanedData/14063-ETZATLAN.txt
+Precipitacion: 63
+Evaporacion: 810
+Tmax: 62
+Tmin: 96
+Total: 1031
+Porcentaje local de nulos en el archivo: 6.4%
+Total dias existentes en el archivo: 3987
+Porcentaje global de nulos en el archivo: 0.09%
+
+Nulos en ../CleanedData/14065-GUADALAJARA.txt
+Precipitacion: 2133
+Evaporacion: 2053
+Tmax: 2034
+Tmin: 2042
+Total: 8262
+Porcentaje local de nulos en el archivo: 51.4%
+Total dias existentes en el archivo: 2037
+Porcentaje global de nulos en el archivo: 0.69%
+
+Nulos en ../CleanedData/14066-GUADALAJARA.txt
+Precipitacion: 458
+Evaporacion: 467
+Tmax: 458
+Tmin: 459
+Total: 1842
+Porcentaje local de nulos en el archivo: 11.5%
+Total dias existentes en el archivo: 3560
+Porcentaje global de nulos en el archivo: 0.15%
+
+Nulos en ../CleanedData/14067-TOMATLAN.txt
+Precipitacion: 1144
+Evaporacion: 1171
+Tmax: 1147
+Tmin: 1145
+Total: 4607
+Porcentaje local de nulos en el archivo: 28.7%
+Total dias existentes en el archivo: 2887
+Porcentaje global de nulos en el archivo: 0.38%
+
+Nulos en ../CleanedData/14068-HOSTOTIPAQUILLO.txt
+Precipitacion: 564
+Evaporacion: 594
+Tmax: 564
+Tmin: 564
+Total: 2286
+Porcentaje local de nulos en el archivo: 14.2%
+Total dias existentes en el archivo: 3456
+Porcentaje global de nulos en el archivo: 0.19%
+
+Nulos en ../CleanedData/14069-HUEJUCAR.txt
+Precipitacion: 519
+Evaporacion: 552
+Tmax: 518
+Tmin: 519
+Total: 2108
+Porcentaje local de nulos en el archivo: 13.1%
+Total dias existentes en el archivo: 3500
+Porcentaje global de nulos en el archivo: 0.18%
+
+Nulos en ../CleanedData/14070-DEGOLLADO.txt
+Precipitacion: 586
+Evaporacion: 587
+Tmax: 586
+Tmin: 586
+Total: 2345
+Porcentaje local de nulos en el archivo: 14.6%
+Total dias existentes en el archivo: 3434
+Porcentaje global de nulos en el archivo: 0.2%
+
+Nulos en ../CleanedData/14071-HUEJUQUILLA EL ALTO.txt
+Precipitacion: 579
+Evaporacion: 2119
+Tmax: 518
+Tmin: 520
+Total: 3736
+Porcentaje local de nulos en el archivo: 23.2%
+Total dias existentes en el archivo: 3500
+Porcentaje global de nulos en el archivo: 0.31%
+
+Nulos en ../CleanedData/14072-IXTLAHUACAN DE LOS MEMBRILLOS.txt
+Precipitacion: 489
+Evaporacion: 644
+Tmax: 489
+Tmin: 489
+Total: 2111
+Porcentaje local de nulos en el archivo: 13.1%
+Total dias existentes en el archivo: 3529
+Porcentaje global de nulos en el archivo: 0.18%
+
+Nulos en ../CleanedData/14075-JAMAY.txt
+Precipitacion: 1017
+Evaporacion: 1017
+Tmax: 1015
+Tmin: 1017
+Total: 4066
+Porcentaje local de nulos en el archivo: 25.3%
+Total dias existentes en el archivo: 3004
+Porcentaje global de nulos en el archivo: 0.34%
+
+Nulos en ../CleanedData/14076-JESUS MARIA.txt
+Precipitacion: 692
+Evaporacion: 726
+Tmax: 692
+Tmin: 692
+Total: 2802
+Porcentaje local de nulos en el archivo: 17.4%
+Total dias existentes en el archivo: 3330
+Porcentaje global de nulos en el archivo: 0.23%
+
+Nulos en ../CleanedData/14078-JUCHITLAN.txt
+Precipitacion: 612
+Evaporacion: 1838
+Tmax: 612
+Tmin: 611
+Total: 3673
+Porcentaje local de nulos en el archivo: 22.9%
+Total dias existentes en el archivo: 3407
+Porcentaje global de nulos en el archivo: 0.31%
+
+Nulos en ../CleanedData/14080-YAHUALICA DE GONZALEZ GALLO.txt
+Precipitacion: 1831
+Evaporacion: 1832
+Tmax: 1831
+Tmin: 1832
+Total: 7326
+Porcentaje local de nulos en el archivo: 45.6%
+Total dias existentes en el archivo: 2191
+Porcentaje global de nulos en el archivo: 0.61%
+
+Nulos en ../CleanedData/14081-PUERTO VALLARTA.txt
+Precipitacion: 1596
+Evaporacion: 1609
+Tmax: 1608
+Tmin: 1608
+Total: 6421
+Porcentaje local de nulos en el archivo: 40.0%
+Total dias existentes en el archivo: 2425
+Porcentaje global de nulos en el archivo: 0.53%
+
+Nulos en ../CleanedData/14083-LAGOS DE MORENO.txt
+Precipitacion: 1858
+Evaporacion: 1881
+Tmax: 1880
+Tmin: 1880
+Total: 7499
+Porcentaje local de nulos en el archivo: 46.7%
+Total dias existentes en el archivo: 2161
+Porcentaje global de nulos en el archivo: 0.62%
+
+Nulos en ../CleanedData/14084-LAGOS DE MORENO.txt
+Precipitacion: 779
+Evaporacion: 998
+Tmax: 777
+Tmin: 779
+Total: 3333
+Porcentaje local de nulos en el archivo: 20.7%
+Total dias existentes en el archivo: 3245
+Porcentaje global de nulos en el archivo: 0.28%
+
+Nulos en ../CleanedData/14085-LA HUERTA.txt
+Precipitacion: 3987
+Evaporacion: 3987
+Tmax: 3987
+Tmin: 3987
+Total: 15948
+Porcentaje local de nulos en el archivo: 99.2%
+Total dias existentes en el archivo: 31
+Porcentaje global de nulos en el archivo: 1.33%
+
+Nulos en ../CleanedData/14086-LA MANZANILLA DE LA PAZ.txt
+Precipitacion: 822
+Evaporacion: 822
+Tmax: 822
+Tmin: 822
+Total: 3288
+Porcentaje local de nulos en el archivo: 20.5%
+Total dias existentes en el archivo: 3196
+Porcentaje global de nulos en el archivo: 0.27%
+
+Nulos en ../CleanedData/14087-TEPATITLAN DE MORELOS.txt
+Precipitacion: 490
+Evaporacion: 492
+Tmax: 488
+Tmin: 488
+Total: 1958
+Porcentaje local de nulos en el archivo: 12.2%
+Total dias existentes en el archivo: 3530
+Porcentaje global de nulos en el archivo: 0.16%
+
+Nulos en ../CleanedData/14089-TEUCHITLAN.txt
+Precipitacion: 439
+Evaporacion: 507
+Tmax: 439
+Tmin: 439
+Total: 1824
+Porcentaje local de nulos en el archivo: 11.3%
+Total dias existentes en el archivo: 3583
+Porcentaje global de nulos en el archivo: 0.15%
+
+Nulos en ../CleanedData/14090-TOTOTLAN.txt
+Precipitacion: 549
+Evaporacion: 549
+Tmax: 549
+Tmin: 549
+Total: 2196
+Porcentaje local de nulos en el archivo: 13.7%
+Total dias existentes en el archivo: 3469
+Porcentaje global de nulos en el archivo: 0.18%
+
+Nulos en ../CleanedData/14093-MAGDALENA.txt
+Precipitacion: 553
+Evaporacion: 602
+Tmax: 553
+Tmin: 555
+Total: 2263
+Porcentaje local de nulos en el archivo: 14.1%
+Total dias existentes en el archivo: 3465
+Porcentaje global de nulos en el archivo: 0.19%
+
+Nulos en ../CleanedData/14096-MASCOTA.txt
+Precipitacion: 488
+Evaporacion: 488
+Tmax: 488
+Tmin: 488
+Total: 1952
+Porcentaje local de nulos en el archivo: 12.1%
+Total dias existentes en el archivo: 3530
+Porcentaje global de nulos en el archivo: 0.16%
+
+Nulos en ../CleanedData/14099-MAZAMITLA.txt
+Precipitacion: 396
+Evaporacion: 2420
+Tmax: 2419
+Tmin: 2420
+Total: 7655
+Porcentaje local de nulos en el archivo: 47.6%
+Total dias existentes en el archivo: 3622
+Porcentaje global de nulos en el archivo: 0.64%
+
+Nulos en ../CleanedData/14100-MEXTICACAN.txt
+Precipitacion: 581
+Evaporacion: 4018
+Tmax: 4018
+Tmin: 3987
+Total: 12604
+Porcentaje local de nulos en el archivo: 78.4%
+Total dias existentes en el archivo: 3468
+Porcentaje global de nulos en el archivo: 1.05%
+
+Nulos en ../CleanedData/14101-TEOCALTICHE.txt
+Precipitacion: 637
+Evaporacion: 1657
+Tmax: 639
+Tmin: 636
+Total: 3569
+Porcentaje local de nulos en el archivo: 22.2%
+Total dias existentes en el archivo: 3382
+Porcentaje global de nulos en el archivo: 0.3%
+
+Nulos en ../CleanedData/14104-ZAPOTLANEJO.txt
+Precipitacion: 2319
+Evaporacion: 3596
+Tmax: 2538
+Tmin: 2539
+Total: 10992
+Porcentaje local de nulos en el archivo: 68.4%
+Total dias existentes en el archivo: 1709
+Porcentaje global de nulos en el archivo: 0.91%
+
+Nulos en ../CleanedData/14112-PIHUAMO.txt
+Precipitacion: 855
+Evaporacion: 855
+Tmax: 855
+Tmin: 855
+Total: 3420
+Porcentaje local de nulos en el archivo: 21.3%
+Total dias existentes en el archivo: 3163
+Porcentaje global de nulos en el archivo: 0.28%
+
+Nulos en ../CleanedData/14113-ACATLAN DE JUAREZ.txt
+Precipitacion: 580
+Evaporacion: 580
+Tmax: 1525
+Tmin: 1523
+Total: 4208
+Porcentaje local de nulos en el archivo: 26.2%
+Total dias existentes en el archivo: 3438
+Porcentaje global de nulos en el archivo: 0.35%
+
+Nulos en ../CleanedData/14114-LAGOS DE MORENO.txt
+Precipitacion: 577
+Evaporacion: 649
+Tmax: 577
+Tmin: 577
+Total: 2380
+Porcentaje local de nulos en el archivo: 14.8%
+Total dias existentes en el archivo: 3441
+Porcentaje global de nulos en el archivo: 0.2%
+
+Nulos en ../CleanedData/14117-VILLA PURIFICACION.txt
+Precipitacion: 1058
+Evaporacion: 3968
+Tmax: 1060
+Tmin: 1061
+Total: 7147
+Porcentaje local de nulos en el archivo: 44.5%
+Total dias existentes en el archivo: 2960
+Porcentaje global de nulos en el archivo: 0.59%
+
+Nulos en ../CleanedData/14118-TUXPAN.txt
+Precipitacion: 522
+Evaporacion: 4018
+Tmax: 522
+Tmin: 523
+Total: 5585
+Porcentaje local de nulos en el archivo: 34.7%
+Total dias existentes en el archivo: 3497
+Porcentaje global de nulos en el archivo: 0.46%
+
+Nulos en ../CleanedData/14119-QUITUPAN.txt
+Precipitacion: 3987
+Evaporacion: 3987
+Tmax: 3987
+Tmin: 3987
+Total: 15948
+Porcentaje local de nulos en el archivo: 99.2%
+Total dias existentes en el archivo: 31
+Porcentaje global de nulos en el archivo: 1.33%
+
+Nulos en ../CleanedData/14122-TEOCALTICHE.txt
+Precipitacion: 852
+Evaporacion: 2453
+Tmax: 852
+Tmin: 852
+Total: 5009
+Porcentaje local de nulos en el archivo: 31.2%
+Total dias existentes en el archivo: 3166
+Porcentaje global de nulos en el archivo: 0.42%
+
+Nulos en ../CleanedData/14123-SAN DIEGO DE ALEJANDRIA.txt
+Precipitacion: 1406
+Evaporacion: 2322
+Tmax: 1408
+Tmin: 1408
+Total: 6544
+Porcentaje local de nulos en el archivo: 40.7%
+Total dias existentes en el archivo: 2614
+Porcentaje global de nulos en el archivo: 0.54%
+
+Nulos en ../CleanedData/14125-MIXTLAN.txt
+Precipitacion: 853
+Evaporacion: 853
+Tmax: 853
+Tmin: 853
+Total: 3412
+Porcentaje local de nulos en el archivo: 21.2%
+Total dias existentes en el archivo: 3165
+Porcentaje global de nulos en el archivo: 0.28%
+
+Nulos en ../CleanedData/14129-TONILA.txt
+Precipitacion: 1038
+Evaporacion: 4018
+Tmax: 3047
+Tmin: 3047
+Total: 11150
+Porcentaje local de nulos en el archivo: 69.4%
+Total dias existentes en el archivo: 2980
+Porcentaje global de nulos en el archivo: 0.93%
+
+Nulos en ../CleanedData/14132-SAN PEDRO TLAQUEPAQUE.txt
+Precipitacion: 488
+Evaporacion: 4018
+Tmax: 488
+Tmin: 488
+Total: 5482
+Porcentaje local de nulos en el archivo: 34.1%
+Total dias existentes en el archivo: 3530
+Porcentaje global de nulos en el archivo: 0.46%
+
+Nulos en ../CleanedData/14136-AMATITAN.txt
+Precipitacion: 706
+Evaporacion: 806
+Tmax: 801
+Tmin: 803
+Total: 3116
+Porcentaje local de nulos en el archivo: 19.4%
+Total dias existentes en el archivo: 3326
+Porcentaje global de nulos en el archivo: 0.26%
+
+Nulos en ../CleanedData/14139-UNION DE TULA.txt
+Precipitacion: 3352
+Evaporacion: 3606
+Tmax: 3404
+Tmin: 3405
+Total: 13767
+Porcentaje local de nulos en el archivo: 85.7%
+Total dias existentes en el archivo: 666
+Porcentaje global de nulos en el archivo: 1.15%
+
+Nulos en ../CleanedData/14140-TALPA DE ALLENDE.txt
+Precipitacion: 886
+Evaporacion: 892
+Tmax: 885
+Tmin: 885
+Total: 3548
+Porcentaje local de nulos en el archivo: 22.1%
+Total dias existentes en el archivo: 3133
+Porcentaje global de nulos en el archivo: 0.3%
+
+Nulos en ../CleanedData/14141-TAMAZULA DE GORDIANO.txt
+Precipitacion: 519
+Evaporacion: 519
+Tmax: 519
+Tmin: 519
+Total: 2076
+Porcentaje local de nulos en el archivo: 12.9%
+Total dias existentes en el archivo: 3499
+Porcentaje global de nulos en el archivo: 0.17%
+
+Nulos en ../CleanedData/14142-TAPALPA.txt
+Precipitacion: 610
+Evaporacion: 621
+Tmax: 610
+Tmin: 610
+Total: 2451
+Porcentaje local de nulos en el archivo: 15.3%
+Total dias existentes en el archivo: 3408
+Porcentaje global de nulos en el archivo: 0.2%
+
+Nulos en ../CleanedData/14143-TECOLOTLAN.txt
+Precipitacion: 488
+Evaporacion: 490
+Tmax: 488
+Tmin: 488
+Total: 1954
+Porcentaje local de nulos en el archivo: 12.2%
+Total dias existentes en el archivo: 3530
+Porcentaje global de nulos en el archivo: 0.16%
+
+Nulos en ../CleanedData/14144-COLOTLAN.txt
+Precipitacion: 488
+Evaporacion: 493
+Tmax: 488
+Tmin: 488
+Total: 1957
+Porcentaje local de nulos en el archivo: 12.2%
+Total dias existentes en el archivo: 3530
+Porcentaje global de nulos en el archivo: 0.16%
+
+Nulos en ../CleanedData/14145-TEOCALTICHE.txt
+Precipitacion: 457
+Evaporacion: 457
+Tmax: 457
+Tmin: 457
+Total: 1828
+Porcentaje local de nulos en el archivo: 11.4%
+Total dias existentes en el archivo: 3561
+Porcentaje global de nulos en el archivo: 0.15%
+
+Nulos en ../CleanedData/14146-TEOCUITATLAN DE CORONA.txt
+Precipitacion: 549
+Evaporacion: 553
+Tmax: 549
+Tmin: 549
+Total: 2200
+Porcentaje local de nulos en el archivo: 13.7%
+Total dias existentes en el archivo: 3469
+Porcentaje global de nulos en el archivo: 0.18%
+
+Nulos en ../CleanedData/14155-TUXCACUESCO.txt
+Precipitacion: 457
+Evaporacion: 4018
+Tmax: 1253
+Tmin: 1254
+Total: 6982
+Porcentaje local de nulos en el archivo: 43.4%
+Total dias existentes en el archivo: 3561
+Porcentaje global de nulos en el archivo: 0.58%
+
+Nulos en ../CleanedData/14156-TUXCUECA.txt
+Precipitacion: 457
+Evaporacion: 457
+Tmax: 457
+Tmin: 457
+Total: 1828
+Porcentaje local de nulos en el archivo: 11.4%
+Total dias existentes en el archivo: 3561
+Porcentaje global de nulos en el archivo: 0.15%
+
+Nulos en ../CleanedData/14157-UNION DE SAN ANTONIO.txt
+Precipitacion: 549
+Evaporacion: 772
+Tmax: 552
+Tmin: 549
+Total: 2422
+Porcentaje local de nulos en el archivo: 15.1%
+Total dias existentes en el archivo: 3469
+Porcentaje global de nulos en el archivo: 0.2%
+
+Nulos en ../CleanedData/14160-VALLE DE JUAREZ.txt
+Precipitacion: 1157
+Evaporacion: 1161
+Tmax: 1168
+Tmin: 1168
+Total: 4654
+Porcentaje local de nulos en el archivo: 29.0%
+Total dias existentes en el archivo: 2920
+Porcentaje global de nulos en el archivo: 0.39%
+
+Nulos en ../CleanedData/14164-VILLA GUERRERO.txt
+Precipitacion: 1662
+Evaporacion: 1834
+Tmax: 1684
+Tmin: 1684
+Total: 6864
+Porcentaje local de nulos en el archivo: 42.7%
+Total dias existentes en el archivo: 2361
+Porcentaje global de nulos en el archivo: 0.57%
+
+Nulos en ../CleanedData/14165-CAÑADAS DE OBREGON.txt
+Precipitacion: 1
+Evaporacion: 133
+Tmax: 362
+Tmin: 362
+Total: 858
+Porcentaje local de nulos en el archivo: 5.3%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.07%
+
+Nulos en ../CleanedData/14167-YAHUALICA DE GONZALEZ GALLO.txt
+Precipitacion: 213
+Evaporacion: 1821
+Tmax: 213
+Tmin: 213
+Total: 2460
+Porcentaje local de nulos en el archivo: 15.3%
+Total dias existentes en el archivo: 3805
+Porcentaje global de nulos en el archivo: 0.2%
+
+Nulos en ../CleanedData/14168-ZACOALCO DE TORRES.txt
+Precipitacion: 540
+Evaporacion: 3777
+Tmax: 411
+Tmin: 409
+Total: 5137
+Porcentaje local de nulos en el archivo: 32.0%
+Total dias existentes en el archivo: 3704
+Porcentaje global de nulos en el archivo: 0.43%
+
+Nulos en ../CleanedData/14169-ZAPOPAN.txt
+Precipitacion: 2
+Evaporacion: 3934
+Tmax: 5
+Tmin: 0
+Total: 3941
+Porcentaje local de nulos en el archivo: 24.5%
+Total dias existentes en el archivo: 4138
+Porcentaje global de nulos en el archivo: 0.33%
+
+Nulos en ../CleanedData/14179-OJUELOS DE JALISCO.txt
+Precipitacion: 197
+Evaporacion: 257
+Tmax: 199
+Tmin: 199
+Total: 852
+Porcentaje local de nulos en el archivo: 5.3%
+Total dias existentes en el archivo: 3912
+Porcentaje global de nulos en el archivo: 0.07%
+
+Nulos en ../CleanedData/14180-QUITUPAN.txt
+Precipitacion: 519
+Evaporacion: 519
+Tmax: 519
+Tmin: 519
+Total: 2076
+Porcentaje local de nulos en el archivo: 12.9%
+Total dias existentes en el archivo: 3558
+Porcentaje global de nulos en el archivo: 0.17%
+
+Nulos en ../CleanedData/14187-TEQUILA.txt
+Precipitacion: 61
+Evaporacion: 200
+Tmax: 61
+Tmin: 62
+Total: 384
+Porcentaje local de nulos en el archivo: 2.4%
+Total dias existentes en el archivo: 3988
+Porcentaje global de nulos en el archivo: 0.03%
+
+Nulos en ../CleanedData/14189-TIZAPAN EL ALTO.txt
+Precipitacion: 4
+Evaporacion: 469
+Tmax: 5
+Tmin: 4
+Total: 482
+Porcentaje local de nulos en el archivo: 3.0%
+Total dias existentes en el archivo: 4075
+Porcentaje global de nulos en el archivo: 0.04%
+
+Nulos en ../CleanedData/14191-VALLE DE JUAREZ.txt
+Precipitacion: 3744
+Evaporacion: 3757
+Tmax: 3744
+Tmin: 3744
+Total: 14989
+Porcentaje local de nulos en el archivo: 93.3%
+Total dias existentes en el archivo: 274
+Porcentaje global de nulos en el archivo: 1.25%
+
+Nulos en ../CleanedData/14195-SAN JUANITO DE ESCOBEDO.txt
+Precipitacion: 1987
+Evaporacion: 2226
+Tmax: 1948
+Tmin: 1948
+Total: 8109
+Porcentaje local de nulos en el archivo: 50.5%
+Total dias existentes en el archivo: 2132
+Porcentaje global de nulos en el archivo: 0.67%
+
+Nulos en ../CleanedData/14197-UNION DE TULA.txt
+Precipitacion: 1592
+Evaporacion: 1601
+Tmax: 1642
+Tmin: 1642
+Total: 6477
+Porcentaje local de nulos en el archivo: 40.3%
+Total dias existentes en el archivo: 2432
+Porcentaje global de nulos en el archivo: 0.54%
+
+Nulos en ../CleanedData/14198-CUAUTITLAN DE GARCIA BARRAGAN.txt
+Precipitacion: 1461
+Evaporacion: 1489
+Tmax: 1460
+Tmin: 1462
+Total: 5872
+Porcentaje local de nulos en el archivo: 36.5%
+Total dias existentes en el archivo: 2649
+Porcentaje global de nulos en el archivo: 0.49%
+
+Nulos en ../CleanedData/14199-PONCITLAN.txt
+Precipitacion: 2465
+Evaporacion: 2479
+Tmax: 2476
+Tmin: 2477
+Total: 9897
+Porcentaje local de nulos en el archivo: 61.6%
+Total dias existentes en el archivo: 1553
+Porcentaje global de nulos en el archivo: 0.82%
+
+Nulos en ../CleanedData/14200-SAN PEDRO TLAQUEPAQUE.txt
+Precipitacion: 2521
+Evaporacion: 2529
+Tmax: 2524
+Tmin: 2523
+Total: 10097
+Porcentaje local de nulos en el archivo: 62.8%
+Total dias existentes en el archivo: 1564
+Porcentaje global de nulos en el archivo: 0.84%
+
+Nulos en ../CleanedData/14266-JALOSTOTITLAN.txt
+Precipitacion: 191
+Evaporacion: 208
+Tmax: 215
+Tmin: 213
+Total: 827
+Porcentaje local de nulos en el archivo: 5.1%
+Total dias existentes en el archivo: 3828
+Porcentaje global de nulos en el archivo: 0.07%
+
+Nulos en ../CleanedData/14269-AHUALULCO DE MERCADO.txt
+Precipitacion: 61
+Evaporacion: 61
+Tmax: 61
+Tmin: 61
+Total: 244
+Porcentaje local de nulos en el archivo: 1.5%
+Total dias existentes en el archivo: 4047
+Porcentaje global de nulos en el archivo: 0.02%
+
+Nulos en ../CleanedData/14294-TLAJOMULCO DE ZUÑIGA.txt
+Precipitacion: 3435
+Evaporacion: 3917
+Tmax: 3587
+Tmin: 3590
+Total: 14529
+Porcentaje local de nulos en el archivo: 90.4%
+Total dias existentes en el archivo: 608
+Porcentaje global de nulos en el archivo: 1.21%
+
+Nulos en ../CleanedData/14297-GUACHINANGO.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4169
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../CleanedData/14306-HUEJUQUILLA EL ALTO.txt
+Precipitacion: 31
+Evaporacion: 31
+Tmax: 31
+Tmin: 32
+Total: 125
+Porcentaje local de nulos en el archivo: 0.8%
+Total dias existentes en el archivo: 4046
+Porcentaje global de nulos en el archivo: 0.01%
+
+Nulos en ../CleanedData/14311-TOLIMAN.txt
+Precipitacion: 348
+Evaporacion: 350
+Tmax: 347
+Tmin: 349
+Total: 1394
+Porcentaje local de nulos en el archivo: 8.7%
+Total dias existentes en el archivo: 3671
+Porcentaje global de nulos en el archivo: 0.12%
+
+Nulos en ../CleanedData/14317-MIXTLAN.txt
+Precipitacion: 2293
+Evaporacion: 2995
+Tmax: 2261
+Tmin: 2261
+Total: 9810
+Porcentaje local de nulos en el archivo: 61.0%
+Total dias existentes en el archivo: 1759
+Porcentaje global de nulos en el archivo: 0.82%
+
+Nulos en ../CleanedData/14320-LAGOS DE MORENO.txt
+Precipitacion: 792
+Evaporacion: 792
+Tmax: 791
+Tmin: 791
+Total: 3166
+Porcentaje local de nulos en el archivo: 19.7%
+Total dias existentes en el archivo: 3227
+Porcentaje global de nulos en el archivo: 0.26%
+
+Nulos en ../CleanedData/14323-TECHALUTA DE MONTENEGRO.txt
+Precipitacion: 3815
+Evaporacion: 3818
+Tmax: 3815
+Tmin: 3816
+Total: 15264
+Porcentaje local de nulos en el archivo: 95.0%
+Total dias existentes en el archivo: 262
+Porcentaje global de nulos en el archivo: 1.27%
+
+Nulos en ../CleanedData/14324-TOTATICHE.txt
+Precipitacion: 36
+Evaporacion: 392
+Tmax: 37
+Tmin: 38
+Total: 503
+Porcentaje local de nulos en el archivo: 3.1%
+Total dias existentes en el archivo: 3984
+Porcentaje global de nulos en el archivo: 0.04%
+
+Nulos en ../CleanedData/14326-MEZQUITIC.txt
+Precipitacion: 108
+Evaporacion: 514
+Tmax: 227
+Tmin: 227
+Total: 1076
+Porcentaje local de nulos en el archivo: 6.7%
+Total dias existentes en el archivo: 4001
+Porcentaje global de nulos en el archivo: 0.09%
+
+Nulos en ../CleanedData/14329-GUADALAJARA.txt
+Precipitacion: 365
+Evaporacion: 365
+Tmax: 365
+Tmin: 365
+Total: 1460
+Porcentaje local de nulos en el archivo: 9.1%
+Total dias existentes en el archivo: 3804
+Porcentaje global de nulos en el archivo: 0.12%
+
+Nulos en ../CleanedData/14331-COLOTLAN.txt
+Precipitacion: 2933
+Evaporacion: 3597
+Tmax: 2932
+Tmin: 2931
+Total: 12393
+Porcentaje local de nulos en el archivo: 77.1%
+Total dias existentes en el archivo: 1088
+Porcentaje global de nulos en el archivo: 1.03%
+
+Nulos en ../CleanedData/14336-PIHUAMO.txt
+Precipitacion: 578
+Evaporacion: 583
+Tmax: 577
+Tmin: 577
+Total: 2315
+Porcentaje local de nulos en el archivo: 14.4%
+Total dias existentes en el archivo: 3441
+Porcentaje global de nulos en el archivo: 0.19%
+
+Nulos en ../CleanedData/14337-YAHUALICA DE GONZALEZ GALLO.txt
+Precipitacion: 365
+Evaporacion: 479
+Tmax: 365
+Tmin: 365
+Total: 1574
+Porcentaje local de nulos en el archivo: 9.8%
+Total dias existentes en el archivo: 3743
+Porcentaje global de nulos en el archivo: 0.13%
+
+Nulos en ../CleanedData/14339-PUERTO VALLARTA.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4139
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../CleanedData/14343-EJUTLA.txt
+Precipitacion: 0
+Evaporacion: 0
+Tmax: 0
+Tmin: 0
+Total: 0
+Porcentaje local de nulos en el archivo: 0.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 0.0%
+
+Nulos en ../CleanedData/14346-MEZQUITIC.txt
+Precipitacion: 365
+Evaporacion: 365
+Tmax: 365
+Tmin: 365
+Total: 1460
+Porcentaje local de nulos en el archivo: 9.1%
+Total dias existentes en el archivo: 3712
+Porcentaje global de nulos en el archivo: 0.12%
+
+Nulos en ../CleanedData/14348-JILOTLAN DE LOS DOLORES.txt
+Precipitacion: 1371
+Evaporacion: 2534
+Tmax: 2709
+Tmin: 2709
+Total: 9323
+Porcentaje local de nulos en el archivo: 58.0%
+Total dias existentes en el archivo: 2647
+Porcentaje global de nulos en el archivo: 0.78%
+
+Nulos en ../CleanedData/14349-ATENGUILLO.txt
+Precipitacion: 365
+Evaporacion: 1441
+Tmax: 365
+Tmin: 365
+Total: 2536
+Porcentaje local de nulos en el archivo: 15.8%
+Total dias existentes en el archivo: 3774
+Porcentaje global de nulos en el archivo: 0.21%
+
+Nulos en ../CleanedData/14350-TUXCACUESCO.txt
+Precipitacion: 365
+Evaporacion: 367
+Tmax: 365
+Tmin: 365
+Total: 1462
+Porcentaje local de nulos en el archivo: 9.1%
+Total dias existentes en el archivo: 3743
+Porcentaje global de nulos en el archivo: 0.12%
+
+Nulos en ../CleanedData/14351-TALA.txt
+Precipitacion: 396
+Evaporacion: 410
+Tmax: 396
+Tmin: 397
+Total: 1599
+Porcentaje local de nulos en el archivo: 9.9%
+Total dias existentes en el archivo: 3681
+Porcentaje global de nulos en el archivo: 0.13%
+
+Nulos en ../CleanedData/14355-LA BARCA.txt
+Precipitacion: 366
+Evaporacion: 372
+Tmax: 365
+Tmin: 365
+Total: 1468
+Porcentaje local de nulos en el archivo: 9.1%
+Total dias existentes en el archivo: 3743
+Porcentaje global de nulos en el archivo: 0.12%
+
+Nulos en ../CleanedData/14367-UNION DE SAN ANTONIO.txt
+Precipitacion: 2479
+Evaporacion: 2567
+Tmax: 2480
+Tmin: 2479
+Total: 10005
+Porcentaje local de nulos en el archivo: 62.3%
+Total dias existentes en el archivo: 1540
+Porcentaje global de nulos en el archivo: 0.83%
+
+Nulos en ../CleanedData/14368-SAYULA.txt
+Precipitacion: 703
+Evaporacion: 757
+Tmax: 701
+Tmin: 701
+Total: 2862
+Porcentaje local de nulos en el archivo: 17.8%
+Total dias existentes en el archivo: 3377
+Porcentaje global de nulos en el archivo: 0.24%
+
+Nulos en ../CleanedData/14369-ARANDAS.txt
+Precipitacion: 828
+Evaporacion: 838
+Tmax: 828
+Tmin: 828
+Total: 3322
+Porcentaje local de nulos en el archivo: 20.7%
+Total dias existentes en el archivo: 3191
+Porcentaje global de nulos en el archivo: 0.28%
+
+Nulos en ../CleanedData/14379-PONCITLAN.txt
+Precipitacion: 365
+Evaporacion: 1611
+Tmax: 365
+Tmin: 365
+Total: 2706
+Porcentaje local de nulos en el archivo: 16.8%
+Total dias existentes en el archivo: 3743
+Porcentaje global de nulos en el archivo: 0.23%
+
+Nulos en ../CleanedData/14386-TONALA.txt
+Precipitacion: 414
+Evaporacion: 492
+Tmax: 439
+Tmin: 409
+Total: 1754
+Porcentaje local de nulos en el archivo: 10.9%
+Total dias existentes en el archivo: 3742
+Porcentaje global de nulos en el archivo: 0.15%
+
+Nulos en ../CleanedData/14388-ZAPOTLANEJO.txt
+Precipitacion: 2619
+Evaporacion: 2619
+Tmax: 2619
+Tmin: 2619
+Total: 10476
+Porcentaje local de nulos en el archivo: 65.2%
+Total dias existentes en el archivo: 1399
+Porcentaje global de nulos en el archivo: 0.87%
+
+Nulos en ../CleanedData/14390-AUTLAN DE NAVARRO.txt
+Precipitacion: 2537
+Evaporacion: 2676
+Tmax: 2546
+Tmin: 2549
+Total: 10308
+Porcentaje local de nulos en el archivo: 64.1%
+Total dias existentes en el archivo: 1494
+Porcentaje global de nulos en el archivo: 0.86%
+
+Nulos en ../CleanedData/14391-TIZAPAN EL ALTO.txt
+Precipitacion: 366
+Evaporacion: 365
+Tmax: 365
+Tmin: 365
+Total: 1461
+Porcentaje local de nulos en el archivo: 9.1%
+Total dias existentes en el archivo: 3743
+Porcentaje global de nulos en el archivo: 0.12%
+
+Nulos en ../CleanedData/14392-LAGOS DE MORENO.txt
+Precipitacion: 812
+Evaporacion: 817
+Tmax: 816
+Tmin: 816
+Total: 3261
+Porcentaje local de nulos en el archivo: 20.3%
+Total dias existentes en el archivo: 3209
+Porcentaje global de nulos en el archivo: 0.27%
+
+Nulos en ../CleanedData/14395-UNION DE TULA.txt
+Precipitacion: 2773
+Evaporacion: 2776
+Tmax: 2773
+Tmin: 2773
+Total: 11095
+Porcentaje local de nulos en el archivo: 69.0%
+Total dias existentes en el archivo: 1245
+Porcentaje global de nulos en el archivo: 0.92%
+
+Nulos en ../CleanedData/14396-JOCOTEPEC.txt
+Precipitacion: 396
+Evaporacion: 492
+Tmax: 396
+Tmin: 396
+Total: 1680
+Porcentaje local de nulos en el archivo: 10.5%
+Total dias existentes en el archivo: 3681
+Porcentaje global de nulos en el archivo: 0.14%
+
+Nulos en ../CleanedData/14397-ZAPOTLANEJO.txt
+Precipitacion: 366
+Evaporacion: 365
+Tmax: 365
+Tmin: 365
+Total: 1461
+Porcentaje local de nulos en el archivo: 9.1%
+Total dias existentes en el archivo: 3743
+Porcentaje global de nulos en el archivo: 0.12%
+
+Nulos en ../CleanedData/15001-ACATIC.txt
+Precipitacion: 4018
+Evaporacion: 4018
+Tmax: 4018
+Tmin: 4018
+Total: 16072
+Porcentaje local de nulos en el archivo: 100.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.34%
+
+Nulos en ../CleanedData/15002-AMACUECA.txt
+Precipitacion: 4018
+Evaporacion: 4018
+Tmax: 4018
+Tmin: 4018
+Total: 16072
+Porcentaje local de nulos en el archivo: 100.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.34%
+
+Nulos en ../CleanedData/15003-EL ARENAL.txt
+Precipitacion: 4018
+Evaporacion: 4018
+Tmax: 4018
+Tmin: 4018
+Total: 16072
+Porcentaje local de nulos en el archivo: 100.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.34%
+
+Nulos en ../CleanedData/15004-ATEMAJAC DE BRIZUELA.txt
+Precipitacion: 4018
+Evaporacion: 4018
+Tmax: 4018
+Tmin: 4018
+Total: 16072
+Porcentaje local de nulos en el archivo: 100.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.34%
+
+Nulos en ../CleanedData/15005-ATENGO.txt
+Precipitacion: 4018
+Evaporacion: 4018
+Tmax: 4018
+Tmin: 4018
+Total: 16072
+Porcentaje local de nulos en el archivo: 100.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.34%
+
+Nulos en ../CleanedData/15006-AYOTLAN.txt
+Precipitacion: 4018
+Evaporacion: 4018
+Tmax: 4018
+Tmin: 4018
+Total: 16072
+Porcentaje local de nulos en el archivo: 100.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.34%
+
+Nulos en ../CleanedData/15007-AYUTLA.txt
+Precipitacion: 4018
+Evaporacion: 4018
+Tmax: 4018
+Tmin: 4018
+Total: 16072
+Porcentaje local de nulos en el archivo: 100.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.34%
+
+Nulos en ../CleanedData/15008-CASIMIRO CASTILLO.txt
+Precipitacion: 4018
+Evaporacion: 4018
+Tmax: 4018
+Tmin: 4018
+Total: 16072
+Porcentaje local de nulos en el archivo: 100.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.34%
+
+Nulos en ../CleanedData/15009-COCULA.txt
+Precipitacion: 4018
+Evaporacion: 4018
+Tmax: 4018
+Tmin: 4018
+Total: 16072
+Porcentaje local de nulos en el archivo: 100.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.34%
+
+Nulos en ../CleanedData/15010-CUAUTLA.txt
+Precipitacion: 4018
+Evaporacion: 4018
+Tmax: 4018
+Tmin: 4018
+Total: 16072
+Porcentaje local de nulos en el archivo: 100.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.34%
+
+Nulos en ../CleanedData/15011-CHIMALTITAN.txt
+Precipitacion: 4018
+Evaporacion: 4018
+Tmax: 4018
+Tmin: 4018
+Total: 16072
+Porcentaje local de nulos en el archivo: 100.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.34%
+
+Nulos en ../CleanedData/15012-CHIQUILISTLAN.txt
+Precipitacion: 4018
+Evaporacion: 4018
+Tmax: 4018
+Tmin: 4018
+Total: 16072
+Porcentaje local de nulos en el archivo: 100.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.34%
+
+Nulos en ../CleanedData/15013-ENCARNACION DE DIAZ.txt
+Precipitacion: 4018
+Evaporacion: 4018
+Tmax: 4018
+Tmin: 4018
+Total: 16072
+Porcentaje local de nulos en el archivo: 100.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.34%
+
+Nulos en ../CleanedData/15014-EL GRULLO.txt
+Precipitacion: 4018
+Evaporacion: 4018
+Tmax: 4018
+Tmin: 4018
+Total: 16072
+Porcentaje local de nulos en el archivo: 100.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.34%
+
+Nulos en ../CleanedData/15015-IXTLAHUACAN DEL RIO.txt
+Precipitacion: 4018
+Evaporacion: 4018
+Tmax: 4018
+Tmin: 4018
+Total: 16072
+Porcentaje local de nulos en el archivo: 100.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.34%
+
+Nulos en ../CleanedData/15016-JUANACATLAN.txt
+Precipitacion: 4018
+Evaporacion: 4018
+Tmax: 4018
+Tmin: 4018
+Total: 16072
+Porcentaje local de nulos en el archivo: 100.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.34%
+
+Nulos en ../CleanedData/15017-EL LIMON.txt
+Precipitacion: 4018
+Evaporacion: 4018
+Tmax: 4018
+Tmin: 4018
+Total: 16072
+Porcentaje local de nulos en el archivo: 100.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.34%
+
+Nulos en ../CleanedData/15018-SANTA MARIA DEL ORO.txt
+Precipitacion: 4018
+Evaporacion: 4018
+Tmax: 4018
+Tmin: 4018
+Total: 16072
+Porcentaje local de nulos en el archivo: 100.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.34%
+
+Nulos en ../CleanedData/15019-EL SALTO.txt
+Precipitacion: 4018
+Evaporacion: 4018
+Tmax: 4018
+Tmin: 4018
+Total: 16072
+Porcentaje local de nulos en el archivo: 100.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.34%
+
+Nulos en ../CleanedData/15020-SAN JUAN DE LOS LAGOS.txt
+Precipitacion: 4018
+Evaporacion: 4018
+Tmax: 4018
+Tmin: 4018
+Total: 16072
+Porcentaje local de nulos en el archivo: 100.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.34%
+
+Nulos en ../CleanedData/15021-SAN JULIAN.txt
+Precipitacion: 4018
+Evaporacion: 4018
+Tmax: 4018
+Tmin: 4018
+Total: 16072
+Porcentaje local de nulos en el archivo: 100.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.34%
+
+Nulos en ../CleanedData/15022-SAN MARCOS.txt
+Precipitacion: 4018
+Evaporacion: 4018
+Tmax: 4018
+Tmin: 4018
+Total: 16072
+Porcentaje local de nulos en el archivo: 100.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.34%
+
+Nulos en ../CleanedData/15023-SAN MARTIN DE BOLAÑOS.txt
+Precipitacion: 4018
+Evaporacion: 4018
+Tmax: 4018
+Tmin: 4018
+Total: 16072
+Porcentaje local de nulos en el archivo: 100.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.34%
+
+Nulos en ../CleanedData/15024-SAN MIGUEL EL ALTO.txt
+Precipitacion: 4018
+Evaporacion: 4018
+Tmax: 4018
+Tmin: 4018
+Total: 16072
+Porcentaje local de nulos en el archivo: 100.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.34%
+
+Nulos en ../CleanedData/15025-GOMEZ FARIAS.txt
+Precipitacion: 4018
+Evaporacion: 4018
+Tmax: 4018
+Tmin: 4018
+Total: 16072
+Porcentaje local de nulos en el archivo: 100.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.34%
+
+Nulos en ../CleanedData/15026-SAN SEBASTIAN DEL OESTE.txt
+Precipitacion: 4018
+Evaporacion: 4018
+Tmax: 4018
+Tmin: 4018
+Total: 16072
+Porcentaje local de nulos en el archivo: 100.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.34%
+
+Nulos en ../CleanedData/15027-SANTA MARIA DE LOS ANGELES.txt
+Precipitacion: 4018
+Evaporacion: 4018
+Tmax: 4018
+Tmin: 4018
+Total: 16072
+Porcentaje local de nulos en el archivo: 100.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.34%
+
+Nulos en ../CleanedData/15028-TECALITLAN.txt
+Precipitacion: 4018
+Evaporacion: 4018
+Tmax: 4018
+Tmin: 4018
+Total: 16072
+Porcentaje local de nulos en el archivo: 100.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.34%
+
+Nulos en ../CleanedData/15029-TENAMAXTLAN.txt
+Precipitacion: 4018
+Evaporacion: 4018
+Tmax: 4018
+Tmin: 4018
+Total: 16072
+Porcentaje local de nulos en el archivo: 100.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.34%
+
+Nulos en ../CleanedData/15030-TONAYA.txt
+Precipitacion: 4018
+Evaporacion: 4018
+Tmax: 4018
+Tmin: 4018
+Total: 16072
+Porcentaje local de nulos en el archivo: 100.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.34%
+
+Nulos en ../CleanedData/15031-VALLE DE GUADALUPE.txt
+Precipitacion: 4018
+Evaporacion: 4018
+Tmax: 4018
+Tmin: 4018
+Total: 16072
+Porcentaje local de nulos en el archivo: 100.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.34%
+
+Nulos en ../CleanedData/15032-SAN GABRIEL.txt
+Precipitacion: 4018
+Evaporacion: 4018
+Tmax: 4018
+Tmin: 4018
+Total: 16072
+Porcentaje local de nulos en el archivo: 100.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.34%
+
+Nulos en ../CleanedData/15033-VILLA CORONA.txt
+Precipitacion: 4018
+Evaporacion: 4018
+Tmax: 4018
+Tmin: 4018
+Total: 16072
+Porcentaje local de nulos en el archivo: 100.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.34%
+
+Nulos en ../CleanedData/15034-VILLA HIDALGO.txt
+Precipitacion: 4018
+Evaporacion: 4018
+Tmax: 4018
+Tmin: 4018
+Total: 16072
+Porcentaje local de nulos en el archivo: 100.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.34%
+
+Nulos en ../CleanedData/15035-ZAPOTILTIC.txt
+Precipitacion: 4018
+Evaporacion: 4018
+Tmax: 4018
+Tmin: 4018
+Total: 16072
+Porcentaje local de nulos en el archivo: 100.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.34%
+
+Nulos en ../CleanedData/15036-ZAPOTITLAN DE VADILLO.txt
+Precipitacion: 4018
+Evaporacion: 4018
+Tmax: 4018
+Tmin: 4018
+Total: 16072
+Porcentaje local de nulos en el archivo: 100.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.34%
+
+Nulos en ../CleanedData/15037-ZAPOTLAN DEL REY.txt
+Precipitacion: 4018
+Evaporacion: 4018
+Tmax: 4018
+Tmin: 4018
+Total: 16072
+Porcentaje local de nulos en el archivo: 100.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.34%
+
+Nulos en ../CleanedData/15038-SAN IGNACIO CERRO GORDO.txt
+Precipitacion: 4018
+Evaporacion: 4018
+Tmax: 4018
+Tmin: 4018
+Total: 16072
+Porcentaje local de nulos en el archivo: 100.0%
+Total dias existentes en el archivo: 4018
+Porcentaje global de nulos en el archivo: 1.34%
+
