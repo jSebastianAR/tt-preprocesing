@@ -1,6 +1,9 @@
 from math import sin, cos, sqrt, atan2, radians
 import dates as dt
 import re
+from random import randint, choice
+from writerFile import Writer
+import pickle
 """
 KEYWORDS:
 
@@ -94,6 +97,7 @@ class Towns(object):
         self.name = self.getNameTown(path)
         self.index_date = {}
         self.boundaries_indexes = {'first': None, 'last': None} #Guarda el primer y último indice donde se ubican los datos a llenar
+        self.fake_nulls = {}
 
     #Obtiene el nombre respecto al path
     def getNameTown(self,path):
@@ -251,3 +255,84 @@ class Towns(object):
 
         self.delete_old_content()
         self.append_new_data(new_data)
+
+    def set_fake_nulls(self):
+        dict_all_fakes = {}
+        for i in range(0,3):
+            random_fakeNull = 'Nulo'
+            dict_fake_null = {}
+            while(random_fakeNull == 'Nulo'):
+                random_dataDay = choice(self.content) #Obtiene un día con datos
+                random_fakeNull = choice(random_dataDay[1:])#Obtiene una variable no nula
+            
+            #Obtiene el indice donde esta la lista de datos
+            index_original_day = self.content.index(random_dataDay)
+            #Guarda el original como tupla para no sobreescribir cuando se modifique la lista
+            dict_fake_null['original'] = tuple(random_dataDay)
+            #Obtiene el indice del valor a sustituir
+            index_fakeNull = random_dataDay.index(random_fakeNull)
+            #Guarda la lista original
+            dict_fake_null['fake'] = random_dataDay
+            #Sustituye el valor por un fake nulo
+            dict_fake_null['fake'][index_fakeNull] = 'Nulo' #se sustituye
+            #Agrega los datos del diccionario de fake nulos a la lista
+            dict_fake_null['original'] = list(dict_fake_null['original'])
+            #Agrega en el diccionario y como llave, esta la fecha donde se tomo el nulo
+            dict_all_fakes[dict_fake_null['original'][0]]= dict_fake_null
+            #Sustituye el original por el que contiene el nulo
+            self.content[index_original_day] = dict_fake_null['fake']
+
+        #Guarda el nombre del archivo
+        self.fake_nulls['nombre'] = self.name
+        #Guarda el path del archivo
+        self.fake_nulls['path'] = self.path
+        self.fake_nulls['all_fakes'] = dict_all_fakes
+
+def get_dump(name):
+
+	with open(name, "rb") as a_file:
+		output = pickle.load(a_file)
+		print(output)
+		return output
+
+def dump_file(data,name):
+	with open(name, "wb") as a_file:
+		pickle.dump(data, a_file, protocol=pickle.HIGHEST_PROTOCOL)
+		a_file.close()
+
+if __name__ == '__main__':
+    """path = '/home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/CleanedData/14025-TEOCALTICHE.txt'
+    lat = 20.421
+    lon = -103.591
+    dist = 0
+    town = Towns(path,lat,lon,dist)
+
+    town.getContent()
+    #print(town.content)
+    #town.find_indexes_for_dates('01/01/2008','31/12/2018')
+    town.set_fake_nulls()
+    print(f'LOS PINCHES NULOS ALV {town.fake_nulls}\n\n\n')
+    for date in town.fake_nulls['all_fakes']:
+        index = town.index_date[date]
+        print(town.content[index])
+    #print(town.content)
+    wrt = Writer(town.path)
+    wrt.newFile(town.content)"""
+
+    """paths_dict = get_dump('../Pickles/paths_file_e1.pickle')
+    List_fake_nulls = []
+    for index in paths_dict:
+        if index<=134:
+            town = Towns(paths_dict[index],0.0,0.0,0.0)
+            town.getContent()
+            town.set_fake_nulls()
+            wrt = Writer(town.path)
+            wrt.newFile(town.content)
+            print(f'NULOS DE {town.name} : {town.fake_nulls}\n\n')
+            List_fake_nulls.append(town.fake_nulls)
+        else:
+            break
+    
+    dump_file(List_fake_nulls,'fake_nulls.pickle')"""
+
+    get_dump('fake_nulls.pickle')

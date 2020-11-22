@@ -3,12 +3,12 @@ FROM python:3.7.7
 #Carpeta que contendrá todo lo necesario para el proceso
 RUN mkdir /home/preprocessing
 #Carpeta para almacenar los archivos de la nueva etapa
-RUN mkdir /home/Archivos_Etapa_6/
+RUN mkdir /home/Archivos_Etapa_f1/
 #Carpeta donde se comparte el key.pickle
-RUN mkdir /home/shared_container/
+#RUN mkdir /home/shared_container/
 #Carpeta creada para almacenar los archivos a usar para etapa 6(los archivos de la etapa anterior, la 5)
-RUN mkdir -p /home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/Archivos_Etapa_5/
-COPY Archivos_Etapa_5/ /home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/Archivos_Etapa_5/
+RUN mkdir -p /home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/FakeNulls/PreEtapa
+COPY /FakeNulls/PreEtapa/ /home/jsebastian-ar/Documentos/git-repos/tt-preprocesing/WheaterScript/FakeNulls/PreEtapa
 #Se establece el working directory donde está el automatizer.py
 WORKDIR /home/preprocessing
 #Copia todos los .py y resto de dependencias
