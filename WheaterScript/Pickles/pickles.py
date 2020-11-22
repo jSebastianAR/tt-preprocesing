@@ -231,7 +231,7 @@ def get_dump(name):
 
 	with open(name, "rb") as a_file:
 		output = pickle.load(a_file)
-		#print(output)
+		print(output)
 		return output
 
 if __name__ == '__main__':
@@ -248,7 +248,7 @@ if __name__ == '__main__':
 	#print(DICT_REL_DATA)
 	"""
 	#KEY
-	#dump_file(86,'key.pickle')
+	dump_file(0,'key.pickle')
 	#Guardado de diccionarios para cada etapa y del rel_dict
 	#ETAPA 1
 	#dump_file(DICT_ETAPA_1,'paths_file_e1.pickle')
@@ -265,7 +265,7 @@ if __name__ == '__main__':
 	#ETAPA 1 FAKE
 	#dump_file(DICT_PATHS_FAKE_E1,'paths_file_f1.pickle')
 	#ETAPA 2 FAKE
-	dump_file(DICT_PATHS_FAKE_E2,'paths_file_f2.pickle')
+	#dump_file(DICT_PATHS_FAKE_E2,'paths_file_f2.pickle')
 	#REL DICT
 	#dump_file(DICT_REL_DATA,'rel_TF_TU.pickle')
 	
@@ -292,9 +292,9 @@ if __name__ == '__main__':
 	#get_dump('paths_file_e5.pickle')
 	#get_dump('paths_file_e6.pickle')
 	#get_dump('paths_file_f1.pickle')
-	get_dump('paths_file_f2.pickle')
+	#get_dump('paths_file_f2.pickle')
 	#get_dump('rel_TF_TU_e2.pickle')
-	#get_dump('key.pickle')
+	get_dump('key.pickle')
 	#get_dump('pre_etapas_datos_graficas.pickle')
 	#get_dump('etapa1_datos_graficas.pickle')
 	#get_dump('etapa2_datos_graficas.pickle')

@@ -15,26 +15,27 @@ PATH_E4 = './Etapa_4/'
 PATH_E5 = './Etapa_5/'
 PATH_E6 = './Etapa_6/'
 PATH_F1 = './Etapa_f1/'
+PATH_F2 = './Etapa_f2/'
 
 
 def bitacora(info,path):
         #Modificar el número de este path dependiendo de la etapa que se este ejecutando
-        path = '/home/Archivos_Etapa_f1/'   
-        with open(path + 'ArchivosLlenados_c2.txt','a+', encoding = "utf-8") as file:
+        path = '/home/Archivos_Etapa_f2/'   
+        with open(path + 'ArchivosLlenados.txt','a+', encoding = "utf-8") as file:
             file.write(info+'\n')
 
 def save_last_key(key,path):
     #Path que tiene compartido el container para obtener la key
-    #path = '/home/shared_container/'
-    path = './Etapa_f1/'
+    path = '/home/shared_container/'
+    #path = './Etapa_f2/'
     with open(path + 'key.pickle', "wb") as a_file:
         pickle.dump(key, a_file, protocol=pickle.HIGHEST_PROTOCOL)
         a_file.close()
 
 def get_next_key(path):
     #Path que tiene compartido el container para obtener la key
-    #path = '/home/shared_container/'
-    path = './Etapa_f1/'
+    path = '/home/shared_container/'
+    #path = './Etapa_f1/'
     with open(path + 'key.pickle', "rb") as a_file:
         output = pickle.load(a_file)
         return output + 1
@@ -66,9 +67,9 @@ def get_paths_TUs(key,dict_rel,dict_paths):
 
 def run():
     #Modificar este working path dependiendo de la etapa que se este ejecutando
-    working_path = PATH_F1
+    working_path = PATH_F2
     #Obtiene los paths de todas los archivos
-    dict_paths = read_pickle('paths_file_f1.pickle',working_path)
+    dict_paths = read_pickle('paths_file_f2.pickle',working_path)
     #Obtiene las listas de relacion de todas las ciudades con sus respectivas TU's
     dict_rel = read_pickle('rel_TF_TU.pickle',working_path)
     #Obtiene el último valor de llave donde se detuvo el algoritmo(si es que se detuvo)
@@ -112,8 +113,8 @@ def run():
         bitacora(town_tf.name,working_path)
         #Guardando la última key que tenía el último archivo que se lleno
         save_last_key(key,working_path)
-        print('Esperando 15 segundos antes de volver...')
-        time.sleep(15)
+        print('Esperando 25 segundos antes de volver...')
+        time.sleep(25)
     
 if __name__ == '__main__':
     run()
