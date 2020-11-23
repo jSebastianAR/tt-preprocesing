@@ -328,10 +328,10 @@ if __name__ == '__main__':
 	#dump_file(DICT_PATHS_FAKE_E3,'paths_file_f3.pickle')
 	#ETAPA 4 FAKE
 	#dump_file(DICT_PATHS_FAKE_E4,'paths_file_f4.pickle')
-	#ETAPA 4 FAKE
+	#ETAPA 5 FAKE
 	#dump_file(DICT_PATHS_FAKE_E5,'paths_file_f5.pickle')
 	#REL DICT
-	dump_file(DICT_REL_DATA,'rel_TF_TU.pickle')
+	#dump_file(DICT_REL_DATA,'rel_TF_TU.pickle')
 	
 	#PICKLES PARA GRAFICACION DE CADA ETAPA
 	#PRE ETAPA
@@ -359,8 +359,8 @@ if __name__ == '__main__':
 	#get_dump('paths_file_f2.pickle')
 	#get_dump('paths_file_f3.pickle')
 	#get_dump('paths_file_f4.pickle')
-	#get_dump('paths_file_f5.pickle')
-	get_dump('rel_TF_TU.pickle')
+	get_dump('paths_file_f5.pickle')
+	#get_dump('rel_TF_TU.pickle')
 	#get_dump('key.pickle')
 	#get_dump('pre_etapas_datos_graficas.pickle')
 	#get_dump('etapa1_datos_graficas.pickle')
