@@ -115,8 +115,8 @@ def run():
         bitacora(town_tf.name,working_path)
         #Guardando la última key que tenía el último archivo que se lleno
         save_last_key(key,working_path)
-        print('Esperando 25 segundos antes de volver...')
-        time.sleep(25)
+        print('Esperando 15 segundos antes de volver...')
+        time.sleep(15)
     
 if __name__ == '__main__':
     run()
