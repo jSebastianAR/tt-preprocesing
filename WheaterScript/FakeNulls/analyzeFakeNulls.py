@@ -67,7 +67,7 @@ def set_global_dict_fake_nulls(nulls_list):
 
 def main():
 
-    paths = pk.get_dump( path_pickles + 'paths_file_f2.pickle')
+    paths = pk.get_dump( path_pickles + 'paths_file_f3.pickle')
     fakeNulls_dict = pk.get_dump( path_pickles + 'fake_nulls.pickle')
     #print(paths)
     #print(fakeNulls_dict)
