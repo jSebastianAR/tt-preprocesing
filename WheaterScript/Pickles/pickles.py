@@ -307,7 +307,7 @@ if __name__ == '__main__':
 	#ETAPA 3 FAKE
 	#dump_file(DICT_PATHS_FAKE_E3,'paths_file_f3.pickle')
 	#ETAPA 4 FAKE
-	dump_file(DICT_PATHS_FAKE_E4,'paths_file_f4.pickle')
+	#dump_file(DICT_PATHS_FAKE_E4,'paths_file_f4.pickle')
 	#REL DICT
 	#dump_file(DICT_REL_DATA,'rel_TF_TU.pickle')
 	

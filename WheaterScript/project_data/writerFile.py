@@ -11,7 +11,7 @@ class Writer(object):
         parts = self.path_origin_file.split('/')
         #Modificar el numero del path dependiendo de la etapa a ejecutar
         #path = '../Archivos_Etapa_6/'
-        path = '../Archivos_Etapa_f3/'
+        path = '../Archivos_Etapa_f4/'
         new_path = path + parts[len(parts)-1]
         return new_path
 

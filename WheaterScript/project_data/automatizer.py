@@ -17,11 +17,12 @@ PATH_E6 = './Etapa_6/'
 PATH_F1 = './Etapa_f1/'
 PATH_F2 = './Etapa_f2/'
 PATH_F3 = './Etapa_f3/'
+PATH_F4 = './Etapa_f4/'
 
 
 def bitacora(info,path):
         #Modificar el número de este path dependiendo de la etapa que se este ejecutando
-        path = '/home/Archivos_Etapa_f3/'   
+        path = '/home/Archivos_Etapa_f4/'   
         with open(path + 'ArchivosLlenados.txt','a+', encoding = "utf-8") as file:
             file.write(info+'\n')
 
@@ -68,9 +69,9 @@ def get_paths_TUs(key,dict_rel,dict_paths):
 
 def run():
     #Modificar este working path dependiendo de la etapa que se este ejecutando
-    working_path = PATH_F3
+    working_path = PATH_F4
     #Obtiene los paths de todas los archivos
-    dict_paths = read_pickle('paths_file_f3.pickle',working_path)
+    dict_paths = read_pickle('paths_file_f4.pickle',working_path)
     #Obtiene las listas de relacion de todas las ciudades con sus respectivas TU's
     dict_rel = read_pickle('rel_TF_TU.pickle',working_path)
     #Obtiene el último valor de llave donde se detuvo el algoritmo(si es que se detuvo)
