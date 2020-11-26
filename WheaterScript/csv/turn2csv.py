@@ -5,7 +5,7 @@ import time
 
 REGEX_BLANK_SPACES = r'[ ]+'
 COLUMNAS = ['FECHA','PRECIP(mm)','EVAP(mm)','TMAX(°C)','TMIN(°C)']
-PATH_E5 = 'Archivos_Etapa_5'
+PATH_E6 = 'Archivos_Etapa_6'
 
 #Obtendrá cada uno de los datos del archivo de cada town
 def getContent(path,name):
@@ -74,7 +74,7 @@ def do_turn2csv(txt_list):
             to_csv(content,name)
 
 def main():
-    current_path = PATH_E5
+    current_path = PATH_E6
     txt_list = get_txt(current_path)
     do_turn2csv(txt_list)
     
