@@ -2,6 +2,7 @@ import sys
 from pathlib import Path
 from time import sleep
 import pandas as pd
+import numpy as np
 #Importando el modulo Towns
 current_path = Path().absolute().as_posix()
 parts = current_path.split('/')
@@ -65,6 +66,26 @@ def set_global_dict_fake_nulls(nulls_list):
     
     return global_dict
 
+def get_csv_data():
+    data = pd.read_csv('./tabla_fake_nulls.csv')
+    original_value = data['Valor O'].to_numpy()
+    calculated_value = data['Valor C'].to_numpy()
+    #print(data['Valor O'].to_numpy())
+    #print(data['Valor C'].to_numpy())
+
+    return original_value, calculated_value
+
+def eficiency():
+    valor_o, valor_c = get_csv_data()
+    difference = np.subtract(valor_o,valor_c)
+    #print(f'Difference \n {difference}')
+    for index in range(0,len(difference)):
+        if difference[index] < 0:
+            difference[index] = (-1) * difference[index]
+    print(f'Difference array\n {difference}')
+    efficiency_mean = round(np.mean(difference),2)
+    print(efficiency_mean)
+
 def main():
 
     paths = pk.get_dump( path_pickles + 'paths_file_f6.pickle')
@@ -88,6 +109,7 @@ def main():
 
     createCSV(final_list_nulls)
 if __name__ == '__main__':
-    main()
+    #main()
+    eficiency()
 
 
