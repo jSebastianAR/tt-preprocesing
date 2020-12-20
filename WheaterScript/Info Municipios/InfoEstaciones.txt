@@ -1,0 +1,5 @@
+Estaciones Totales: 274
+Estaciones Activas: 133 se tomaron los 133, solo 2 de estos tenía full info
+Estaciones Inactivas: 141 se tomo 1
+
+Con las estaciones activas solo tenemos alcance de datos para: 
