@@ -10,26 +10,13 @@ data_before_refill = [{'Path': '../CleanedData/14002-ACATLAN DE JUAREZ.txt', 'Na
         {'Path': '../CleanedData/14164-VILLA GUERRERO.txt', 'Name': '14164-VILLA GUERRERO', 'Conteo': [1662, 1834, 1684, 1684], 'Total_nulos': 6864, 'Porcentaje_local_nulos': 42.7, 'Total dias existentes': 2361, 'Porcentaje_global_nulos': 1.16}, {'Path': '../CleanedData/14165-CAÑADAS DE OBREGON.txt', 'Name': '14165-CAÑADAS DE OBREGON', 'Conteo': [1, 133, 362, 362], 'Total_nulos': 858, 'Porcentaje_local_nulos': 5.3, 'Total dias existentes': 4018, 'Porcentaje_global_nulos': 0.15}, {'Path': '../CleanedData/14167-YAHUALICA DE GONZALEZ GALLO.txt', 'Name': '14167-YAHUALICA DE GONZALEZ GALLO', 'Conteo': [213, 1821, 213, 213], 'Total_nulos': 2460, 'Porcentaje_local_nulos': 15.3, 'Total dias existentes': 3805, 'Porcentaje_global_nulos': 0.42}, {'Path': '../CleanedData/14168-ZACOALCO DE TORRES.txt', 'Name': '14168-ZACOALCO DE TORRES', 'Conteo': [540, 3777, 411, 409], 'Total_nulos': 5137, 'Porcentaje_local_nulos': 32.0, 'Total dias existentes': 3704, 'Porcentaje_global_nulos': 0.87}, {'Path': '../CleanedData/14169-ZAPOPAN.txt', 'Name': '14169-ZAPOPAN', 'Conteo': [2, 3934, 5, 0], 'Total_nulos': 3941, 'Porcentaje_local_nulos': 24.5, 'Total dias existentes': 4138, 'Porcentaje_global_nulos': 0.67}, {'Path': '../CleanedData/14179-OJUELOS DE JALISCO.txt', 'Name': '14179-OJUELOS DE JALISCO', 'Conteo': [197, 257, 199, 199], 'Total_nulos': 852, 'Porcentaje_local_nulos': 5.3, 'Total dias existentes': 3912, 'Porcentaje_global_nulos': 0.14}, {'Path': '../CleanedData/14180-QUITUPAN.txt', 'Name': '14180-QUITUPAN', 'Conteo': [519, 519, 519, 519], 'Total_nulos': 2076, 'Porcentaje_local_nulos': 12.9, 'Total dias existentes': 3558, 'Porcentaje_global_nulos': 0.35}, {'Path': '../CleanedData/14187-TEQUILA.txt', 'Name': '14187-TEQUILA', 'Conteo': [61, 200, 61, 62], 'Total_nulos': 384, 'Porcentaje_local_nulos': 2.4, 'Total dias existentes': 3988, 'Porcentaje_global_nulos': 0.07}, {'Path': '../CleanedData/14189-TIZAPAN EL ALTO.txt', 'Name': '14189-TIZAPAN EL ALTO', 'Conteo': [4, 469, 5, 4], 'Total_nulos': 482, 'Porcentaje_local_nulos': 3.0, 'Total dias existentes': 4075, 'Porcentaje_global_nulos': 0.08}, {'Path': '../CleanedData/14191-VALLE DE JUAREZ.txt', 'Name': '14191-VALLE DE JUAREZ', 'Conteo': [3744, 3757, 3744, 3744], 'Total_nulos': 14989, 'Porcentaje_local_nulos': 93.3, 'Total dias existentes': 274, 'Porcentaje_global_nulos': 2.54}, {'Path': '../CleanedData/14195-SAN JUANITO DE ESCOBEDO.txt', 'Name': '14195-SAN JUANITO DE ESCOBEDO', 'Conteo': [1987, 2226, 1948, 1948], 'Total_nulos': 8109, 'Porcentaje_local_nulos': 50.5, 'Total dias existentes': 2132, 'Porcentaje_global_nulos': 1.37}, {'Path': '../CleanedData/14197-UNION DE TULA.txt', 'Name': '14197-UNION DE TULA', 'Conteo': [1592, 1601, 1642, 1642], 'Total_nulos': 6477, 'Porcentaje_local_nulos': 40.3, 'Total dias existentes': 2432, 'Porcentaje_global_nulos': 1.1}, {'Path': '../CleanedData/14198-CUAUTITLAN DE GARCIA BARRAGAN.txt', 'Name': '14198-CUAUTITLAN DE GARCIA BARRAGAN', 'Conteo': [1461, 1489, 1460, 1462], 'Total_nulos': 5872, 'Porcentaje_local_nulos': 36.5, 'Total dias existentes': 2649, 'Porcentaje_global_nulos': 0.99}, {'Path': '../CleanedData/14199-PONCITLAN.txt', 'Name': '14199-PONCITLAN', 'Conteo': [2465, 2479, 2476, 2477], 'Total_nulos': 9897, 'Porcentaje_local_nulos': 61.6, 'Total dias existentes': 1553, 'Porcentaje_global_nulos': 1.68}, {'Path': '../CleanedData/14200-SAN PEDRO TLAQUEPAQUE.txt', 'Name': '14200-SAN PEDRO TLAQUEPAQUE', 'Conteo': [2521, 2529, 2524, 2523], 'Total_nulos': 10097, 'Porcentaje_local_nulos': 62.8, 'Total dias existentes': 1564, 'Porcentaje_global_nulos': 1.71}, {'Path': '../CleanedData/14266-JALOSTOTITLAN.txt', 'Name': '14266-JALOSTOTITLAN', 'Conteo': [191, 208, 215, 213], 'Total_nulos': 827, 'Porcentaje_local_nulos': 5.1, 'Total dias existentes': 3828, 'Porcentaje_global_nulos': 0.14}, {'Path': '../CleanedData/14269-AHUALULCO DE MERCADO.txt', 'Name': '14269-AHUALULCO DE MERCADO', 'Conteo': [61, 61, 61, 61], 'Total_nulos': 244, 'Porcentaje_local_nulos': 1.5, 'Total dias existentes': 4047, 'Porcentaje_global_nulos': 0.04}, {'Path': '../CleanedData/14294-TLAJOMULCO DE ZUÑIGA.txt', 'Name': '14294-TLAJOMULCO DE ZUÑIGA', 'Conteo': [3435, 3917, 3587, 3590], 'Total_nulos': 14529, 'Porcentaje_local_nulos': 90.4, 'Total dias existentes': 608, 'Porcentaje_global_nulos': 2.46}, {'Path': '../CleanedData/14297-GUACHINANGO.txt', 'Name': '14297-GUACHINANGO', 'Conteo': [0, 0, 0, 0], 'Total_nulos': 0, 'Porcentaje_local_nulos': 0.0, 'Total dias existentes': 4169, 'Porcentaje_global_nulos': 0.0}, {'Path': '../CleanedData/14306-HUEJUQUILLA EL ALTO.txt', 'Name': '14306-HUEJUQUILLA EL ALTO', 'Conteo': [31, 31, 31, 32], 'Total_nulos': 125, 'Porcentaje_local_nulos': 0.8, 'Total dias existentes': 4046, 'Porcentaje_global_nulos': 0.02}, {'Path': '../CleanedData/14311-TOLIMAN.txt', 'Name': '14311-TOLIMAN', 'Conteo': [348, 350, 347, 349], 'Total_nulos': 1394, 'Porcentaje_local_nulos': 8.7, 'Total dias existentes': 3671, 'Porcentaje_global_nulos': 0.24}, {'Path': '../CleanedData/14317-MIXTLAN.txt', 'Name': '14317-MIXTLAN', 'Conteo': [2293, 2995, 2261, 2261], 'Total_nulos': 9810, 'Porcentaje_local_nulos': 61.0, 'Total dias existentes': 1759, 'Porcentaje_global_nulos': 1.66}, {'Path': '../CleanedData/14320-LAGOS DE MORENO.txt', 'Name': '14320-LAGOS DE MORENO', 'Conteo': [792, 792, 791, 791], 'Total_nulos': 3166, 'Porcentaje_local_nulos': 19.7, 'Total dias existentes': 3227, 'Porcentaje_global_nulos': 0.54}, {'Path': '../CleanedData/14323-TECHALUTA DE MONTENEGRO.txt', 'Name': '14323-TECHALUTA DE MONTENEGRO', 'Conteo': [3815, 3818, 3815, 3816], 'Total_nulos': 15264, 'Porcentaje_local_nulos': 95.0, 'Total dias existentes': 262, 'Porcentaje_global_nulos': 2.58}, {'Path': '../CleanedData/14324-TOTATICHE.txt', 'Name': '14324-TOTATICHE', 'Conteo': [36, 392, 37, 38], 'Total_nulos': 503, 'Porcentaje_local_nulos': 3.1, 'Total dias existentes': 3984, 'Porcentaje_global_nulos': 0.09}, {'Path': '../CleanedData/14326-MEZQUITIC.txt', 'Name': '14326-MEZQUITIC', 'Conteo': [108, 514, 227, 227], 'Total_nulos': 1076, 'Porcentaje_local_nulos': 6.7, 'Total dias existentes': 4001, 'Porcentaje_global_nulos': 0.18}, {'Path': '../CleanedData/14329-GUADALAJARA.txt', 'Name': '14329-GUADALAJARA', 'Conteo': [365, 365, 365, 365], 'Total_nulos': 1460, 'Porcentaje_local_nulos': 9.1, 'Total dias existentes': 3804, 'Porcentaje_global_nulos': 0.25}, {'Path': '../CleanedData/14331-COLOTLAN.txt', 'Name': '14331-COLOTLAN', 'Conteo': [2933, 3597, 2932, 2931], 'Total_nulos': 12393, 'Porcentaje_local_nulos': 77.1, 'Total dias existentes': 1088, 'Porcentaje_global_nulos': 2.1}, {'Path': '../CleanedData/14336-PIHUAMO.txt', 'Name': '14336-PIHUAMO', 'Conteo': [578, 583, 577, 577], 'Total_nulos': 2315, 'Porcentaje_local_nulos': 14.4, 'Total dias existentes': 3441, 'Porcentaje_global_nulos': 0.39}, {'Path': '../CleanedData/14337-YAHUALICA DE GONZALEZ GALLO.txt', 'Name': '14337-YAHUALICA DE GONZALEZ GALLO', 'Conteo': [365, 479, 365, 365], 'Total_nulos': 1574, 'Porcentaje_local_nulos': 9.8, 'Total dias existentes': 3743, 'Porcentaje_global_nulos': 0.27}, {'Path': '../CleanedData/14339-PUERTO VALLARTA.txt', 'Name': '14339-PUERTO VALLARTA', 'Conteo': [0, 0, 0, 0], 'Total_nulos': 0, 'Porcentaje_local_nulos': 0.0, 'Total dias existentes': 4139, 'Porcentaje_global_nulos': 0.0}, {'Path': '../CleanedData/14343-EJUTLA.txt', 'Name': '14343-EJUTLA', 'Conteo': [0, 0, 0, 0], 'Total_nulos': 0, 'Porcentaje_local_nulos': 0.0, 'Total dias existentes': 4018, 'Porcentaje_global_nulos': 0.0}, {'Path': '../CleanedData/14346-MEZQUITIC.txt', 'Name': '14346-MEZQUITIC', 'Conteo': [365, 365, 365, 365], 'Total_nulos': 1460, 'Porcentaje_local_nulos': 9.1, 'Total dias existentes': 3712, 'Porcentaje_global_nulos': 0.25}, {'Path': '../CleanedData/14348-JILOTLAN DE LOS DOLORES.txt', 'Name': '14348-JILOTLAN DE LOS DOLORES', 'Conteo': [1371, 2534, 2709, 2709], 'Total_nulos': 9323, 'Porcentaje_local_nulos': 58.0, 'Total dias existentes': 2647, 'Porcentaje_global_nulos': 1.58}, {'Path': '../CleanedData/14349-ATENGUILLO.txt', 'Name': '14349-ATENGUILLO', 'Conteo': [365, 1441, 365, 365], 'Total_nulos': 2536, 'Porcentaje_local_nulos': 15.8, 'Total dias existentes': 3774, 'Porcentaje_global_nulos': 0.43}, {'Path': '../CleanedData/14350-TUXCACUESCO.txt', 'Name': '14350-TUXCACUESCO', 'Conteo': [365, 367, 365, 365], 'Total_nulos': 1462, 'Porcentaje_local_nulos': 9.1, 'Total dias existentes': 3743, 'Porcentaje_global_nulos': 0.25}, {'Path': '../CleanedData/14351-TALA.txt', 'Name': '14351-TALA', 'Conteo': [396, 410, 396, 397], 'Total_nulos': 1599, 'Porcentaje_local_nulos': 9.9, 'Total dias existentes': 3681, 'Porcentaje_global_nulos': 0.27}, {'Path': '../CleanedData/14355-LA BARCA.txt', 'Name': '14355-LA BARCA', 'Conteo': [366, 372, 365, 365], 'Total_nulos': 1468, 'Porcentaje_local_nulos': 9.1, 'Total dias existentes': 3743, 'Porcentaje_global_nulos': 0.25}, {'Path': '../CleanedData/14367-UNION DE SAN ANTONIO.txt', 'Name': '14367-UNION DE SAN ANTONIO', 'Conteo': [2479, 2567, 2480, 2479], 'Total_nulos': 10005, 'Porcentaje_local_nulos': 62.3, 'Total dias existentes': 1540, 'Porcentaje_global_nulos': 1.69}, {'Path': '../CleanedData/14368-SAYULA.txt', 'Name': '14368-SAYULA', 'Conteo': [703, 757, 701, 701], 'Total_nulos': 2862, 'Porcentaje_local_nulos': 17.8, 'Total dias existentes': 3377, 'Porcentaje_global_nulos': 0.48}, {'Path': '../CleanedData/14369-ARANDAS.txt', 'Name': '14369-ARANDAS', 'Conteo': [828, 838, 828, 828], 'Total_nulos': 3322, 'Porcentaje_local_nulos': 20.7, 'Total dias existentes': 3191, 'Porcentaje_global_nulos': 0.56}, {'Path': '../CleanedData/14379-PONCITLAN.txt', 'Name': '14379-PONCITLAN', 'Conteo': [365, 1611, 365, 365], 'Total_nulos': 2706, 'Porcentaje_local_nulos': 16.8, 'Total dias existentes': 3743, 'Porcentaje_global_nulos': 0.46}, {'Path': '../CleanedData/14386-TONALA.txt', 'Name': '14386-TONALA', 'Conteo': [414, 492, 439, 409], 'Total_nulos': 1754, 'Porcentaje_local_nulos': 10.9, 'Total dias existentes': 3742, 'Porcentaje_global_nulos': 0.3}, \
         {'Path': '../CleanedData/14388-ZAPOTLANEJO.txt', 'Name': '14388-ZAPOTLANEJO', 'Conteo': [2619, 2619, 2619, 2619], 'Total_nulos': 10476, 'Porcentaje_local_nulos': 65.2, 'Total dias existentes': 1399, 'Porcentaje_global_nulos': 1.77}, {'Path': '../CleanedData/14390-AUTLAN DE NAVARRO.txt', 'Name': '14390-AUTLAN DE NAVARRO', 'Conteo': [2537, 2676, 2546, 2549], 'Total_nulos': 10308, 'Porcentaje_local_nulos': 64.1, 'Total dias existentes': 1494, 'Porcentaje_global_nulos': 1.75}, {'Path': '../CleanedData/14391-TIZAPAN EL ALTO.txt', 'Name': '14391-TIZAPAN EL ALTO', 'Conteo': [366, 365, 365, 365], 'Total_nulos': 1461, 'Porcentaje_local_nulos': 9.1, 'Total dias existentes': 3743, 'Porcentaje_global_nulos': 0.25}, {'Path': '../CleanedData/14392-LAGOS DE MORENO.txt', 'Name': '14392-LAGOS DE MORENO', 'Conteo': [812, 817, 816, 816], 'Total_nulos': 3261, 'Porcentaje_local_nulos': 20.3, 'Total dias existentes': 3209, 'Porcentaje_global_nulos': 0.55}, {'Path': '../CleanedData/14395-UNION DE TULA.txt', 'Name': '14395-UNION DE TULA', 'Conteo': [2773, 2776, 2773, 2773], 'Total_nulos': 11095, 'Porcentaje_local_nulos': 69.0, 'Total dias existentes': 1245, 'Porcentaje_global_nulos': 1.88}, {'Path': '../CleanedData/14396-JOCOTEPEC.txt', 'Name': '14396-JOCOTEPEC', 'Conteo': [396, 492, 396, 396], 'Total_nulos': 1680, 'Porcentaje_local_nulos': 10.5, 'Total dias existentes': 3681, 'Porcentaje_global_nulos': 0.28}, {'Path': '../CleanedData/14397-ZAPOTLANEJO.txt', 'Name': '14397-ZAPOTLANEJO', 'Conteo': [366, 365, 365, 365], 'Total_nulos': 1461, 'Porcentaje_local_nulos': 9.1, 'Total dias existentes': 3743, 'Porcentaje_global_nulos': 0.25}]
 
-def graph_comparison(etapa):
-    Total_data_in_dataset = 2764384
-    total_nulos_preetapa = 1201445
-    total_nulos_etapa1 = 151216
-    total_nulos_etapa2 = 24516
-    total_nulos_etapa3 = 6947
-    total_nulos_recuperados = total_nulos_preetapa - total_nulos_etapa3
-
+def graph_nulls_comparison(pct_list,etapa):
     if etapa == 0:
-        pct_list = [Total_data_in_dataset-total_nulos_preetapa,total_nulos_preetapa]
-    elif etapa == 1:
-        pct_list = [Total_data_in_dataset-total_nulos_etapa1,total_nulos_etapa1]
-    elif etapa == 2:
-        pct_list = [Total_data_in_dataset-total_nulos_etapa2,total_nulos_etapa2]
-    elif etapa == 3:
-        pct_list = [Total_data_in_dataset-total_nulos_etapa3,total_nulos_etapa3]
-    elif etapa == 4:
-        pct_list = [total_nulos_recuperados,total_nulos_etapa3]
+        etapa_name = 'Pre-Etapa'
+    else:
+        etapa_name = f'Etapa {etapa}'
     # Wedge properties 
-    wp = { 'linewidth' : 1, 'edgecolor' : "black" } 
+    wp = { 'linewidth' : 1, 'edgecolor' : "black"} 
 
     # Creating autocpt arguments 
     def func(pct, allvalues): 
@@ -38,26 +25,109 @@ def graph_comparison(etapa):
         
 
     # Creating explode data 
-    explode = tuple([0.2 for i in range(0,len(pct_list))])#(0.1, 0.1, 0.1, 0.1)
+    #explode = tuple([0.01 for i in range(0,len(pct_list))])#(0.1, 0.1, 0.1, 0.1)
 
     # Creating plot 
     fig, ax = plt.subplots(figsize =(10, 7)) 
-    wedges, texts, autotexts = ax.pie(pct_list,  
+    wedges, texts, autotexts = ax.pie(pct_list, 
                                     autopct = lambda pct: func(pct, pct_list), 
                                     startangle = 90, 
                                     wedgeprops = wp, 
-                                    explode = explode,
+    #                                explode = explode,
                                     textprops = dict(color ="black")) 
-    
-    if (etapa==3):
-        labels = ['Nulos recuperados', 'Nulos'] 
-    else:
-        labels = ['Existentes', 'Nulos']
+    #Changing font color of pct's
+    for autotext in autotexts:
+        autotext.set_color('white')
+
+    labels = ['Recuperado', 'Nulo']
+
     ax.legend(wedges, labels, 
-            title ="Grupos", 
             loc ="center left", 
+            title = 'Tipo de dato',
             bbox_to_anchor =(1,0, 0.5, 1)) 
     
+    ax.set_title(f'Balance de datos Nulos y No Nulos en {etapa_name}')
+    fig.canvas.set_window_title(f'BalanceNulosVsNoNulos-E{etapa}')
+    plt.setp(autotexts, size = 8, weight ="bold") 
+    plt.show()
+
+def graph_comparison(etapa):
+    Total_data_in_dataset = 2764384
+    total_nulos_preetapa = 1201445
+    total_nulos_etapa1 = 151216
+    total_nulos_etapa2 = 24516
+    total_nulos_etapa3 = 6947
+    total_nulos_etapa4 = 6366
+    total_nulos_etapa5 = 6056
+    total_nulos_etapa6 = 6008
+
+    if etapa == 0:
+        pct_list = [Total_data_in_dataset-total_nulos_preetapa,total_nulos_preetapa]
+        total_nulos_recuperados = 0
+        nulos_existentes = total_nulos_preetapa
+    elif etapa == 1:
+        pct_list = [Total_data_in_dataset-total_nulos_etapa1,total_nulos_etapa1]
+        total_nulos_recuperados = total_nulos_preetapa - total_nulos_etapa1
+        nulos_existentes = total_nulos_etapa1
+    elif etapa == 2:
+        pct_list = [Total_data_in_dataset-total_nulos_etapa2,total_nulos_etapa2]
+        total_nulos_recuperados = total_nulos_preetapa - total_nulos_etapa2
+        nulos_existentes = total_nulos_etapa2
+    elif etapa == 3:
+        pct_list = [Total_data_in_dataset-total_nulos_etapa3,total_nulos_etapa3]
+        total_nulos_recuperados = total_nulos_preetapa - total_nulos_etapa3
+        nulos_existentes = total_nulos_etapa3
+    elif etapa == 4:
+        pct_list = [Total_data_in_dataset-total_nulos_etapa4,total_nulos_etapa4]
+        total_nulos_recuperados = total_nulos_preetapa - total_nulos_etapa4
+        nulos_existentes = total_nulos_etapa4
+    elif etapa == 5:
+        pct_list = [Total_data_in_dataset-total_nulos_etapa5,total_nulos_etapa5]
+        total_nulos_recuperados = total_nulos_preetapa - total_nulos_etapa5
+        nulos_existentes = total_nulos_etapa5
+    elif etapa == 6:
+        pct_list = [Total_data_in_dataset-total_nulos_etapa6,total_nulos_etapa6]
+        total_nulos_recuperados = total_nulos_preetapa - total_nulos_etapa6
+        nulos_existentes = total_nulos_etapa6
+    else:
+        total_nulos_recuperados = 0
+        nulos_existentes = total_nulos_preetapa
+    
+    nulls_comp = [total_nulos_recuperados, nulos_existentes]
+    graph_nulls_comparison(nulls_comp, etapa)
+    # Wedge properties 
+    wp = { 'linewidth' : 1, 'edgecolor' : "black"} 
+
+    # Creating autocpt arguments 
+    def func(pct, allvalues): 
+        #absolute = int(pct / 100.*np.sum(allvalues))
+        return "{:.3f}%".format(pct)
+        
+
+    # Creating explode data 
+    #explode = tuple([0.01 for i in range(0,len(pct_list))])#(0.1, 0.1, 0.1, 0.1)
+
+    # Creating plot 
+    fig, ax = plt.subplots(figsize =(10, 7)) 
+    wedges, texts, autotexts = ax.pie(pct_list, 
+                                    autopct = lambda pct: func(pct, pct_list), 
+                                    startangle = 90, 
+                                    wedgeprops = wp, 
+    #                                explode = explode,
+                                    textprops = dict(color ="black")) 
+    #Changing font color of pct's
+    for autotext in autotexts:
+        autotext.set_color('white')
+
+    labels = ['No nulo', 'Nulo']
+
+    ax.legend(wedges, labels, 
+            loc ="center left",
+            title = 'Tipo de dato',
+            bbox_to_anchor =(1,0, 0.5, 1)) 
+
+    ax.set_title('Estado del Dataset')
+    fig.canvas.set_window_title(f'EstadoDelDataset-E{etapa}')
     plt.setp(autotexts, size = 8, weight ="bold") 
     plt.show()
 
@@ -93,7 +163,7 @@ def graph_global_nulls(data_dict):
         
 
     # Creating explode data 
-    explode = tuple([0.1 for i in range(0,len(pct_list))])#(0.1, 0.1, 0.1, 0.1)
+    #explode = tuple([0.1 for i in range(0,len(pct_list))])#(0.1, 0.1, 0.1, 0.1)
 
     # Creating plot 
     fig, ax = plt.subplots(figsize =(10, 7)) 
@@ -101,7 +171,7 @@ def graph_global_nulls(data_dict):
                                     autopct = lambda pct: func(pct, pct_list), 
                                     startangle = 90, 
                                     wedgeprops = wp, 
-                                    explode = explode,
+                                    #explode = explode,
                                     textprops = dict(color ="black")) 
     
     
@@ -272,5 +342,5 @@ def get_labels_cols(num_cols, num_group):
 if __name__ == '__main__':
     #graph_global_nulls(data_before_refill)
     while(True):
-        etapa = int(input('Comparacion 0-Pre_Etapa 1-Etapa_1 2-Etapa_2 3-Etapa_3: 4-NulosVSRecuperados: '))
+        etapa = int(input('0-Pre_Etapa\n1-Etapa_1\n2-Etapa_2\n3-Etapa_3\n4-Etapa_4\n5-Etapa_5\n6-Etapa_6\n'))
         graph_comparison(etapa)
