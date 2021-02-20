@@ -17,6 +17,7 @@ ETAPA_3_PATH = 'Archivos_Etapa_3'
 ETAPA_4_PATH = 'Archivos_Etapa_4'
 ETAPA_5_PATH = 'Archivos_Etapa_5'
 ETAPA_6_PATH = 'Archivos_Etapa_6'
+FINAL_DATASET_TXT = 'Final_Dataset_TXT'
 PRE_ETAPAS = 'CleanedData'
 
 PICKLE_PRE_ETAPA = 'pre_etapas_datos_graficas.pickle'
@@ -30,7 +31,7 @@ PICKLE_ETAPA_6 = 'etapa6_datos_graficas.pickle'
 def Evaluate_Towns():
 	global TOTAL_NULLS
 	#Working path debe ser modificado por cada etapa que se desee hacer
-	working_path = ETAPA_6_PATH
+	working_path = FINAL_DATASET_TXT
 	current_path = build_path(working_path)
 	delete_file(current_path)
 	txt_files = get_txt(working_path)
@@ -236,11 +237,11 @@ if __name__ == '__main__':
 	#print(f'LIST_DAYS: {len(LIST_DAYS)}')
 	
 	#Esta función analiza todos los archivos y obtiene los nulos
-	#result_towns = Evaluate_Towns()
+	result_towns = Evaluate_Towns()
 
 	#Esta funcion obtiene el pickle especifico con la lista de datos
 	#que la función Evaluate_Towns() calcula, pero sin necesidad de obtenerlos nuevamente
-	option = 0
+	"""option = 0
 	while(True):
 		option = int(input('Graficar: 0-Pre_Etapa 1-Etapa_1 2-Etapa_2 3-Etapa_3 4-Etapa_4 5-Etapa_5: '))
 		if option==0:
@@ -258,4 +259,4 @@ if __name__ == '__main__':
 		elif option==6:
 			result_towns = get_dump(PICKLE_ETAPA_6)
 
-		graph_global_nulls(result_towns)
+		graph_global_nulls(result_towns)"""

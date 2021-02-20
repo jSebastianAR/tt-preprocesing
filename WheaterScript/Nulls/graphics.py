@@ -53,6 +53,7 @@ def graph_nulls_comparison(pct_list,etapa):
 
 def graph_comparison(etapa):
     Total_data_in_dataset = 2764384
+    Total_data_in_finaldataset = 2009000
     total_nulos_preetapa = 1201445
     total_nulos_etapa1 = 151216
     total_nulos_etapa2 = 24516
@@ -60,6 +61,7 @@ def graph_comparison(etapa):
     total_nulos_etapa4 = 6366
     total_nulos_etapa5 = 6056
     total_nulos_etapa6 = 6008
+    total_nulos_finaldataset = 2748
 
     if etapa == 0:
         pct_list = [Total_data_in_dataset-total_nulos_preetapa,total_nulos_preetapa]
@@ -89,6 +91,10 @@ def graph_comparison(etapa):
         pct_list = [Total_data_in_dataset-total_nulos_etapa6,total_nulos_etapa6]
         total_nulos_recuperados = total_nulos_preetapa - total_nulos_etapa6
         nulos_existentes = total_nulos_etapa6
+    elif etapa == 7:
+        pct_list = [Total_data_in_finaldataset-total_nulos_finaldataset,total_nulos_finaldataset]
+        total_nulos_recuperados = total_nulos_preetapa - total_nulos_finaldataset
+        nulos_existentes = total_nulos_finaldataset
     else:
         total_nulos_recuperados = 0
         nulos_existentes = total_nulos_preetapa
@@ -101,7 +107,7 @@ def graph_comparison(etapa):
     # Creating autocpt arguments 
     def func(pct, allvalues): 
         #absolute = int(pct / 100.*np.sum(allvalues))
-        return "{:.3f}%".format(pct)
+        return "{:.2f}%".format(pct)
         
 
     # Creating explode data 

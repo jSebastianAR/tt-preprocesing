@@ -26,11 +26,20 @@ def compare_list(original,fake,calculated):
 
 
 def createCSV(list_content):
+    """
+    Lista de listas con la sig estructura
+
+    [[val1,val2,val3,...valn],[val1,val2,val3,...valn],[val1,val2,val3,...valn]]
+
+    Cada lista interna representa una fila del .csv
+    Cada valor de cada lista interna representa el n valor en la n columna
+    """
     #Columnas del csv
     COLUMNS = ['Archivo','Original','Falso nulo','Calculada','Valor O','Valor C']
     #Se crea el dataframe con la informacion
     town_df = pd.DataFrame(list_content,columns=COLUMNS)
     #Se crea el csv
+    #print(f'LIST_CONTENT\n {list_content}')
     town_df.to_csv('tabla_fake_nulls.csv')
 
 def analyze_nulls(town,dict_fake_nulls):
@@ -128,7 +137,7 @@ def main():
     #Crea el .csv
     createCSV(final_list_nulls)
 if __name__ == '__main__':
-    #main()
-    eficiency()
+    main()
+    #eficiency()
 
 
